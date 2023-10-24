@@ -351,29 +351,52 @@ export const Checklist = () => {
             </div>
           </div>
         </div>
-                <h1 className="govt-div-heading">Did you know?</h1>
+        <h1 className="govt-div-heading">Did you know?</h1>
         <div className="Govt-Doc">
           <div className="E-book-Box">
             <h1>Get Online College</h1>
             <h2>Ebook - University Selection Made Simple</h2>
             <ul>
-
-            <li className="E-book-li" ><span className="dot">&#x2022;</span>Enriched with Updated and Relevant Content</li>
-            <li className="E-book-li" ><span className="dot">&#x2022;</span>Comprehensive Course Information</li>
-            <li className="E-book-li" ><span className="dot">&#x2022;</span>Expert Guidance on University Selection</li>
-            <li className="E-book-li" ><span className="dot">&#x2022;</span>Complete guidance to the Application Process</li>
+              <li className="E-book-li">
+                <span className="dot">&#x2022;</span>Enriched with Updated and
+                Relevant Content
+              </li>
+              <li className="E-book-li">
+                <span className="dot">&#x2022;</span>Comprehensive Course
+                Information
+              </li>
+              <li className="E-book-li">
+                <span className="dot">&#x2022;</span>Expert Guidance on
+                University Selection
+              </li>
+              <li className="E-book-li">
+                <span className="dot">&#x2022;</span>Complete guidance to the
+                Application Process
+              </li>
             </ul>
-            <button  className="btn-Ebook"><a href="" download={GoCollegeEBook} >Download E-Book</a></button>
+            <button className="btn-Ebook">
+              <a href="" download={GoCollegeEBook}>
+                Download E-Book
+              </a>
+            </button>
           </div>
           <div className="govtDocs">
             <div className="govt-peper">
-                <h1>Government</h1>
-                <h1>Companies Accept <br />Online Degree</h1>
-                <div className="pdf-card">
-                <img className="govt-pdf" src={GovtApproval} alt="" />
-
-                </div>
-                <button className="Govt-btn"><a href="" download={GovtApproval}>Download</a></button>
+              <h1>Government</h1>
+              <h1>
+                Companies Accept <br />
+                Online Degree
+              </h1>
+              <div className="pdf-card">
+                <a download={GovtApproval} href="">
+                  <img className="govt-pdf" src={GovtApproval} alt="" />
+                </a>
+              </div>
+              <button className="Govt-btn">
+                <a href="" download={GovtApproval}>
+                  Download
+                </a>
+              </button>
             </div>
           </div>
         </div>
@@ -627,8 +650,8 @@ const Main = styled.div`
  .govt-pdf{
   width: 200px;
   margin: 10px 0;
+  cursor: pointer;
  }
-
  @media (max-width: 768px)
  {
   .grid-1{
