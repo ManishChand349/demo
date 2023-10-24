@@ -297,6 +297,7 @@ text-align: center;
   display: flex;
   justify-content:  space-evenly;
   margin-top: 30px;
+  
 }
 .Trust-box-1{
   display: flex;

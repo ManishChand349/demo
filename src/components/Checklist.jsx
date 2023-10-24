@@ -563,10 +563,12 @@ const Main = styled.div`
   margin-top: 100px;
   margin-bottom: 30px;
  }
- .Partners {
-  display: flex;
-  justify-content: space-around;
- }
+ 
+  .Partners {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
  .Govt-Doc{
@@ -666,6 +668,35 @@ const Main = styled.div`
    gap: 10px;
    margin-top: 50px;
  }
+ .Govt-Doc{
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 20px;
+ }
+ .govt-peper {
+    margin: 10px 0 0 20px;
+    text-align: center;
+}
+.govt-peper h1 {
+    text-align: center;
+}
+.govt-pdf {
+    
+    margin: 10px 0 10px 187px;
+    
+}
+.Partners img {
+  width: 100px;
+}
+.btn-Ebook{
+  
+  margin: 10px 0 10px 223px;
+  
+}
+.loan-heading, .govt-div-heading {
+    margin-top: 17px;
+    margin-bottom: 24px;
+}
 
 }
 
@@ -716,6 +747,32 @@ const Main = styled.div`
   width: 100px;
   margin-top: 10px;
  }
+ .E-book-Box h2 {
+    text-align: left;
+    color: #000;
+    margin: 8px 0 25px 37px;
+    font-size: 20px;
+}
+ .E-book-li {
+    color: #000;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 15px;
+}
+.govt-pdf {
+    
+    margin: 10px 0 10px 95px;
+    
+}
+.btn-Ebook{
+  
+  margin: 10px 0 10px 123px;
+  
+}
+.loan-heading, .govt-div-heading {
+    margin-top: 17px;
+    margin-bottom: 24px;
+}
 
 }
 @media (max-width: 375px)
@@ -769,6 +826,20 @@ const Main = styled.div`
  .loan-heading{
   font-size: 15px;
  }
+ .govt-pdf {
+    
+    margin: 10px 0 10px 65px;
+    
+}
+ .btn-Ebook{
+  
+  margin: 10px 0 10px 99px;
+  
+}
+.loan-heading, .govt-div-heading {
+    margin-top: 17px;
+    margin-bottom: 24px;
+}
 }
 
 @media (max-width: 320px)
@@ -817,9 +888,6 @@ const Main = styled.div`
   text-align: center;
 }
 
-
-
-
  .Partners img {
   width: 100px;
   margin-top: 10px;
@@ -856,6 +924,10 @@ const Main = styled.div`
   font-weight: 200;
   border-radius: 10px;
 }
+.loan-heading, .govt-div-heading {
+    margin-top: 17px;
+    margin-bottom: 24px;
+}
 .btn-Ebook a{
   text-decoration: none;
   color: #fff;
@@ -869,6 +941,24 @@ const Main = styled.div`
   font-size: 15px;
   /* color: blue; */
  }
+ .govt-peper h1 {
+    text-align: center;
+    font-size: 15px;
+ }
+ .govt-pdf {
+    
+    margin: 10px 0 10px 38px;
+    
+}
+
+ .btn-Ebook{
+  
+  margin: 10px 0 10px 73px;
+  
+}
+.Govt-btn {
+   margin-left: 72px;
 
 }
+ }
 `;
