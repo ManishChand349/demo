@@ -179,23 +179,16 @@ Post Admission Services */}
               <h1>Your Goal</h1>
             </div>
             <div className="Trust-box-1">
-            <span>
-              <FaHandsHelping />
-
-            </span>
-              <h1>
-
-              Our Commitment
-              </h1>
+              <span>
+                <FaHandsHelping />
+              </span>
+              <h1>Our Commitment</h1>
             </div>
             <div className="Trust-box-1">
-            <span>
-              <BiShieldAlt2 />
-            </span>
-            <h1>
-              Trusted Campus.
-
-            </h1>
+              <span>
+                <BiShieldAlt2 />
+              </span>
+              <h1>Trusted Campus.</h1>
             </div>
           </div>
         </div>

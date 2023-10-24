@@ -369,11 +369,14 @@ export const Checklist = () => {
             <div className="govt-peper">
                 <h1>Government</h1>
                 <h1>Companies Accept <br />Online Degree</h1>
-                <button><a href="" download={GovtApproval}>Download</a></button>
+                <div className="pdf-card">
+                <img className="govt-pdf" src={GovtApproval} alt="" />
+
+                </div>
+                <button className="Govt-btn"><a href="" download={GovtApproval}>Download</a></button>
             </div>
           </div>
         </div>
-
         <div>
           <h1 className="loan-heading">Loan & EMI Partners</h1>
           <div className="Partners">
@@ -541,8 +544,8 @@ const Main = styled.div`
   display: flex;
   justify-content: space-around;
  }
- 
- 
+
+
  .Govt-Doc{
   display: grid;
   grid-template-columns: 70% 30%;
@@ -570,7 +573,7 @@ const Main = styled.div`
   color: #000;
   margin-left: 44px;
  }
- 
+
  .govtDocs{
   background-color: #c5c8fc;
   border-radius: 10px;
@@ -602,7 +605,30 @@ const Main = styled.div`
   text-align: left;
   /* color: blue; */
  }
- 
+ .Govt-btn{
+  padding: 8px 20px;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  align-items: center;
+ }
+ .Govt-btn a{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  text-decoration: none;
+ }
+ .pdf-card{
+  /* object-fit: cover; */
+  max-width: 200px;
+ }
+ .govt-pdf{
+  width: 200px;
+  margin: 10px 0;
+ }
+
  @media (max-width: 768px)
  {
   .grid-1{
@@ -619,7 +645,7 @@ const Main = styled.div`
  }
 
 }
- 
+
  @media (max-width: 425px)
  {
   .row1{
@@ -667,7 +693,7 @@ const Main = styled.div`
   width: 100px;
   margin-top: 10px;
  }
- 
+
 }
 @media (max-width: 375px)
  {
@@ -721,7 +747,7 @@ const Main = styled.div`
   font-size: 15px;
  }
 }
- 
+
 @media (max-width: 320px)
  {
   .row1{
@@ -791,7 +817,7 @@ const Main = styled.div`
   text-align: left;
   color: #000;
   margin: 8px 0 25px 37px;
-  font-size: 15px; 
+  font-size: 15px;
  }
  .E-book-li{
   color: #000;
