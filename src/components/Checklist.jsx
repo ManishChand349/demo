@@ -70,11 +70,11 @@ export const Checklist = () => {
               <img className="study-img" src={study} alt="" />
             </div>
             <div className="Question Question-2">
+                <span className="numbering">B</span>
               <div>
                 {/* <span>2</span> */}
-                <span className="numbering">B</span>
 
-                <h3>
+                <h3 className="heading-Question">
                   Does Online Degree and Regular Degree Hold's the Same Value or
                   Not?
                 </h3>
@@ -104,9 +104,11 @@ export const Checklist = () => {
           </div>
           <div className="grid-2">
             <div className="Question Question-3">
+            <span className="numbering">C</span>
+
               <div>
                 {/* <span>3</span> */}
-                <h3>
+                <h3 className="heading-Question">
                   Why Approvals and Accreditation are Required in Online
                   Education?
                 </h3>
@@ -139,9 +141,11 @@ export const Checklist = () => {
               <img className="Online-education" src={OnlineEducation} alt="" />
             </div>
             <div className="Question Question-4">
+            <span className="numbering">D</span>
+
               <div>
                 {/* <span>4</span> */}
-                <h3>
+                <h3 className="heading-Question">
                   Most common Myths and Misconceptions about Online Education?
                 </h3>
               </div>
@@ -179,9 +183,11 @@ export const Checklist = () => {
           </div>
           <div className="grid-1">
             <div className="Question Question-5">
+            <span className="numbering">E</span>
+
               <div>
                 {/* <span>5</span> */}
-                <h3>
+                <h3 className="heading-Question">
                   Difference Between Online and Distance Mode of Education?
                 </h3>
               </div>
@@ -215,9 +221,11 @@ export const Checklist = () => {
               </div>
             </div>
             <div className="Question Question-6">
+            <span className="numbering">F</span>
+
               <div>
                 {/* <span>6</span> */}
-                <h3>
+                <h3 className="heading-Question">
                   List of Fake Universities, which are not authorise to deliver
                   Online Education in India.
                 </h3>
@@ -250,9 +258,11 @@ export const Checklist = () => {
           </div>
           <div className="grid-2">
             <div className="Question Question-7">
+            <span className="numbering">G</span>
+
               <div>
                 {/* <span>7</span> */}
-                <h3>
+                <h3 className="heading-Question">
                   List of Universities Approved to provide Online Degree
                   Programs in India Turn on scree?
                 </h3>
@@ -289,9 +299,11 @@ export const Checklist = () => {
               />
             </div>
             <div className="Question Question-8">
+            <span className="numbering">H</span>
+
               <div>
                 {/* <span>8</span> */}
-                <h3>
+                <h3 className="heading-Question">
                   Admission and Registration Process for Online Education Turn
                   on.
                 </h3>
@@ -323,9 +335,12 @@ export const Checklist = () => {
               </div>
             </div>
             <div className="Question Question-9">
+            <span className="numbering">I</span>
+
               <div>
                 {/* <span>9</span> */}
-                <h3>Know your University Status</h3>
+                <h3 className="heading-Question">
+                Know your University Status</h3>
               </div>
               <div>
                 <p>
