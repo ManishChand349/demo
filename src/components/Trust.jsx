@@ -29,17 +29,19 @@ export const Trust = () => {
               bring reputable institutions to your fingertips, ensuring a
               seamless journey towards an accredited online degree. Trust in our
               commitment to quality education and personalized support for a
-              brighter academic future. <br /> Turn on screen reader support
+              brighter academic future.
             </p>
-           
+
           </div>
         </div>
+       
 
         <div>
           <div className="row2">
             <div className="main-grid">
               {/* 1st Unbiased Admission Process  */}
               <div className="contents">
+              <span className="numbering">A</span>
                 <h1 className="heading">Unbiased Admission Process</h1>
                 <p className="para">
                   We believe in giving you college options based on your needs
@@ -58,6 +60,7 @@ Financial Transperancy */}
                 <img src={FinancialTransperancy} alt="img" />
               </div>
               <div className="contents">
+              <span className="numbering">B</span>
                 <h1 className="heading">Financial Transperancy</h1>
                 <p className="para">
                   At GetOnlineCollege, we're committed to financial
@@ -70,6 +73,7 @@ Financial Transperancy */}
 Recognised  and Premium Campuses*/}
 
               <div className="contents">
+              <span className="numbering">C</span>
                 <h1 className="heading">Recognised and Premium Campuses</h1>
                 <p className="para">
                   We partner with prestigious and recognized colleges, providing
@@ -91,6 +95,8 @@ User Friendly Interface */}
                 />
               </div>
               <div className="contents">
+              <span className="numbering">D</span>
+
                 <h1 className="heading">User Friendly Interface</h1>
                 <p className="para">
                   Our easy-to-use Learning Management System (LMS) ensures a
@@ -102,6 +108,8 @@ User Friendly Interface */}
 Post Admission Services */}
 
               <div className="contents">
+              <span className="numbering">E</span>
+
                 <h1 className="heading">Post Admission Services</h1>
                 <p className="para">
                   Beyond admission, we continue to support you with a range of
@@ -163,6 +171,11 @@ Post Admission Services */}
             Why to Trust Get Online College
           </h1>
           <p>Trusted Campus for Your Ideal Degree</p>
+          <div className="seal-trust-box">
+        <h2>Our commitment to quality education and best campuses according to your need and requirements ensures your trust is well-placed in our hands.
+</h2>
+     <img className="img-seal" src={GocollegeSeal} alt="" />
+        </div>
           <div className="row-2">
             <div className="col">
               <span className="icon">
@@ -417,7 +430,7 @@ text-align: center;
   grid-template-columns: 33% 33% 33%;
   column-gap: 10px;
   margin-top: 30px;
-  
+
 }
 .Trust-box-1{
   display: flex;
@@ -427,7 +440,7 @@ text-align: center;
   border-radius : 10px;
   font-size: 13px;
   background-color: #4542f5;
-  
+
 }
 
 .Trust-box-1 span , h1{
@@ -442,7 +455,7 @@ text-align: center;
 }
 .heading-2{
   color: #000;
-  font-size: 20px; 
+  font-size: 20px;
 }
 .col{
   border-radius: 10px;
@@ -467,6 +480,21 @@ text-align: center;
 }
 .points-li{
   margin-left: 40px;
+}
+.numbering{
+  border-radius: 50%;
+  /* background-color: #c5c8fc; */
+  font-size: 15px;
+  /* padding: 6px; */
+  /* margin-bottom: 10px; */
+}
+.seal-trust-box{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.img-seal{
+  width: 300px;
+  margin-left: 190px;
 }
 
 @media (max-width: 768px)
@@ -585,7 +613,7 @@ span{
     grid-template-columns: 100%;
   row-gap:10px;}
  }
- 
+
 
 @media (max-width: 375px)
  {
@@ -695,6 +723,6 @@ span{
     grid-template-columns: 100%;
 }
  }
- 
+
 
 `;
