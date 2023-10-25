@@ -722,6 +722,9 @@ span{
     display: grid;
     grid-template-columns: 100%;
 }
+.know-more-main-heading {
+    left: 85px;
+}
  }
 
 
@@ -780,6 +783,9 @@ span{
 .img-seal {
     width: 180px;
     margin-left: 40px;
+}
+.know-more-main-heading {
+    left: 61px;
 }
  }
 `;
