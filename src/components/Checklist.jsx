@@ -35,9 +35,11 @@ export const Checklist = () => {
         <div className="Question-section">
           <div className="grid-1">
             <div className="Question Question-1">
+                <span className="numbering">A</span>
               <div>
                 {/* <span>1</span> */}
-                <h3>
+                <h3 className="heading-Question">
+
                   Can we Apply for Government or Private Jobs after Completing
                   online Degree?
                 </h3>
@@ -70,6 +72,8 @@ export const Checklist = () => {
             <div className="Question Question-2">
               <div>
                 {/* <span>2</span> */}
+                <span className="numbering">B</span>
+
                 <h3>
                   Does Online Degree and Regular Degree Hold's the Same Value or
                   Not?
@@ -428,7 +432,7 @@ const Main = styled.div`
  li{
    list-style: none;
    color: blue;
-   margin-bottom: 80px;
+   margin-bottom: 30px;
  }
  p{
    color: #000;
@@ -486,9 +490,14 @@ const Main = styled.div`
    padding: 35px;
    background-color:#FCE9F1;
    margin-bottom: 20px;
-
-
  }
+ .numbering{
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.heading-Question{
+  margin-top: 10px;
+}
 
  /* .Question:hover{
      transform: scale(1.1);

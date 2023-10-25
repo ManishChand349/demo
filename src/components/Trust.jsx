@@ -25,58 +25,23 @@ export const Trust = () => {
           <div className="main-heading">
             <h1 className="main-heading-h1">
               {" "}
-              Why you <br />
-              Should Choose <br />
+              Why you 
+              Should Choose
               Us
             </h1>
             <p>
               Discover your path to success with GetOnlineCollege,
-              <br /> where we bring reputable institutions to your fingertips,{" "}
-              <br /> ensuring a seamless journey towards an accredited online
-              degree. <br /> Trust in our commitment to quality education and
-              personalized support for a brighter academic future. Turn on
+               where we bring reputable institutions to your fingertips,{" "}
+               ensuring a seamless journey towards an accredited online
+              degree.  Trust in our commitment to quality education and
+              personalized support for a brighter academic future. <br /> Turn on
               screen reader support
             </p>
             <p className="second-p">Right Degree From Right University</p>
-            <p>#EducationJoApkeKaamAye</p>
-          </div>
-          <div className="logo">
-            <img src={GocollegeSeal} alt="" />
+            <p className="Line-P">#EducationJoApkeKaamAye</p>
           </div>
         </div>
-        <div className="boxs">
-          <div className="box">
-            <div className="box-1">
-              <span>
-                {" "}
-                <AiOutlineSafety />{" "}
-              </span>
-              <p>
-                {" "}
-                India's Only Portal with Need Based Counseling <br />
-                Turn on screen reader support
-              </p>
-            </div>
-          </div>
-          <div className="box">
-            <div className="box-1">
-              <span>
-                {" "}
-                <AiFillBank />{" "}
-              </span>
-              <p> Only UGC-DEB Approved Universities Listed</p>
-            </div>
-          </div>
-          <div className="box">
-            <div className="box-1">
-              <span>
-                {" "}
-                <AiOutlineSafety />{" "}
-              </span>
-              <p> One Stop Solution For Online Or Distance Education</p>
-            </div>
-          </div>
-        </div>
+        
         <div>
           <div className="row2">
             <div className="main-grid">
@@ -85,8 +50,7 @@ export const Trust = () => {
                 <h1 className="heading">Unbiased Admission Process</h1>
                 <p className="para">
                   We believe in giving you college options based on your needs
-                  and location, <br />
-                  ensuring a fair and impartial selection process.
+                  and location, ensuring a fair and impartial selection process.
                   <br />
                   Need/Location/Financials
                 </p>
@@ -167,15 +131,46 @@ Post Admission Services */}
             </div>
           </div>
         </div>
+        <div className="boxs">
+          <div className="box">
+            <div className="box-1">
+              <span>
+                {" "}
+                <AiOutlineSafety />{" "}
+              </span>
+              <p>
+                {" "}
+                India's Only Portal with Need Based Counseling <br />
+                Turn on screen reader support
+              </p>
+            </div>
+          </div>
+          <div className="box">
+            <div className="box-1">
+              <span>
+                {" "}
+                <AiFillBank />{" "}
+              </span>
+              <p> Only UGC-DEB Approved Universities Listed</p>
+            </div>
+          </div>
+          <div className="box">
+            <div className="box-1">
+              <span>
+                {" "}
+                <AiOutlineSafety />{" "}
+              </span>
+              <p> One Stop Solution For Online Or Distance Education</p>
+            </div>
+          </div>
+        </div>
 
         <div className="Trust-main">
           <h1 className="Trust-main-heading">
             Why to Trust Get Online College
           </h1>
           <p>
-            Our commitment to quality education and best campuses according to
-            your need and <br /> requirements ensures your trust is well-placed
-            in our hands.
+          Trusted Campus for Your Ideal Degree
           </p>
           <div className="row-2">
             <div className="col">
@@ -183,66 +178,79 @@ Post Admission Services */}
                 <BiCheckShield />
               </span>
               <h1 className="heading-2"> Secured</h1>
-              <p>
+              {/* <p>
                 We respect your privacy i.e we <br />
                 do not share or sell your personal information
-              </p>
+              </p> */}
             </div>
             <div className="col">
               <span className="icon">
                 <BiRupee />
               </span>
               <h1 className="heading-2">Pay Directly to the University</h1>
-              <p>
+              {/* <p>
                 We guide you, but your <br /> destination is the right
                 university <br /> so pay directly to the university
-              </p>
+              </p> */}
             </div>
             <div className="col">
               <span className="icon">
                 <BiHappyHeartEyes />
               </span>
               <h1 className="heading-2">Easy to Use</h1>
-              <p>
+              {/* <p>
                 Hassle free and user friendly <br /> interface with AI-powered{" "}
                 <br />
                 features.
-              </p>
+              </p> */}
             </div>
             <div className="col">
               <span className="icon">
                 <BiSolidBank />
               </span>
               <h1 className="heading-2">Seal of Trust Turn </h1>
-              <p>
+              {/* <p>
                 Information provided by us is <br /> authentic and verified by
                 the <br />
                 listed Universities.
-              </p>
+              </p> */}
+            </div>
+            <div className="col">
+              <span className="icon">
+              <BiShieldAlt2 />
+
+              </span>
+              <h1 className="heading-2">Trusted Campus </h1>
+              {/* <p>
+                Information provided by us is <br /> authentic and verified by
+                the <br />
+                listed Universities.
+              </p> */}
+            </div>
+            <div className="col">
+              <span className="icon">
+              <FaHandsHelping />
+              </span>
+              <h1 className="heading-2">Our Commitment </h1>
+              {/* <p>
+                Information provided by us is <br /> authentic and verified by
+                the <br />
+                listed Universities.
+              </p> */}
+            </div>
+            <div className="col">
+              <span className="icon">
+              <BiMapPin />
+              </span>
+              <h1 className="heading-2">Your Goal </h1>
+              {/* <p>
+                Information provided by us is <br /> authentic and verified by
+                the <br />
+                listed Universities.
+              </p> */}
             </div>
           </div>
-          <div className="Trust-box">
-            <div className="Trust-box-1">
-              <span>
-                <BiMapPin />
-              </span>
-
-              <h1>Your Goal</h1>
-            </div>
-            <div className="Trust-box-1">
-              <span>
-                <FaHandsHelping />
-              </span>
-              <h1>Our Commitment</h1>
-            </div>
-            <div className="Trust-box-1">
-              <span>
-                <BiShieldAlt2 />
-              </span>
-              <h1>Trusted Campus.</h1>
-            </div>
-          </div>
-
+        
           {/* Seal of Trust */}
         </div>
       </div>
@@ -276,16 +284,19 @@ const Main = styled.div`
 .main-heading{
 }
 .main-heading > h1 {
-     text-align: left;
+     text-align: center;
      margin: 20px 0;
      font-weight: 100;
      font-size: 44px;
 }
-.main-heading > p ,.para{
+.main-heading ,.para{
      text-align: left;
      /* letter-spacing: 1px; */
      font-size: 20px;
 
+}
+.Line-P{
+  color: blue;
 }
 .contents{
      padding-top: 60px;
@@ -298,16 +309,16 @@ const Main = styled.div`
     display: grid;
     grid-template-columns: 50% 50%;
     margin-top: 90px;
-    row-gap: 60px;
+    row-gap: 30px;
 }
 
 .main-grid img{
-     width: 250px;
+     width: 197px;
      align-items: center;
 }
 .heading {
      font-weight: 100;
-     font-size: 55px;
+     font-size: 35px;
      color: #000;
 }
 
@@ -317,7 +328,7 @@ const Main = styled.div`
      justify-content: center;
 }
 .PostAdmissionServices-img, .UserFriendlyLnterface-img{
-     width: 380px !important;
+     width: 280px !important;
 }
 .boxs{
   display: flex;
@@ -345,7 +356,7 @@ span{
   box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
 }
 .Trust-main{
- margin-top: 100px;
+ margin-top: 70px;
 }
 .Trust-main-heading{
   font-size: 39px;
