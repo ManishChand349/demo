@@ -172,7 +172,7 @@ Post Admission Services */}
           </h1>
           <p>Trusted Campus for Your Ideal Degree</p>
           <div className="seal-trust-box">
-        <h2>Our commitment to quality education and best campuses according to your need and requirements ensures your trust is well-placed in our hands.
+        <h2 className="Punch-line">Our commitment to quality education and best campuses according to your need and requirements ensures your trust is well-placed in our hands.
 </h2>
      <img className="img-seal" src={GocollegeSeal} alt="" />
         </div>
@@ -257,10 +257,10 @@ Post Admission Services */}
           {/* Seal of Trust */}
           <div className="Box-know-more">
             <div>
-              <h1>Hello</h1>
+              <p className="know-more-main-heading" >Know More</p>
             </div>
             <div>
-              <h3>Key Components before suggesting any campus to students .</h3>
+              <h3 className="Box-know-more-heading">Key Components before suggesting any campus to students .</h3>
               <ul className="points-li">
                 <li>
                   Apparovals of the universities( UGC-DEB, NAAC,AICTE and NIRF )
@@ -272,8 +272,8 @@ Post Admission Services */}
                 <li>Alumni Connect and tie up with top brands</li>
               </ul>
             </div>
-            <div>
-              <h3>What Sets us Apart</h3>
+            <div >
+              <h3 className="Box-know-more-heading">What Sets us Apart</h3>
               <ul className="points-li">
                 <li>
                   We offer unbiased guidance so that you can select the right
@@ -292,7 +292,7 @@ Post Admission Services */}
               </ul>
             </div>
             <div>
-              <h3>Benefits of Online Education s.</h3>
+              <h3 className="Box-know-more-heading">Benefits of Online Education s.</h3>
               <ul className="points-li">
                 <li>
                   Helps you keep up with the world by giving you a flexible
@@ -476,10 +476,18 @@ text-align: center;
   margin-bottom: 10px;
 }
 .Box-know-more{
-  border: 1px solid #000;
+  border: 1px solid #00A9FF;
+  padding: 20px;
+  border-radius: 5px;
+}
+.Box-know-more-heading{
+  margin: 20px 0 15px 0;
+  font-weight: 900;
+  font-size: 20px;
 }
 .points-li{
   margin-left: 40px;
+  font-size: 18px;
 }
 .numbering{
   border-radius: 50%;
@@ -493,10 +501,26 @@ text-align: center;
   grid-template-columns: 50% 50%;
 }
 .img-seal{
-  width: 300px;
+  width: 280px;
   margin-left: 190px;
 }
+.Punch-line{
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 400;
+}
+.know-more-main-heading{
+  background-color: #4542f5;
+  display: inline;
+  position: relative;
+  top: -16px;
+  left: 562px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #fff;
+  padding: 4px 20px;
 
+}
 @media (max-width: 768px)
  {
   .main{
