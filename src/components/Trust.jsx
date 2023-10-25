@@ -7,7 +7,14 @@ import RecognisedPremiumCampuses from "../assets/Trust-img/RecognisedPremiumCamp
 import UserFriendlyLnterface from "../assets/Trust-img/UserFriendlyLnterface.jpeg";
 import PostAdmissionServices from "../assets/Trust-img/PostAdmissionServices.png";
 import { AiFillBank, AiOutlineSafety } from "react-icons/ai";
-import { BiShieldAlt2, BiCheckShield ,BiRupee ,BiMapPin ,BiHappyHeartEyes,BiSolidBank } from "react-icons/bi";
+import {
+  BiShieldAlt2,
+  BiCheckShield,
+  BiRupee,
+  BiMapPin,
+  BiHappyHeartEyes,
+  BiSolidBank,
+} from "react-icons/bi";
 import { FaHandsHelping } from "react-icons/fa";
 
 export const Trust = () => {
@@ -35,6 +42,39 @@ export const Trust = () => {
           </div>
           <div className="logo">
             <img src={GocollegeSeal} alt="" />
+          </div>
+        </div>
+        <div className="boxs">
+          <div className="box">
+            <div className="box-1">
+              <span>
+                {" "}
+                <AiOutlineSafety />{" "}
+              </span>
+              <p>
+                {" "}
+                India's Only Portal with Need Based Counseling <br />
+                Turn on screen reader support
+              </p>
+            </div>
+          </div>
+          <div className="box">
+            <div className="box-1">
+              <span>
+                {" "}
+                <AiFillBank />{" "}
+              </span>
+              <p> Only UGC-DEB Approved Universities Listed</p>
+            </div>
+          </div>
+          <div className="box">
+            <div className="box-1">
+              <span>
+                {" "}
+                <AiOutlineSafety />{" "}
+              </span>
+              <p> One Stop Solution For Online Or Distance Education</p>
+            </div>
           </div>
         </div>
         <div>
@@ -127,40 +167,8 @@ Post Admission Services */}
             </div>
           </div>
         </div>
-        <div className="boxs">
-          <div className="box">
-            <div className="box-1">
-              <span>
-                {" "}
-                <AiOutlineSafety />{" "}
-              </span>
-              <p>
-                {" "}
-                India's Only Portal with Need Based Counseling <br />
-                Turn on screen reader support
-              </p>
-            </div>
-          </div>
-          <div className="box">
-            <div className="box-1">
-              <span>
-                {" "}
-                <AiFillBank />{" "}
-              </span>
+        
 
-              <p> Only UGC-DEB Approved Universities Listed</p>
-            </div>
-          </div>
-          <div className="box">
-            <div className="box-1">
-              <span>
-                {" "}
-                <AiOutlineSafety />{" "}
-              </span>
-              <p> One Stop Solution For Online Or Distance Education</p>
-            </div>
-          </div>
-        </div>
         <div className="Trust-main">
           <h1 className="Trust-main-heading">
             Why to Trust Get Online College
@@ -170,6 +178,50 @@ Post Admission Services */}
             your need and <br /> requirements ensures your trust is well-placed
             in our hands.
           </p>
+          <div className="row-2">
+            <div className="col">
+              <span className="icon">
+                <BiCheckShield />
+              </span>
+              <h1 className="heading-2"> Secured</h1>
+              <p>
+                We respect your privacy i.e we <br />
+                do not share or sell your personal information
+              </p>
+            </div>
+            <div className="col">
+              <span className="icon">
+                <BiRupee />
+              </span>
+              <h1 className="heading-2">Pay Directly to the University</h1>
+              <p>
+                We guide you, but your <br /> destination is the right
+                university <br /> so pay directly to the university
+              </p>
+            </div>
+            <div className="col">
+              <span className="icon">
+                <BiHappyHeartEyes />
+              </span>
+              <h1 className="heading-2">Easy to Use</h1>
+              <p>
+                Hassle free and user friendly <br /> interface with AI-powered{" "}
+                <br />
+                features.
+              </p>
+            </div>
+            <div className="col">
+              <span className="icon">
+                <BiSolidBank />
+              </span>
+              <h1 className="heading-2">Seal of Trust Turn </h1>
+              <p>
+                Information provided by us is <br /> authentic and verified by
+                the <br />
+                listed Universities.
+              </p>
+            </div>
+          </div>
           <div className="Trust-box">
             <div className="Trust-box-1">
               <span>
@@ -193,52 +245,7 @@ Post Admission Services */}
           </div>
 
           {/* Seal of Trust */}
-          <div className="row-2">
-            <div className="col">
-            <span className="icon">
-
-            <BiCheckShield/>
-            </span>
-              <h1 className="heading-2"> Secured</h1>
-              <p>
-                We respect your privacy i.e we <br />
-                do not share or sell your personal information
-              </p>
-            </div>
-            <div className="col">
-            <span className="icon">
-            <BiRupee/>
-            </span>
-              <h1 className="heading-2">Pay Directly to the University</h1>
-              <p>
-                We guide you, but your <br /> destination is the right
-                university <br /> so pay directly to the university
-              </p>
-            </div>
-            <div className="col">
-            <span className="icon">
-            <BiHappyHeartEyes/>
-
-            </span>
-              <h1 className="heading-2">Easy to Use</h1>
-              <p>
-                Hassle free and user friendly <br /> interface with AI-powered{" "}
-                <br />
-                features.
-              </p>
-            </div>
-            <div className="col">
-            <span className="icon">
-            <BiSolidBank/>
-            </span>
-              <h1 className="heading-2">Seal of Trust Turn </h1>
-              <p>
-                Information provided by us is <br /> authentic and verified by
-                the <br />
-                listed Universities.
-              </p>
-            </div>
-          </div>
+          
         </div>
       </div>
     </Main>
@@ -377,15 +384,31 @@ text-align: center;
 .row-2{
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  margin-top: 20px;
+  margin-top: 40px ;
+  margin-bottom: 70px;
+  column-gap: 10px;
 }
 .heading-2{
   color: #000;
-  font-size: 18px; 
+  font-size: 20px; 
+}
+.col{
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #FFF6F6;
+  border-bottom: solid 2px #4542f5;
+}
+.col p{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
 .icon{
   display: flex;
   justify-content: center;
+  color: #4542f5;
+  font-size: 66px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 768px)
