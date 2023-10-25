@@ -167,7 +167,6 @@ Post Admission Services */}
             </div>
           </div>
         </div>
-        
 
         <div className="Trust-main">
           <h1 className="Trust-main-heading">
@@ -245,7 +244,6 @@ Post Admission Services */}
           </div>
 
           {/* Seal of Trust */}
-          
         </div>
       </div>
     </Main>
@@ -459,6 +457,10 @@ text-align: center;
 span{
   font-size: 40px;
 }
+.row-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
  }
 
 
@@ -510,7 +512,20 @@ span{
 span{
   font-size: 30px;
 }
+.Trust-main h1{
+    text-align: center;
+    font-size: 20px;
+}
+.Trust-main p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.Trust-box {
+    display: grid;
+    grid-template-columns: 100%;
+  row-gap:10px;}
  }
+ 
 
 @media (max-width: 375px)
  {
@@ -559,6 +574,10 @@ span{
 }
 span{
   font-size: 20px;
+}
+.row-2 {
+    display: grid;
+    grid-template-columns: 100%;
 }
  }
 
@@ -611,6 +630,11 @@ span{
 span{
   font-size: 20px;
 }
+.row-2 {
+    display: grid;
+    grid-template-columns: 100%;
+}
  }
+ 
 
 `;
