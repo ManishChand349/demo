@@ -776,7 +776,8 @@ const Main = styled.div`
 
 }
 @media (max-width: 375px)
- {
+ 
+{
   .main-heading{
     font-size: 14px;
   }
@@ -798,11 +799,32 @@ const Main = styled.div`
   align-items: center;
 
  }
- .playvideo-1 {
-    position: relative;
-    top: 35px;
-    right: 87px;}
- .btn-govt{
+ .check {
+
+font-size: 14px;
+padding: 10px;
+}
+
+.Partners img {
+width: 100px;
+margin-top: 10px;
+}
+.loan-heading{
+font-size: 15px;
+}
+.govt-pdf {
+  
+  margin: 10px 0 10px 65px;
+  
+
+
+
+}
+ .loan-heading, .govt-div-heading {
+    margin-top: 17px;
+    margin-bottom: 24px;
+}
+.btn-govt{
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -812,34 +834,17 @@ const Main = styled.div`
   font-size: 14px;
   margin: 20px 0;
 }
-.check {
-
-  font-size: 14px;
-  padding: 10px;
-}
-
- .Partners img {
-  width: 100px;
-  margin-top: 10px;
- }
- .loan-heading{
-  font-size: 15px;
- }
- .govt-pdf {
-    
-    margin: 10px 0 10px 65px;
-    
-}
  .btn-Ebook{
   
   margin: 10px 0 10px 99px;
   
 }
-.loan-heading, .govt-div-heading {
-    margin-top: 17px;
-    margin-bottom: 24px;
-}
-}
+ .playvideo-1 {
+    position: relative;
+    top: 35px;
+    right: 87px;}
+ 
+ }
 
 @media (max-width: 320px)
  {
@@ -913,7 +918,7 @@ const Main = styled.div`
   color: #000;
   margin-bottom: 15px;
   text-align: left;
-  font-size: 12px;
+  font-size: 10px;
  }
  .btn-Ebook{
   padding: 12px 25px;
@@ -946,7 +951,7 @@ const Main = styled.div`
  }
  .govt-pdf {
     
-    margin: 10px 0 10px 38px;
+    margin: 10px 0 10px 31px;
     
 }
 
