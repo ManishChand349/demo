@@ -23,25 +23,19 @@ export const Trust = () => {
       <div className="row-1">
         <div className="main">
           <div className="main-heading">
-            <h1 className="main-heading-h1">
-              {" "}
-              Why you 
-              Should Choose
-              Us
-            </h1>
+            <h1 className="main-heading-h1"> Why you Should Choose Us</h1>
             <p>
-              Discover your path to success with GetOnlineCollege,
-               where we bring reputable institutions to your fingertips,{" "}
-               ensuring a seamless journey towards an accredited online
-              degree.  Trust in our commitment to quality education and
-              personalized support for a brighter academic future. <br /> Turn on
-              screen reader support
+              Discover your path to success with GetOnlineCollege, where we
+              bring reputable institutions to your fingertips, ensuring a
+              seamless journey towards an accredited online degree. Trust in our
+              commitment to quality education and personalized support for a
+              brighter academic future. <br /> Turn on screen reader support
             </p>
             <p className="second-p">Right Degree From Right University</p>
             <p className="Line-P">#EducationJoApkeKaamAye</p>
           </div>
         </div>
-        
+
         <div>
           <div className="row2">
             <div className="main-grid">
@@ -169,9 +163,7 @@ Post Admission Services */}
           <h1 className="Trust-main-heading">
             Why to Trust Get Online College
           </h1>
-          <p>
-          Trusted Campus for Your Ideal Degree
-          </p>
+          <p>Trusted Campus for Your Ideal Degree</p>
           <div className="row-2">
             <div className="col">
               <span className="icon">
@@ -217,8 +209,7 @@ Post Admission Services */}
             </div>
             <div className="col">
               <span className="icon">
-              <BiShieldAlt2 />
-
+                <BiShieldAlt2 />
               </span>
               <h1 className="heading-2">Trusted Campus </h1>
               {/* <p>
@@ -229,7 +220,7 @@ Post Admission Services */}
             </div>
             <div className="col">
               <span className="icon">
-              <FaHandsHelping />
+                <FaHandsHelping />
               </span>
               <h1 className="heading-2">Our Commitment </h1>
               {/* <p>
@@ -240,7 +231,7 @@ Post Admission Services */}
             </div>
             <div className="col">
               <span className="icon">
-              <BiMapPin />
+                <BiMapPin />
               </span>
               <h1 className="heading-2">Your Goal </h1>
               {/* <p>
@@ -250,8 +241,61 @@ Post Admission Services */}
               </p> */}
             </div>
           </div>
-        
+
           {/* Seal of Trust */}
+          <div className="Box-know-more">
+            <div>
+              <h1>Hello</h1>
+            </div>
+            <div>
+              <h3>Key Components before suggesting any campus to students .</h3>
+              <ul className="points-li">
+                <li>
+                  Apparovals of the universities( UGC-DEB, NAAC,AICTE and NIRF )
+                </li>
+                <li>LMS of the university</li>
+                <li>Placement Support provided</li>
+                <li>Faculty and its recruitment process</li>
+                <li>Affordability and EMI options</li>
+                <li>Alumni Connect and tie up with top brands</li>
+              </ul>
+            </div>
+            <div>
+              <h3>What Sets us Apart</h3>
+              <ul className="points-li">
+                <li>
+                  We offer unbiased guidance so that you can select the right
+                  online university for you according to your needs.
+                </li>
+                <li>
+                  Our compare feature allows you to make more informed decisions
+                  by looking at all the information, pros and cons of top
+                  universities, within s
+                </li>
+                <li>
+                  To make your journey hassle free, we have also introduced an
+                  AI-based feature “suggest me a university” which helps you to
+                  select the right university according to your specific needs.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>Benefits of Online Education s.</h3>
+              <ul className="points-li">
+                <li>
+                  Helps you keep up with the world by giving you a flexible
+                  learning environment.
+                </li>
+                <li>More convenient and affordable.</li>
+                <li>Gives access to recorded lectures and LMS.</li>
+                <li>Guest lectures with industry experts.</li>
+                <li>
+                  Opportunity and time flexibility to upskill and reskill.
+                </li>
+                <li>Suitable for working professionals.</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </Main>
@@ -418,6 +462,12 @@ text-align: center;
   color: #4542f5;
   font-size: 66px;
   margin-bottom: 10px;
+}
+.Box-know-more{
+  border: 1px solid #000;
+}
+.points-li{
+  margin-left: 40px;
 }
 
 @media (max-width: 768px)
