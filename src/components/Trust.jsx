@@ -3,7 +3,7 @@ import styled from "styled-components";
 import GocollegeSeal from "../assets/Trust-img/GocollegeSeal.png";
 import AdmissionProcess from "../assets/Trust-img/AdmissionProcess.png";
 import FinancialTransperancy from "../assets/Trust-img/FinancialTransparency.jpeg";
-import RecognisedPremiumCampuses from "../assets/Trust-img/RecognisedPremiumCampuses.jpg";
+import RecognisedPremiumCampuses from "../assets/Trust-img/RecognisedPremiumCampuses.webp";
 import UserFriendlyLnterface from "../assets/Trust-img/UserFriendlyLnterface.jpeg";
 import PostAdmissionServices from "../assets/Trust-img/PostAdmissionServices.png";
 import { AiFillBank, AiOutlineSafety } from "react-icons/ai";
