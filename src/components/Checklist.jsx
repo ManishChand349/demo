@@ -801,8 +801,7 @@ const Main = styled.div`
  .playvideo-1 {
     position: relative;
     top: 35px;
-    right: 87px;
-}
+    right: 87px;}
  .btn-govt{
   display: flex;
   flex-direction: column;

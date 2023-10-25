@@ -6,10 +6,8 @@ import FinancialTransperancy from "../assets/Trust-img/FinancialTransparency.jpe
 import RecognisedPremiumCampuses from "../assets/Trust-img/RecognisedPremiumCampuses.jpg";
 import UserFriendlyLnterface from "../assets/Trust-img/UserFriendlyLnterface.jpeg";
 import PostAdmissionServices from "../assets/Trust-img/PostAdmissionServices.png";
-import { AiFillBank } from "react-icons/ai";
-import { AiOutlineSafety } from "react-icons/ai";
-import { BiMapPin } from "react-icons/bi";
-import { BiShieldAlt2 } from "react-icons/bi";
+import { AiFillBank, AiOutlineSafety } from "react-icons/ai";
+import { BiShieldAlt2, BiCheckShield ,BiRupee ,BiMapPin ,BiHappyHeartEyes,BiSolidBank } from "react-icons/bi";
 import { FaHandsHelping } from "react-icons/fa";
 
 export const Trust = () => {
@@ -18,7 +16,7 @@ export const Trust = () => {
       <div className="row-1">
         <div className="main">
           <div className="main-heading">
-            <h1>
+            <h1 className="main-heading-h1">
               {" "}
               Why you <br />
               Should Choose <br />
@@ -164,11 +162,13 @@ Post Admission Services */}
           </div>
         </div>
         <div className="Trust-main">
-          <h1>Why to Trust Get Online College</h1>
+          <h1 className="Trust-main-heading">
+            Why to Trust Get Online College
+          </h1>
           <p>
             Our commitment to quality education and best campuses according to
-            your need and requirements ensures your trust is well-placed in our
-            hands.
+            your need and <br /> requirements ensures your trust is well-placed
+            in our hands.
           </p>
           <div className="Trust-box">
             <div className="Trust-box-1">
@@ -191,6 +191,54 @@ Post Admission Services */}
               <h1>Trusted Campus.</h1>
             </div>
           </div>
+
+          {/* Seal of Trust */}
+          <div className="row-2">
+            <div className="col">
+            <span className="icon">
+
+            <BiCheckShield/>
+            </span>
+              <h1 className="heading-2"> Secured</h1>
+              <p>
+                We respect your privacy i.e we <br />
+                do not share or sell your personal information
+              </p>
+            </div>
+            <div className="col">
+            <span className="icon">
+            <BiRupee/>
+            </span>
+              <h1 className="heading-2">Pay Directly to the University</h1>
+              <p>
+                We guide you, but your <br /> destination is the right
+                university <br /> so pay directly to the university
+              </p>
+            </div>
+            <div className="col">
+            <span className="icon">
+            <BiHappyHeartEyes/>
+
+            </span>
+              <h1 className="heading-2">Easy to Use</h1>
+              <p>
+                Hassle free and user friendly <br /> interface with AI-powered{" "}
+                <br />
+                features.
+              </p>
+            </div>
+            <div className="col">
+            <span className="icon">
+            <BiSolidBank/>
+            </span>
+              <h1 className="heading-2">Seal of Trust Turn </h1>
+              <p>
+                Information provided by us is <br /> authentic and verified by
+                the <br />
+                listed Universities.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </Main>
@@ -201,6 +249,9 @@ const Main = styled.div`
 *{
      margin: 0;
      padding: 0;
+}
+.main-heading-h1{
+  color: #000;
 }
 .row-1{
      margin: auto;
@@ -252,6 +303,7 @@ const Main = styled.div`
 .heading {
      font-weight: 100;
      font-size: 55px;
+     color: #000;
 }
 
 .img-div{
@@ -290,25 +342,51 @@ span{
 .Trust-main{
  margin-top: 100px;
 }
+.Trust-main-heading{
+  font-size: 39px;
+  color: #000;
+}
+.Trust-main p{
+  font-size: 20px;
+  margin-top: 10px;
+}
 .Trust-main h1 ,p{
 text-align: center;
 }
 .Trust-box{
-  display: flex;
-  justify-content:  space-evenly;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  column-gap: 10px;
   margin-top: 30px;
   
 }
 .Trust-box-1{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 20px;
-  border-bottom: 1px solid #4542f5;
-  font-size: 20px;
+  padding: 18px 20px;
+  border-radius : 10px;
+  font-size: 13px;
+  background-color: #4542f5;
+  
 }
 
-
+.Trust-box-1 span , h1{
+  color: #fff;
+}
+.row-2{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-top: 20px;
+}
+.heading-2{
+  color: #000;
+  font-size: 18px; 
+}
+.icon{
+  display: flex;
+  justify-content: center;
+}
 
 @media (max-width: 768px)
  {
