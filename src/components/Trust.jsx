@@ -31,8 +31,7 @@ export const Trust = () => {
               commitment to quality education and personalized support for a
               brighter academic future. <br /> Turn on screen reader support
             </p>
-            <p className="second-p">Right Degree From Right University</p>
-            <p className="Line-P">#EducationJoApkeKaamAye</p>
+           
           </div>
         </div>
 
