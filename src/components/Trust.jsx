@@ -521,6 +521,11 @@ text-align: center;
   padding: 4px 20px;
 
 }
+@media (max-width:1024px){
+  .know-more-main-heading {
+    left: 383px;
+}
+}
 @media (max-width: 768px)
  {
   .main{
