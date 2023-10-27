@@ -5,6 +5,14 @@ import Time from "../assets/ReferEarn/Time.png";
 import Boss from "../assets/ReferEarn/Boss.png";
 import Help from "../assets/ReferEarn/Help.png";
 import Income from "../assets/ReferEarn/Income.png";
+import EducationConsultants from "../assets/ReferEarn/Education-Consultants.png";
+import Coaching from "../assets/ReferEarn/Coaching.png";
+import K12Facilities from "../assets/ReferEarn/12KFacilities.png";
+import Agent from "../assets/ReferEarn/Agent.png";
+import HomeMaker from "../assets/ReferEarn/HomeMaker.png";
+import UgCollege from "../assets/ReferEarn/UgCollege.png";
+import HrCorporates from "../assets/ReferEarn/HrCorporates.png";
+import ImmigrationConsultar from "../assets/ReferEarn/UgCollege.png";
 
 export const ReferEarn = () => {
   return (
@@ -31,7 +39,7 @@ export const ReferEarn = () => {
           <div>
             <h1 className="partner-heading">
               Why you should join
-              <span className="Partners-blue"> GoOnline College </span>
+              <span className="Partners-blue"> GoOnlineCollege </span>
               as <span className="Partners-blue">Partner</span> Partner
             </h1>
             <p className="partner-para">Become a member of get Online College. Our Platform hosts a a diverse range of courses and collaborations with universities. <br />
@@ -40,39 +48,39 @@ export const ReferEarn = () => {
 
           <div className="boxs-grid">
             <div className="box-1">
-            <h1 className="heading" >Flexible Work Timings</h1>
 
                 <span className="icon-1">
                   <img  src={Time} alt="" />
                 </span>
+            <h1 className="heading" >Flexible Work Timings</h1>
 
             </div>
             <div className="box-1">
-            <h1>Be Your Own Boss</h1>
 
             <div className=" circle">
             <span className="icon-2">
                   <img  src={Boss} alt="" />
                 </span>
                 </div>
+            <h1>Be Your Own Boss</h1>
             </div>
             <div className="box-1">
-            <h1>Opportunitiey to Help Thousands of Families</h1>
 
             <div className=" circle">
             <span className="icon-3">
                   <img  src={Help} alt="" />
                 </span>
                 </div>
+            <h1>Opportunitiey to Help Thousands of Families</h1>
             </div>
             <div className="box-1">
-            <h1>Unlimited Income Potential</h1>
 
             <div className=" circle">
             <span className="icon-4">
                   <img  src={Income} alt="" />
                 </span>
                 </div>
+            <h1>Unlimited Income Potential</h1>
             </div>
 
 
@@ -89,27 +97,41 @@ export const ReferEarn = () => {
               </p>
               <div className="Eligible-grid">
                 <div className="grid-box">
+                <img className="Education-img" src={EducationConsultants} alt="" />
                   <h1>Education Consultants</h1>
                 </div>
                 <div className="grid-box">
+                <img src={Coaching} alt="" />
                   <h1>Coaching Institutes</h1>
                 </div>
                 <div className="grid-box">
+                <img src={K12Facilities} alt="" />
+
                   <h1>K12 Faculties</h1>
                 </div>
+
                 <div className="grid-box">
+                <img src={UgCollege} alt="" />
+
                   <h1>UG College Faculties</h1>
                 </div>
                 <div className="grid-box">
+                <img className="LIC-img" src={Agent} alt="" />
+
                   <h1>LIC Agents</h1>
                 </div>
                 <div className="grid-box">
-                  <h1>Home Markers/Students</h1>
+                <img src={HomeMaker} alt="" />
+
+                  <h1>Home Makers/Students</h1>
                 </div>
                 <div className="grid-box">
+                <img src={ImmigrationConsultar} alt="" />
+
                   <h1>Immigration Consultar</h1>
                 </div>
                 <div className="grid-box">
+                <img className="HR-img" src={HrCorporates} alt="" />
                   <h1>HR of Corporates</h1>
                 </div>
               </div>
@@ -181,9 +203,10 @@ const Main = styled.div`
     .box-1{
       background-color: #B6FFFA;
       border-radius: 8px;
+      align-content: end;
     }
     .box-1 > h1{
-      margin-top: 60px;
+      margin-top: 30px;
       text-align: center;
       /* color: blue; */
     }
@@ -198,17 +221,17 @@ const Main = styled.div`
     }
     .icon-1 , .icon-2{
       position: relative;
-      top: -87px;
+      top: 34px;
       left: 115px;
     }
     .icon-3{
       position: relative;
-      top: -116px;
+      top: 34px;
       left: 115px;
     }
     .icon-4{
       position: relative;
-      top: -87px;
+      top: 34px;
       left: 115px;
     }
       .Eligible-div{
@@ -220,5 +243,16 @@ const Main = styled.div`
         grid-template-columns: repeat(4, 1fr) ;
         margin-top: 40px;
         padding: 30px;
+        gap: 10px;
       }
+      .grid-box{
+        background-color: #B6FFFA;
+        border-radius: 8px;
+        text-align: center;
+        padding: 20px 0 0 0;
+      }
+      .HR-img,.LIC-img,.Education-img{
+        width: 66px;
+      }
+    
   `;
