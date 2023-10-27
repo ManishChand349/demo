@@ -27,7 +27,7 @@ export const ReferEarn = () => {
   return (
     <>
       <Main>
-      {/* Banner Section starting */}
+        {/* Banner Section starting */}
         <section className="banner">
           <div className="left-div">
             <h1 className="main-heading">
@@ -40,46 +40,38 @@ export const ReferEarn = () => {
             <button className="btn-1">Referal & Earn</button>
           </div>
           <div className="right-div">
-
             <div className="div-1">
               <img src={Amity} alt="" />
             </div>
             <div className="div-1">
-            <img src={Dy} alt="" />
-              
+              <img src={Dy} alt="" />
             </div>
             <div className="div-1">
-            <img src={Hindu} alt="" />
-              
+              <img src={Hindu} alt="" />
             </div>
             <div className="div-1">
-            <img src={Lingayas} alt="" />
-              
+              <img src={Lingayas} alt="" />
             </div>
             <div className="div-1">
-            <img src={Lpu} alt="" />
-              
+              <img src={Lpu} alt="" />
             </div>
             <div className="div-1">
-            <img src={Manav} alt="" />
-              
+              <img src={Manav} alt="" />
             </div>
             <div className="div-1">
-            <img src={Manipal} alt="" />
-              
+              <img src={Manipal} alt="" />
             </div>
             <div className="div-1">
-            <img src={Svu} alt="" />
-              
+              <img src={Svu} alt="" />
             </div>
             <div className="div-1">
               <img src={CU} alt="" />
             </div>
           </div>
         </section>
-      {/* Banner Section End */}
+        {/* Banner Section End */}
 
-      {/* Partner Section starting */}
+        {/* Partner Section starting */}
         <section className="partner-section">
           <div>
             <h1 className="partner-heading">
@@ -87,104 +79,112 @@ export const ReferEarn = () => {
               <span className="Partners-blue"> GoOnlineCollege </span>
               as <span className="Partners-blue">Partner</span> Partner
             </h1>
-            <p className="partner-para">Become a member of get Online College. Our Platform hosts a a diverse range of courses and collaborations with universities. <br />
-             We pride ourselves on our robust structure, guaranteeing swift and reliable counseling seeions.  Embrace the future of learning with us, <br /> where opportunities are limitless and knowledge knows no boundaries. </p>
+            <p className="partner-para">
+              Become a member of get Online College. Our Platform hosts a a
+              diverse range of courses and collaborations with universities.{" "}
+              <br />
+              We pride ourselves on our robust structure, guaranteeing swift and
+              reliable counseling seeions. Embrace the future of learning with
+              us, <br /> where opportunities are limitless and knowledge knows
+              no boundaries.{" "}
+            </p>
           </div>
 
           <div className="boxs-grid">
             <div className="box-1">
-
-                <span className="icon-1">
-                  <img  src={Time} alt="" />
-                </span>
-            <h1 className="heading" >Flexible Work Timings</h1>
-
+              <span className="icon-1">
+                <img src={Time} alt="" />
+              </span>
+              <h1 className="heading">Flexible Work Timings</h1>
             </div>
             <div className="box-1">
-
-            <div className=" circle">
-            <span className="icon-2">
-                  <img  src={Boss} alt="" />
+              <div className=" circle">
+                <span className="icon-2">
+                  <img src={Boss} alt="" />
                 </span>
-                </div>
-            <h1>Be Your Own Boss</h1>
+              </div>
+              <h1>Be Your Own Boss</h1>
             </div>
             <div className="box-1">
-
-            <div className=" circle">
-            <span className="icon-3">
-                  <img  src={Help} alt="" />
+              <div className=" circle">
+                <span className="icon-3">
+                  <img src={Help} alt="" />
                 </span>
-                </div>
-            <h1>Opportunitiey to Help Thousands of Families</h1>
+              </div>
+              <h1>Opportunitiey to Help Thousands of Families</h1>
             </div>
             <div className="box-1">
-
-            <div className=" circle">
-            <span className="icon-4">
-                  <img  src={Income} alt="" />
+              <div className=" circle">
+                <span className="icon-4">
+                  <img src={Income} alt="" />
                 </span>
-                </div>
-            <h1>Unlimited Income Potential</h1>
+              </div>
+              <h1>Unlimited Income Potential</h1>
             </div>
-
-
           </div>
         </section>
-      {/* Partner Section End */}
-      
-      {/* Eligible Section Starting */}
-          <section>
+        {/* Partner Section End */}
+
+        {/* Eligible Section Starting */}
+        <section>
           <div className="Eligible-div">
-              <h1 className="Eligible-heading">Eligible Partner for <span className="Eligible-blue">GoOnlineCollege</span>  Network</h1>
-              <p className="Eligible-para">
-                If you are a faculty member of a K-12 School, College, Coaching institute, of an HR Professional in a Corporate organization, <br /> you can avail this golden opportunity to become an authorized member of GoOnlineCollege 
-              </p>
-              <div className="Eligible-grid">
-                <div className="grid-box">
-                <img className="Education-img" src={EducationConsultants} alt="" />
-                  <h1>Education Consultants</h1>
-                </div>
-                <div className="grid-box">
+            <h1 className="Eligible-heading">
+              Eligible Partner for{" "}
+              <span className="Eligible-blue">GoOnlineCollege</span> Network
+            </h1>
+            <p className="Eligible-para">
+              If you are a faculty member of a K-12 School, College, Coaching
+              institute, of an HR Professional in a Corporate organization,{" "}
+              <br /> you can avail this golden opportunity to become an
+              authorized member of GoOnlineCollege
+            </p>
+            <div className="Eligible-grid">
+              <div className="grid-box">
+                <img
+                  className="Education-img"
+                  src={EducationConsultants}
+                  alt=""
+                />
+                <h1>Education Consultants</h1>
+              </div>
+              <div className="grid-box">
                 <img src={Coaching} alt="" />
-                  <h1>Coaching Institutes</h1>
-                </div>
-                <div className="grid-box">
+                <h1>Coaching Institutes</h1>
+              </div>
+              <div className="grid-box">
                 <img src={K12Facilities} alt="" />
 
-                  <h1>K12 Faculties</h1>
-                </div>
+                <h1>K12 Faculties</h1>
+              </div>
 
-                <div className="grid-box">
+              <div className="grid-box">
                 <img src={UgCollege} alt="" />
 
-                  <h1>UG College Faculties</h1>
-                </div>
-                <div className="grid-box">
+                <h1>UG College Faculties</h1>
+              </div>
+              <div className="grid-box">
                 <img className="LIC-img" src={Agent} alt="" />
 
-                  <h1>LIC Agents</h1>
-                </div>
-                <div className="grid-box">
+                <h1>LIC Agents</h1>
+              </div>
+              <div className="grid-box">
                 <img src={HomeMaker} alt="" />
 
-                  <h1>Home Makers/Students</h1>
-                </div>
-                <div className="grid-box">
+                <h1>Home Makers/Students</h1>
+              </div>
+              <div className="grid-box">
                 <img src={ImmigrationConsultar} alt="" />
 
-                  <h1>Immigration Consultar</h1>
-                </div>
-                <div className="grid-box">
-                <img className="HR-img" src={HrCorporates} alt="" />
-                  <h1>HR of Corporates</h1>
-                </div>
+                <h1>Immigration Consultar</h1>
               </div>
+              <div className="grid-box">
+                <img className="HR-img" src={HrCorporates} alt="" />
+                <h1>HR of Corporates</h1>
+              </div>
+            </div>
           </div>
-
-          </section>
-      {/* Eligible Section End */}
-
+        </section>
+        {/* Eligible Section End */}
       </Main>
     </>
   );
@@ -315,5 +315,66 @@ const Main = styled.div`
       .HR-img,.LIC-img,.Education-img{
         width: 66px;
       }
+
+      @media (max-width: 768px)
+      {
+        .boxs-grid {
+    max-width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+}
+         
+@media (max-width: 425px)
+      {
+      .Eligible-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    padding: 30px;
+    gap: 10px;
+}
+      
+      .box-1>h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.icon-1, .icon-2 {
+    position: relative;
+    top: 34px;
+    left: 53px;
+}
+.icon-3 {
+    position: relative;
+    top: 34px;
+    left: 56px;
+}
+ .icon-4 {
+    position: relative;
+    top: 34px;
+    left: 58px;
+}
+.grid-box > h1 {
+  font-size: 1rem;
+  }
+  .partner-heading, .Eligible-heading {
+    
+    font-size: 1.3rem;
+}
+.Eligible-para {
+    
+    font-size: 1rem;
+   
+}
+.partner-para{
+  font-size: 1rem;
+}
+}
     
   `;
