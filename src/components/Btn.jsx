@@ -14,6 +14,12 @@ function Btn() {
     <Link to="/referEarn">
     Refer&Earn
     </Link>
+    <Link to="/contactus">
+    ContactUs
+    </Link>
+    <Link to="/ListOfFakeUniversities">
+    ListOfFakeUniversities
+    </Link>
     </div>
   )
 }
