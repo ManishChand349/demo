@@ -10,6 +10,7 @@ export const ReferEarn = () => {
   return (
     <>
       <Main>
+      {/* Banner Section starting */}
         <section className="banner">
           <div className="left-div">
             <h1 className="main-heading">
@@ -23,12 +24,14 @@ export const ReferEarn = () => {
           </div>
           <div className="right-div"></div>
         </section>
+      {/* Banner Section End */}
 
+      {/* Partner Section starting */}
         <section className="partner-section">
           <div>
             <h1 className="partner-heading">
-              Why you should join 
-              <span className="Partners-blue"> GoOnlineCollege </span>
+              Why you should join
+              <span className="Partners-blue"> GoOnline College </span>
               as <span className="Partners-blue">Partner</span> Partner
             </h1>
             <p className="partner-para">Become a member of get Online College. Our Platform hosts a a diverse range of courses and collaborations with universities. <br />
@@ -38,11 +41,11 @@ export const ReferEarn = () => {
           <div className="boxs-grid">
             <div className="box-1">
             <h1 className="heading" >Flexible Work Timings</h1>
-            
+
                 <span className="icon-1">
                   <img  src={Time} alt="" />
                 </span>
-            
+
             </div>
             <div className="box-1">
             <h1>Be Your Own Boss</h1>
@@ -71,12 +74,50 @@ export const ReferEarn = () => {
                 </span>
                 </div>
             </div>
-            
-            
+
+
           </div>
         </section>
+      {/* Partner Section End */}
+      
+      {/* Eligible Section Starting */}
+          <section>
+          <div className="Eligible-div">
+              <h1 className="Eligible-heading">Eligible Partner for <span className="Eligible-blue">GoOnlineCollege</span>  Network</h1>
+              <p className="Eligible-para">
+                If you are a faculty member of a K-12 School, College, Coaching institute, of an HR Professional in a Corporate organization, <br /> you can avail this golden opportunity to become an authorized member of GoOnlineCollege 
+              </p>
+              <div className="Eligible-grid">
+                <div className="grid-box">
+                  <h1>Education Consultants</h1>
+                </div>
+                <div className="grid-box">
+                  <h1>Coaching Institutes</h1>
+                </div>
+                <div className="grid-box">
+                  <h1>K12 Faculties</h1>
+                </div>
+                <div className="grid-box">
+                  <h1>UG College Faculties</h1>
+                </div>
+                <div className="grid-box">
+                  <h1>LIC Agents</h1>
+                </div>
+                <div className="grid-box">
+                  <h1>Home Markers/Students</h1>
+                </div>
+                <div className="grid-box">
+                  <h1>Immigration Consultar</h1>
+                </div>
+                <div className="grid-box">
+                  <h1>HR of Corporates</h1>
+                </div>
+              </div>
+          </div>
 
-       
+          </section>
+      {/* Eligible Section End */}
+
       </Main>
     </>
   );
@@ -95,7 +136,7 @@ const Main = styled.div`
     .left-div{
       margin-left: 40px;
     }
-    .Partners-blue{
+    .Partners-blue, .Eligible-blue{
       color: blue;
     }
     .main-heading{
@@ -117,15 +158,16 @@ const Main = styled.div`
       cursor: pointer;
     }
     //2nd section Css starting
-    .partner-heading{
+    .partner-heading, .Eligible-heading {
       text-align: center;
       margin-top: 40px;
       font-size: 2.3rem;
     }
-    .partner-para{
+    .partner-para, .Eligible-para{
       text-align: center;
       font-size: 1.3rem;
       margin-top: 30px;
+      font-weight: 300;
     }
     .boxs-grid{
       max-width: 90%;
@@ -134,7 +176,7 @@ const Main = styled.div`
       grid-template-columns: repeat(4, 1fr);
       gap: 10px;
       margin-top: 40px;
-
+      margin-bottom: 100px;
     }
     .box-1{
       background-color: #B6FFFA;
@@ -143,6 +185,7 @@ const Main = styled.div`
     .box-1 > h1{
       margin-top: 60px;
       text-align: center;
+      /* color: blue; */
     }
     /* .heading{
       margin-top: 50px;
@@ -168,5 +211,14 @@ const Main = styled.div`
       top: -87px;
       left: 115px;
     }
-
+      .Eligible-div{
+        max-width: 90%;
+      margin: auto;
+      }
+      .Eligible-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) ;
+        margin-top: 40px;
+        padding: 30px;
+      }
   `;
