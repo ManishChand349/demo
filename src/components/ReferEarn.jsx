@@ -13,6 +13,15 @@ import HomeMaker from "../assets/ReferEarn/HomeMaker.png";
 import UgCollege from "../assets/ReferEarn/UgCollege.png";
 import HrCorporates from "../assets/ReferEarn/HrCorporates.png";
 import ImmigrationConsultar from "../assets/ReferEarn/UgCollege.png";
+import Amity from "../assets/ReferEarn/amity.webp";
+import Dy from "../assets/ReferEarn/dy.webp";
+import Hindu from "../assets/ReferEarn/hindu.webp";
+import Lingayas from "../assets/ReferEarn/lingayas.webp";
+import Lpu from "../assets/ReferEarn/lpu.webp";
+import Manav from "../assets/ReferEarn/manav.webp";
+import Manipal from "../assets/ReferEarn/manipal.webp";
+import Svu from "../assets/ReferEarn/svu.webp";
+import CU from "../assets/ReferEarn/cu.webp";
 
 export const ReferEarn = () => {
   return (
@@ -33,7 +42,38 @@ export const ReferEarn = () => {
           <div className="right-div">
 
             <div className="div-1">
+              <img src={Amity} alt="" />
+            </div>
+            <div className="div-1">
+            <img src={Dy} alt="" />
               
+            </div>
+            <div className="div-1">
+            <img src={Hindu} alt="" />
+              
+            </div>
+            <div className="div-1">
+            <img src={Lingayas} alt="" />
+              
+            </div>
+            <div className="div-1">
+            <img src={Lpu} alt="" />
+              
+            </div>
+            <div className="div-1">
+            <img src={Manav} alt="" />
+              
+            </div>
+            <div className="div-1">
+            <img src={Manipal} alt="" />
+              
+            </div>
+            <div className="div-1">
+            <img src={Svu} alt="" />
+              
+            </div>
+            <div className="div-1">
+              <img src={CU} alt="" />
             </div>
           </div>
         </section>
@@ -185,6 +225,20 @@ const Main = styled.div`
       color: #fff;
       background-color: blue;
       cursor: pointer;
+    }
+    .right-div{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      position: absolute;
+    right: 0;
+    width: 37%;
+    
+    transform: translateY(-50%);
+    overflow-x: hidden;
+    }
+    .div-1{
+      background-color: #fff;
     }
     //2nd section Css starting
     .partner-heading, .Eligible-heading {
