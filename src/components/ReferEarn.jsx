@@ -26,11 +26,16 @@ export const ReferEarn = () => {
             </h1>
             <p className="main-para">
               One Stop point for all Faculties / Consultants / mentors to
-              suggest best Campus to <br /> your Learers as per their need{" "}
+              suggest best Campus to <br /> Your Learners as per their need{" "}
             </p>
             <button className="btn-1">Referal & Earn</button>
           </div>
-          <div className="right-div"></div>
+          <div className="right-div">
+
+            <div className="div-1">
+              
+            </div>
+          </div>
         </section>
       {/* Banner Section End */}
 
@@ -150,6 +155,8 @@ const Main = styled.div`
   margin: 0;
 }
     .banner{
+      display: flex;
+      justify-content: space-between;
       background-image: url(${bg});
       padding: 135px 0;
       color: #fff;
