@@ -95,7 +95,6 @@ export const ContactUs = () => {
     </>
   );
 };
-
 const Main = styled.div`
       
         *{padding: 0;
