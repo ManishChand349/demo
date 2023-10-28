@@ -55,7 +55,7 @@ export const ContactUs = () => {
           </section>
 
           <section className="section-get-in">
-            <h1 className="heading-get-in">Git in Touch</h1>
+            <h1 className="heading-get-in">Get in Touch</h1>
             <p className="para">Give us ring. You can even come to meet us</p>
             <div className="contact-info">
               <div className="mail">
