@@ -92,7 +92,7 @@ const Main = styled.div`
 .main-heading{
      text-align: center;
      margin-top: 50px;
-     margin-bottom: 100px;
+     margin-bottom: 70px;
      font-weight: 500;
 }
 .blue-head{
@@ -102,13 +102,14 @@ const Main = styled.div`
      background-color: #B6FFFA;
      padding: 20px;
      border-radius: 8px;
-     margin-bottom: 10px;
+     margin-bottom: 5px;
 }
 .col-1 > h1{
+     font-size: 1.8rem;
      font-weight: 500;
 }
 .col-1 > p{
-     font-size: 1.4rem;
+     font-size: 1.2rem;
      margin-top: 8px;
      font-weight: 500;
 }
