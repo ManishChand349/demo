@@ -99,7 +99,7 @@ const Main = styled.div`
      color: blue;
 }
 .col-1{
-     background-color: #B6FFFA;
+     /* background-color: #B6FFFA; */
      padding: 20px;
      border-radius: 8px;
      margin-bottom: 5px;
