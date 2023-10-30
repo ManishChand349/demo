@@ -62,7 +62,6 @@ export const ContactUs = () => {
                 <span className="icons">
                   <CiMail />
                 </span>
-
                 <div className="box-4">
                   <h4> For Job-Related Query</h4>
                   <h2>hr@GoCollege.com</h2>
@@ -88,6 +87,12 @@ export const ContactUs = () => {
                 </span>
                 <h3>C-1234 A block Sector 45, Noida, UK 20123</h3>
               </div>
+            </div>
+          </section>
+
+          <section className="contact-form">
+            <div>
+              
             </div>
           </section>
         </div>
