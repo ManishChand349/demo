@@ -31,7 +31,7 @@ export const ReferEarn = () => {
         <section className="banner">
           <div className="left-div">
             <h1 className="main-heading">
-              GoOnlineCollege <span className="Partners-blue">Partners</span>
+              GoOnlineCollege <span className="Partners-bluee">Partners</span>
             </h1>
             <p className="main-para">
               One Stop point for all Faculties / Consultants / mentors to
