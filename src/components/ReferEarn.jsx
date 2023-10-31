@@ -234,7 +234,6 @@ const Main = styled.div`
       position: absolute;
     right: 0;
     width: 37%;
-    
     transform: translateY(-50%);
     overflow-x: hidden;
     }
@@ -328,20 +327,16 @@ const Main = styled.div`
     margin-bottom: 100px;
 }
 .Eligible-grid {
-    
     padding: 3px;
 }
 .grid-box h1 , .box-1 h1 {
   font-size: 1rem;
 }
 .partner-heading, .Eligible-heading {
-     
       font-size: 2rem;
     }
     .partner-para, .Eligible-para{
-     
       font-size: 1.1rem;
-     
     }
     .icon-1, .icon-2 {
     position: relative;
