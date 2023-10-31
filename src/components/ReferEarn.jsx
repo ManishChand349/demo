@@ -77,7 +77,7 @@ export const ReferEarn = () => {
             <h1 className="partner-heading">
               Why you should join
               <span className="Partners-blue"> GoOnlineCollege </span>
-              as <span className="Partners-blue">Partner</span> Partner
+              as <span className="Partners-blue">Partner</span> 
             </h1>
             <p className="partner-para">
               Become a member of get Online College. Our Platform hosts a a
@@ -353,7 +353,7 @@ const Main = styled.div`
       .box-1>h1 {
     margin-top: 30px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .icon-1, .icon-2 {
@@ -383,6 +383,12 @@ const Main = styled.div`
     font-size: 0.8rem;
    
 }
+
+}
+@media (max-width: 375px) {
+  .Eligible-grid {
+    padding: 10px;
+  }
 
 }
 
