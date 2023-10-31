@@ -8,9 +8,9 @@ function Btn() {
     {/* <Link  to="/trust" >
     Trust Page
     </Link> */}
-    {/* <Link to="/Checklist">
+   <Link to="/Checklist">
     Checklist Page
-    </Link> */}
+    </Link> 
     <Link to="/referEarn">
     Refer&Earn
     </Link>

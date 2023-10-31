@@ -513,6 +513,7 @@ const Main = styled.div`
 }
 .heading-Question{
   margin-top: 10px;
+  font-weight: 900;
 }
 
  /* .Question:hover{
@@ -578,7 +579,7 @@ const Main = styled.div`
  }
  .Question > div > h3{
    font-size: 30px;
-   font-weight: 100;
+   font-weight: 500;
  }
  .rounded:hover{
    transform: scale(1.1);
