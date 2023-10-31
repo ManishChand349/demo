@@ -318,6 +318,7 @@ const Main = styled.div`
 *{
      margin: 0;
      padding: 0;
+     font-family: 'Poppins', sans-serif;
 }
 .main-heading-h1{
   color: #000;
@@ -673,8 +674,6 @@ span{
 }
 
  }
-
-
 @media (max-width: 375px)
  {
   .main{
@@ -731,8 +730,6 @@ span{
     left: 85px;
 }
  }
-
-
  @media (max-width: 320px)
  {
   .main{

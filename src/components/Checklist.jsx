@@ -436,6 +436,7 @@ const Main = styled.div`
 *{
    padding: 0;
    margin: 0;
+   font-family: 'Poppins', sans-serif;
 }
  .row1{
    margin: auto;
