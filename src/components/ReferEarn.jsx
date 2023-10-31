@@ -378,14 +378,12 @@ const Main = styled.div`
     
     font-size: 1.3rem;
 }
-.Eligible-para {
+.Eligible-para,.partner-para {
     
-    font-size: 1rem;
+    font-size: 0.8rem;
    
 }
-.partner-para{
-  font-size: 1rem;
-}
+
 }
 
 @media (max-width : 320px) {
@@ -424,7 +422,7 @@ const Main = styled.div`
     left: 37px;
 }
 .Eligible-para {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 .Eligible-grid {
     padding: 1px;
