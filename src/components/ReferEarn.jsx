@@ -327,6 +327,13 @@ const Main = styled.div`
     margin-top: 30px;
     margin-bottom: 100px;
 }
+.Eligible-grid {
+    
+    padding: 3px;
+}
+.grid-box h1 , .box-1 h1 {
+  font-size: 1rem;
+}
 .partner-heading, .Eligible-heading {
      
       font-size: 2rem;
