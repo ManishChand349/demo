@@ -317,8 +317,6 @@ const Main = styled.div`
       .HR-img,.LIC-img,.Education-img{
         width: 66px;
       }
-
-
 @media (max-width: 768px)
       {
         .boxs-grid {
