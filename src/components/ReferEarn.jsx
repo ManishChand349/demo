@@ -355,8 +355,7 @@ const Main = styled.div`
     left: 131px;
 }
 
-}
-         
+}        
 @media (max-width: 425px)
       {
       .Eligible-grid {
@@ -408,7 +407,6 @@ const Main = styled.div`
   }
 
 }
-
 @media (max-width : 320px) {
   .boxs-grid {
     margin-bottom: 20px;
@@ -454,6 +452,5 @@ const Main = styled.div`
 .grid-box>h1 {
     font-size: 0.8rem;
 }
-}
-    
+}    
   `;
