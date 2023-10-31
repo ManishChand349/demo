@@ -190,9 +190,11 @@ export const ReferEarn = () => {
   );
 };
 const Main = styled.div`
+
 *{
   padding: 0;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
     .banner{
       display: flex;
@@ -209,7 +211,7 @@ const Main = styled.div`
       color: blue;
     }
     .main-heading{
-      font-size: 2.7rem;
+      font-size: 2.5rem;
       /* padding: 20px 0; */
     }
     .main-para{
@@ -327,6 +329,15 @@ const Main = styled.div`
     margin-top: 30px;
     margin-bottom: 100px;
 }
+.partner-heading, .Eligible-heading {
+     
+      font-size: 2rem;
+    }
+    .partner-para, .Eligible-para{
+     
+      font-size: 1.1rem;
+     
+    }
 }
          
 @media (max-width: 425px)
@@ -381,6 +392,9 @@ const Main = styled.div`
   .boxs-grid {
     margin-bottom: 20px;
   }
+  .main-heading {
+    font-size: 1.5rem;
+}
   .partner-para {
     font-size: 0.6rem;
     margin-top: 14px;
