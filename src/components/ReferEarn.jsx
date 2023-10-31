@@ -77,7 +77,7 @@ export const ReferEarn = () => {
             <h1 className="partner-heading">
               Why you should join
               <span className="Partners-blue"> GoOnlineCollege </span>
-              as <span className="Partners-blue">Partner</span> 
+              as <span className="Partners-blue">Partner</span>
             </h1>
             <p className="partner-para">
               Become a member of get Online College. Our Platform hosts a a
@@ -285,17 +285,17 @@ const Main = styled.div`
     .icon-1 , .icon-2{
       position: relative;
       top: 34px;
-      left: 115px;
+      left: 169px;
     }
     .icon-3{
       position: relative;
       top: 34px;
-      left: 115px;
+      left: 169px;
     }
     .icon-4{
       position: relative;
       top: 34px;
-      left: 115px;
+      left: 169px;
     }
       .Eligible-div{
         max-width: 90%;
@@ -318,7 +318,8 @@ const Main = styled.div`
         width: 66px;
       }
 
-      @media (max-width: 768px)
+
+@media (max-width: 768px)
       {
         .boxs-grid {
     max-width: 90%;
@@ -338,6 +339,22 @@ const Main = styled.div`
       font-size: 1.1rem;
      
     }
+    .icon-1, .icon-2 {
+    position: relative;
+    top: 34px;
+    left: 127px;
+}
+.icon-3 {
+    position: relative;
+    top: 34px;
+    left: 136px;
+}
+.icon-4 {
+    position: relative;
+    top: 34px;
+    left: 131px;
+}
+
 }
          
 @media (max-width: 425px)
