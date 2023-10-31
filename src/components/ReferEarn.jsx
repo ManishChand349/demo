@@ -190,7 +190,6 @@ export const ReferEarn = () => {
   );
 };
 const Main = styled.div`
-
 *{
   padding: 0;
   margin: 0;
@@ -318,7 +317,7 @@ const Main = styled.div`
         width: 66px;
       }
 @media (max-width: 768px)
-      {
+{
         .boxs-grid {
     max-width: 90%;
     margin: auto;
@@ -355,7 +354,7 @@ const Main = styled.div`
 
 }        
 @media (max-width: 425px)
-      {
+{
       .Eligible-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -399,13 +398,15 @@ const Main = styled.div`
 }
 
 }
-@media (max-width: 375px) {
+@media (max-width: 375px) 
+{
   .Eligible-grid {
     padding: 10px;
   }
 
 }
-@media (max-width : 320px) {
+@media (max-width : 320px) 
+{
   .boxs-grid {
     margin-bottom: 20px;
   }
@@ -451,4 +452,4 @@ const Main = styled.div`
     font-size: 0.8rem;
 }
 }    
-  `;
+`;
