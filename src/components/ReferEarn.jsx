@@ -378,8 +378,12 @@ const Main = styled.div`
 }
 
 @media (max-width : 320px) {
+  .boxs-grid {
+    margin-bottom: 20px;
+  }
   .partner-para {
     font-size: 0.6rem;
+    margin-top: 14px;
 }
 .partner-heading, .Eligible-heading {
     font-size: 1.1rem;
@@ -388,6 +392,7 @@ const Main = styled.div`
     
     font-size: 0.7rem;
     margin-bottom: 3px;
+    
 }
 .icon-1, .icon-2 {
     position: relative;
@@ -403,6 +408,16 @@ const Main = styled.div`
     position: relative;
     top: 34px;
     left: 37px;
+}
+.Eligible-para {
+    font-size: 0.8rem;
+}
+.Eligible-grid {
+    padding: 1px;
+    
+}
+.grid-box>h1 {
+    font-size: 0.8rem;
 }
 }
     
