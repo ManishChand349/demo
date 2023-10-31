@@ -376,5 +376,34 @@ const Main = styled.div`
   font-size: 1rem;
 }
 }
+
+@media (max-width : 320px) {
+  .partner-para {
+    font-size: 0.6rem;
+}
+.partner-heading, .Eligible-heading {
+    font-size: 1.1rem;
+}
+.box-1>h1 {
+    
+    font-size: 0.7rem;
+    margin-bottom: 3px;
+}
+.icon-1, .icon-2 {
+    position: relative;
+    top: 34px;
+    left: 32px;
+}
+.icon-3 {
+    position: relative;
+    top: 34px;
+    left: 36px;
+}
+.icon-4 {
+    position: relative;
+    top: 34px;
+    left: 37px;
+}
+}
     
   `;

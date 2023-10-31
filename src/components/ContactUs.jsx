@@ -4,12 +4,7 @@ import phone from "../assets/Contact-img/24-hours.webp";
 import { BsFillStarFill } from "react-icons/bs";
 import { CiMail, CiMobile3, CiLocationOn } from "react-icons/ci";
 
-
-
-
 export const ContactUs = () => {
-
-  
   return (
     <>
       <Main>
@@ -58,118 +53,132 @@ export const ContactUs = () => {
               </div>
             </div>
           </section>
-       
 
-       <div className="container">
-
-       
-          <section className="section-get-in">
-            <h1 className="heading-get-in">Get in Touch</h1>
-            <p className="para">Give us ring. You can even come to meet us</p>
-            <div className="contact-info">
-              <div className="mail">
-                <span className="icons">
-                  <CiMail />
-                </span>
-                <div className="box-4">
-                  <h4> For Job-Related Query</h4>
-                  <h2>hr@GoCollege.com</h2>
+          <div className="container">
+            <section className="section-get-in">
+              <h1 className="heading-get-in">Get in Touch</h1>
+              <p className="para">Give us ring. You can even come to meet us</p>
+              <div className="contact-info">
+                <div className="mail">
+                  <span className="icons">
+                    <CiMail />
+                  </span>
+                  <div className="box-4">
+                    <h4> For Job-Related Query</h4>
+                    <h2>hr@GoCollege.com</h2>
+                  </div>
+                  <div className="box-4">
+                    <h4> For HR Assistance</h4>
+                    <h2>hrhelpdesk@GoCollege.com</h2>
+                  </div>
+                  <div className="box-4">
+                    <h4> For Help & Support</h4>
+                    <h2>info@GoCollege.com</h2>
+                  </div>
                 </div>
-                <div className="box-4">
-                  <h4> For HR Assistance</h4>
-                  <h2>hrhelpdesk@GoCollege.com</h2>
+                <div className="phone">
+                  <span className="icons">
+                    <CiMobile3 />
+                  </span>
+                  <h3>1234567890</h3>
                 </div>
-                <div className="box-4">
-                  <h4> For Help & Support</h4>
-                  <h2>info@GoCollege.com</h2>
+                <div className="location">
+                  <span className="icons">
+                    <CiLocationOn />
+                  </span>
+                  <h3>C-1234 A block Sector 45, Noida, UK 20123</h3>
                 </div>
               </div>
-              <div className="phone">
-                <span className="icons">
-                  <CiMobile3 />
-                </span>
-                <h3>1234567890</h3>
-              </div>
-              <div className="location">
-                <span className="icons">
-                  <CiLocationOn />
-                </span>
-                <h3>C-1234 A block Sector 45, Noida, UK 20123</h3>
-              </div>
-            </div>
-          </section>
+            </section>
 
-          <section className="contact-form">
-            <div>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.530741038066!2d77.31074431555618!3d28.583850693032392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce91a83de9ab3%3A0xd1ca78f64f373b2!2sCollege%20Vidya!5e0!3m2!1sen!2sin!4v1665561870569!5m2!1sen!2sin"
-                style={{ width: "100%", height: "100%" }}
-                frameborder="0"
-                loading="lazy"
-              ></iframe>
-            </div>
-            <div>
-              <h2>Contact Us</h2>
-              <form onSubmit="">
-                <div>
-                  <div className="gender-box">
-                    <div>
-                      <input className="input-radio" type="radio" id="male" name="gender" />
-                      <label htmlFor="male">Male</label>
+            <section className="contact-form">
+              <div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.530741038066!2d77.31074431555618!3d28.583850693032392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce91a83de9ab3%3A0xd1ca78f64f373b2!2sCollege%20Vidya!5e0!3m2!1sen!2sin!4v1665561870569!5m2!1sen!2sin"
+                  style={{ width: "100%", height: "100%" }}
+                  frameborder="0"
+                  loading="lazy"
+                ></iframe>
+              </div>
+              <div>
+                <h2>Contact Us</h2>
+                <form onSubmit="">
+                  <div>
+                    <div className="gender-box">
+                      <div>
+                        <input
+                          className="input-radio"
+                          type="radio"
+                          id="male"
+                          name="gender"
+                        />
+                        <label htmlFor="male">Male</label>
+                      </div>
+                      <div>
+                        <input
+                          className="input-radio"
+                          type="radio"
+                          id="female"
+                          name="gender"
+                        />
+                        <label htmlFor="male">Female</label>
+                      </div>
                     </div>
-                    <div>
-                      <input className="input-radio" type="radio" id="female" name="gender" />
-                      <label htmlFor="male">Female</label>
-                    </div>
+
+                    <input
+                      className="name-input"
+                      type="text"
+                      name="name"
+                      value=""
+                      onChange=""
+                      required
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      className="name-input"
+                      type="text"
+                      autoComplete="off"
+                      placeholder="Date of Birth (DD/MM/YYYY)) "
+                      inputmode="numeric"
+                      value=""
+                      onChange=""
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label>Message:</label>
+                    <textarea name="message" value="" onChange="" required />
                   </div>
 
-                 
-                  <input
-                className="name-input"
-                    type="text"
-                    name="name"
-                    value=""
-                    onChange=""
-                    required
-                    placeholder="Name"
-                  />
-                </div>
-                <div>
-                  
-                  <input
-                  className="name-input"
-                    type="text"
-                    autoComplete="off"
-                    placeholder="Date of Birth (DD/MM/YYYY)" inputmode="numeric"
-                    value=""
-                    onChange=""
-                    required
-                  />
-                </div>
-                <div>
-                  <label>Message:</label>
-                  <textarea name="message" value="" onChange="" required />
-                </div>
+                  <div>
+                    <button type="submit">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </section>
 
-                <div>
-                  <button type="submit">Submit</button>
-                </div>
-              </form>
-            </div>
-          </section>
-
-          <section className="visit-Us">
-                <div>  
-                <h1>Call doesn't feel <br /> enough <span>Visit Us</span></h1>              
-                <p>At GoCollege, it is our constant endeavour to provide great customer experience. In case you require assistance, we have created multiple ways to reach out to us</p>
+            <section className="visit-Us">
+              <div>
+                <h1>
+                  Call doesn't feel <br /> enough <span>Visit Us</span>
+                </h1>
+                <p>
+                  At GoCollege, it is our constant endeavour to provide great
+                  customer experience. In case you require assistance, we have
+                  created multiple ways to reach out to us
+                </p>
                 <button className="call-btn">Call Now</button>
-                <p><span>icone</span> Visit Us: (10 AM to 7 PM)</p>
+                <p>
+                  <span>icone</span> Visit Us: (10 AM to 7 PM)
+                </p>
                 <h3>C-1234 A block Sector 45, Noida, UK 20123</h3>
-                </div>
-                <div>  
-                <img src="" alt="" />              
-                </div>
-          </section>
+              </div>
+              <div>
+                <img src="" alt="" />
+              </div>
+            </section>
           </div>
         </div>
       </Main>
