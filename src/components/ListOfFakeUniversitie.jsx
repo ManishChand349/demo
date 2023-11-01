@@ -241,6 +241,7 @@ const Main = styled.div`
   border: none;
   border-radius: 7px;
   color: #fff;
+  cursor: pointer;
 }
 .verify-btn{
   display: flex;
@@ -249,6 +250,7 @@ const Main = styled.div`
   background-color: blue;
   padding: 3px 8px;
   border-radius: 7px;
+  cursor: pointer;
 
 }
 .icons2{
