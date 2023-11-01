@@ -554,7 +554,7 @@ text-align: center;
      align-items: center;
 }
 .heading {
-     font-weight: 100;
+     font-weight: 500;
      font-size: 35px;
 }
 .PostAdmissionServices-img, .UserFriendlyLnterface-img{
@@ -622,7 +622,7 @@ span{
      align-items: center;
 }
 .heading {
-     font-weight: 100;
+     font-weight: 500;
      font-size: 35px;
 }
 .PostAdmissionServices-img, .UserFriendlyLnterface-img{
@@ -701,7 +701,7 @@ span{
      align-items: center;
 }
 .heading {
-     font-weight: 100;
+     font-weight: 500;
      font-size: 35px;
 }
 .PostAdmissionServices-img, .UserFriendlyLnterface-img{
@@ -757,7 +757,7 @@ span{
      align-items: center;
 }
 .heading {
-     font-weight: 100;
+     font-weight: 500;
      font-size: 35px;
 }
 .PostAdmissionServices-img, .UserFriendlyLnterface-img{
