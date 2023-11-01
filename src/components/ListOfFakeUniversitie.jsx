@@ -290,7 +290,7 @@ export const ListOfFakeUniversitie = () => {
               <button className="fake-btn">Fake</button>
             </div>
             <div className="inner-box bg-dark ">
-              <p>Delhi</p>
+              <p>Karnataka</p>
             </div>
             <div className="inner-box  bg-dark">
               <button className="verify-btn">
@@ -317,7 +317,7 @@ export const ListOfFakeUniversitie = () => {
               <button className="fake-btn">Fake</button>
             </div>
             <div className="inner-box ">
-              <p>Delhi</p>
+              <p>Kerala</p>
             </div>
             <div className="inner-box  ">
               <button className="verify-btn">
@@ -344,7 +344,7 @@ export const ListOfFakeUniversitie = () => {
               <button className="fake-btn">Fake</button>
             </div>
             <div className="inner-box bg-dark ">
-              <p>Delhi</p>
+              <p>Maharashta</p>
             </div>
             <div className="inner-box  bg-dark">
               <button className="verify-btn">
@@ -374,7 +374,7 @@ export const ListOfFakeUniversitie = () => {
               <button className="fake-btn">Fake</button>
             </div>
             <div className="inner-box ">
-              <p>Delhi</p>
+              <p>Kolkata</p>
             </div>
             <div className="inner-box  ">
               <button className="verify-btn">
@@ -404,7 +404,7 @@ export const ListOfFakeUniversitie = () => {
               <button className="fake-btn">Fake</button>
             </div>
             <div className="inner-box bg-dark ">
-              <p>Delhi</p>
+              <p>Kolkata</p>
             </div>
             <div className="inner-box  bg-dark">
               <button className="verify-btn">
@@ -431,7 +431,7 @@ export const ListOfFakeUniversitie = () => {
               <button className="fake-btn">Fake</button>
             </div>
             <div className="inner-box ">
-              <p>Delhi</p>
+              <p>Uttar Pradesh</p>
             </div>
             <div className="inner-box  ">
               <button className="verify-btn">
@@ -461,7 +461,7 @@ export const ListOfFakeUniversitie = () => {
               <button className="fake-btn">Fake</button>
             </div>
             <div className="inner-box bg-dark ">
-              <p>Delhi</p>
+              <p>Uttar Pradesh</p>
             </div>
             <div className="inner-box  bg-dark">
               <button className="verify-btn">
@@ -491,7 +491,7 @@ export const ListOfFakeUniversitie = () => {
               <button className="fake-btn">Fake</button>
             </div>
             <div className="inner-box ">
-              <p>Delhi</p>
+              <p>Uttar Pradesh</p>
             </div>
             <div className="inner-box  ">
               <button className="verify-btn">
@@ -518,7 +518,7 @@ export const ListOfFakeUniversitie = () => {
               <button className="fake-btn">Fake</button>
             </div>
             <div className="inner-box bg-dark ">
-              <p>Delhi</p>
+              <p>Uttar Pradesh</p>
             </div>
             <div className="inner-box  bg-dark">
               <button className="verify-btn">
@@ -545,7 +545,7 @@ export const ListOfFakeUniversitie = () => {
               <button className="fake-btn">Fake</button>
             </div>
             <div className="inner-box ">
-              <p>Delhi</p>
+              <p>Odisha</p>
             </div>
             <div className="inner-box  ">
               <button className="verify-btn">
@@ -575,7 +575,7 @@ export const ListOfFakeUniversitie = () => {
               <button className="fake-btn">Fake</button>
             </div>
             <div className="inner-box bg-dark ">
-              <p>Delhi</p>
+              <p>Odisha</p>
             </div>
             <div className="inner-box  bg-dark">
               <button className="verify-btn">
@@ -605,7 +605,7 @@ export const ListOfFakeUniversitie = () => {
               <button className="fake-btn">Fake</button>
             </div>
             <div className="inner-box ">
-              <p>Delhi</p>
+              <p>Puducherry</p>
             </div>
             <div className="inner-box  ">
               <button className="verify-btn">
@@ -635,7 +635,7 @@ export const ListOfFakeUniversitie = () => {
               <button className="fake-btn">Fake</button>
             </div>
             <div className="inner-box bg-dark ">
-              <p>Delhi</p>
+              <p>Andhra Pradesh</p>
             </div>
             <div className="inner-box  bg-dark">
               <button className="verify-btn">
