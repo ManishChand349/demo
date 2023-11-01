@@ -38,121 +38,121 @@ export const ListOfFakeUniversitie = () => {
           <div className="inner-box bg-dark"><p>Delhi</p></div>
           <div className="inner-box bg-dark "><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-          {/* 2st staring */}
+          {/* 2nd staring */}
           <div className="inner-box box-1 "><h4>2</h4></div>
           <div className="inner-box  UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Commercial University Ltd </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box "><p>Delhi</p></div>
           <div className="inner-box  "><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-            {/* 3st staring */}
+            {/* 3rd staring */}
             <div className="inner-box bg-dark box-1"><h4>3</h4></div>
           <div className="inner-box bg-dark UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> United Nations University </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box bg-dark "><p>Delhi</p></div>
           <div className="inner-box  bg-dark"><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-          {/* 4st staring */}
+          {/* 4th staring */}
           <div className="inner-box box-1 "><h4>4</h4></div>
           <div className="inner-box  UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Vocational University </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box "><p>Delhi</p></div>
           <div className="inner-box  "><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-            {/* 5st staring */}
+            {/* 5th staring */}
             <div className="inner-box bg-dark box-1"><h4>5</h4></div>
           <div className="inner-box bg-dark UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> ADR-Centric Juridical University </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box bg-dark "><p>Delhi</p></div>
           <div className="inner-box  bg-dark"><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-          {/* 4st staring */}
+          {/* 6th staring */}
           <div className="inner-box box-1 "><h4>6</h4></div>
           <div className="inner-box  UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Vocational University </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box "><p>Delhi</p></div>
           <div className="inner-box  "><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-            {/* 5st staring */}
+            {/* 7th staring */}
             <div className="inner-box bg-dark box-1"><h4>7</h4></div>
           <div className="inner-box bg-dark UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Viswakarma Open University for Self-Employment </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box bg-dark "><p>Delhi</p></div>
           <div className="inner-box  bg-dark"><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-          {/* 4st staring */}
+          {/* 8th staring */}
           <div className="inner-box box-1 "><h4>8</h4></div>
           <div className="inner-box  UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Adhyatmik Vishwavidyalaya </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box "><p>Delhi</p></div>
           <div className="inner-box  "><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-            {/* 5st staring */}
+            {/* 9th staring */}
             <div className="inner-box bg-dark box-1"><h4>9</h4></div>
           <div className="inner-box bg-dark UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Badaganvi Sarkar World Open University Education Society </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box bg-dark "><p>Delhi</p></div>
           <div className="inner-box  bg-dark"><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-          {/* 4st staring */}
+          {/* 10st staring */}
           <div className="inner-box box-1 "><h4>10</h4></div>
           <div className="inner-box  UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> St. John’s University </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box "><p>Delhi</p></div>
           <div className="inner-box  "><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-            {/* 5st staring */}
+            {/* 11th staring */}
             <div className="inner-box bg-dark box-1"><h4>11</h4></div>
           <div className="inner-box bg-dark UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Raja Arabic University </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box bg-dark "><p>Delhi</p></div>
           <div className="inner-box  bg-dark"><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-          {/* 4st staring */}
+          {/* 12th staring */}
           <div className="inner-box box-1 "><h4>12</h4></div>
           <div className="inner-box  UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Indian Institute of Alternative Medicine </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box "><p>Delhi</p></div>
           <div className="inner-box  "><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-            {/* 5st staring */}
+            {/* 13th staring */}
             <div className="inner-box bg-dark box-1"><h4>13</h4></div>
           <div className="inner-box bg-dark UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Institute of Alternative Medicine and Research</h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box bg-dark "><p>Delhi</p></div>
           <div className="inner-box  bg-dark"><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-          {/* 4st staring */}
+          {/* 14th staring */}
           <div className="inner-box box-1 "><h4>14</h4></div>
           <div className="inner-box  UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Gandhi Hindi Vidyapith </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box "><p>Delhi</p></div>
           <div className="inner-box  "><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-            {/* 5st staring */}
+            {/* 15th staring */}
             <div className="inner-box bg-dark box-1"><h4>15</h4></div>
           <div className="inner-box bg-dark UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> National University of Electro Complex Homeopathy</h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box bg-dark "><p>Delhi</p></div>
           <div className="inner-box  bg-dark"><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-          {/* 4st staring */}
+          {/* 16th staring */}
           <div className="inner-box box-1 "><h4>16</h4></div>
           <div className="inner-box  UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Netaji Subhash Chandra Bose University </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box "><p>Delhi</p></div>
           <div className="inner-box  "><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-            {/* 5st staring */}
+            {/* 17th staring */}
             <div className="inner-box bg-dark box-1"><h4>17</h4></div>
           <div className="inner-box bg-dark UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Bhartiya Shiksha Parishady</h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box bg-dark "><p>Delhi</p></div>
           <div className="inner-box  bg-dark"><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-          {/* 4st staring */}
+          {/* 18th staring */}
           <div className="inner-box box-1 "><h4>18</h4></div>
           <div className="inner-box  UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Nav Bharat Shiksha Parishad </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box "><p>Delhi</p></div>
           <div className="inner-box  "><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-            {/* 5st staring */}
+            {/* 19th staring */}
             <div className="inner-box bg-dark box-1"><h4>19</h4></div>
           <div className="inner-box bg-dark UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> North Orissa University of Agriculture & Technology</h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box bg-dark "><p>Delhi</p></div>
           <div className="inner-box  bg-dark"><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-          {/* 4st staring */}
+          {/* 20th staring */}
           <div className="inner-box box-1 "><h4>20</h4></div>
           <div className="inner-box  UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Sree Bodhi Academy of Higher Education </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box "><p>Delhi</p></div>
           <div className="inner-box  "><button className="verify-btn">Verify <FiArrowUpRight className="icons2"/></button></div>
           {/* end */}
-            {/* 5st staring */}
+            {/* 21th staring */}
             <div className="inner-box bg-dark box-1"><h4>21</h4></div>
           <div className="inner-box bg-dark UC-Name"> <div className="inner-box-2"> <div><AiFillBank className="icons"/></div> <div>  <h4 className="UC-name"> Christ New Testament Deemed University </h4></div>  </div> <button className="fake-btn">Fake</button></div>
           <div className="inner-box bg-dark "><p>Delhi</p></div>
