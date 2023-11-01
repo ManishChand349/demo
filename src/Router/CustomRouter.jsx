@@ -4,6 +4,7 @@ import {Trust} from "../components/Trust"
 import {ReferEarn} from "../components/ReferEarn"
 import {ContactUs} from "../components/ContactUs"
 import {Policy} from "../components/Policy"
+import {GoCHireSupport} from "../components/GoCHireSupport"
 import {ListOfFakeUniversitie} from "../components/ListOfFakeUniversitie"
 
 function CustomRouter() {
@@ -16,6 +17,7 @@ function CustomRouter() {
                <Route path="/policy" element={<Policy/>}/>
                <Route path="/contactus" element={<ContactUs/>}/>
                <Route path="/ListOfFakeUniversities" element={<ListOfFakeUniversitie/>}/>
+               <Route path="/job-hire" element={<GoCHireSupport/>}/>
           </Routes>
      )
      

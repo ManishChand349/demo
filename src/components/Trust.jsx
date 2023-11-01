@@ -322,6 +322,7 @@ const Main = styled.div`
 }
 .main-heading-h1{
   color: #000;
+  font-weight: 500;
 }
 .row-1{
      margin: auto;
@@ -339,11 +340,12 @@ const Main = styled.div`
      margin: auto;
 }
 .main-heading{
+
 }
 .main-heading > h1 {
      text-align: center;
      margin: 20px 0;
-     font-weight: 100;
+     font-weight: 500;
      font-size: 44px;
 }
 .main-heading ,.para{
@@ -374,7 +376,7 @@ const Main = styled.div`
      align-items: center;
 }
 .heading {
-     font-weight: 100;
+     font-weight: 500;
      font-size: 35px;
      color: #000;
 }

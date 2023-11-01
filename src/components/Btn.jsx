@@ -5,12 +5,12 @@ import { Link } from "react-router-dom"
 function Btn() {
   return (
     <div style={{textAlign: "center", margin: "20px", display: "flex", justifyContent: "space-evenly"}}  >
-    {/* <Link  to="/trust" >
+   <Link  to="/trust" >
     Trust Page
-    </Link> */}
-   {/* <Link to="/Checklist">
+    </Link> 
+    <Link to="/Checklist">
     Checklist Page
-    </Link>  */}
+    </Link>  
     <Link to="/referEarn">
     Refer&Earn
     </Link>
@@ -22,6 +22,9 @@ function Btn() {
     </Link>
     <Link to="/ListOfFakeUniversities">
     ListOfFakeUniversities
+    </Link>
+    <Link to="/job-hire">
+    GoC Hire Support
     </Link>
     </div>
   )
