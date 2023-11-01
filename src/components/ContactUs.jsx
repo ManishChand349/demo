@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import styled from "styled-components";
 import phone from "../assets/Contact-img/24-hours.webp";
 import { BsFillStarFill } from "react-icons/bs";
@@ -147,13 +147,82 @@ export const ContactUs = () => {
                       required
                     />
                   </div>
+                
                   <div>
-                    <label>Message:</label>
-                    <textarea name="message" value="" onChange="" required />
+                    <input
+                      className="name-input"
+                      type="text"
+                      autoComplete="off"
+                      placeholder="Mobile Number"
+                      inputmode="numeric"
+                      value=""
+                      onChange=""
+                      required
+                    />
+
+                  </div>
+                 
+                  <div>
+                    <input
+                      className="name-input"
+                      type="text"
+                      autoComplete="off"
+                      placeholder="Email"
+                      inputmode="email"
+                      value=""
+                      onChange=""
+                      required
+                    />
+
                   </div>
 
                   <div>
-                    <button type="submit">Submit</button>
+                    <input
+                      className="name-input"
+                      type="text"
+                      autoComplete="off"
+                      placeholder="Select a Course"
+                      inputmode="email"
+                      value=""
+                      onChange=""
+                      required
+                    />
+
+                  </div>
+                   <div className="gridd">
+                  <div>
+                   <input
+                      className="name-inputt"
+                      type="text"
+                      autoComplete="off"
+                      placeholder="Select State"
+                      inputmode=""
+                      value=""
+                      onChange=""
+                      required
+                    />
+                    </div>
+                     <div>
+                   <input
+                      className="name-inputt"
+                      type="text"
+                      autoComplete="off"
+                      placeholder="Select City"
+                      inputmode=""
+                      value=""
+                      onChange=""
+                      required
+                    /></div>
+               
+                
+               </div>
+                  <div>
+                  
+                    <textarea className="name-inputtt" name="message" value="" onChange="" required />
+                  </div>
+
+                  <div>
+                    <button className="btnn" type="submit">Submit</button>
                   </div>
                 </form>
               </div>
@@ -304,5 +373,32 @@ const Main = styled.div`
           border-radius: 10px;
           font-size: 1.2rem;
           margin-bottom: 10px;
-         }
+         }   .name-inputt{
+          padding: 10px 0px 10px 0px;
+          border-radius: 10px;
+          font-size: 1.2rem;
+          margin-bottom: 10px;
+          width:215px;
+
+         } 
+         
+         .gridd{
+      
+          display:grid;
+          grid-template-columns: 38% 38%;
+         }  .name-inputtt{
+          padding: 10px 0px 10px 0px;
+          border-radius: 4px;
+          font-size: 1.2rem;
+          margin-bottom: 10px;
+          width: 443px;
+          height: 76px;
+      }.btnn{
+        padding: 15px 206px 15px 194px;
+        background-color: #f75d34;
+        border-color: #f75d34;
+       color:white;
+      }
+      
+      
        `;
