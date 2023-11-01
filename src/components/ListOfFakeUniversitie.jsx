@@ -736,6 +736,7 @@ const Main = styled.div`
   padding: 3px 8px;
   border-radius: 7px;
   cursor: pointer;
+  font-weight: 600;
 
 }
 .icons2{
