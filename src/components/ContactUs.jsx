@@ -3,6 +3,7 @@ import styled from "styled-components";
 import phone from "../assets/Contact-img/24-hours.webp";
 import { BsFillStarFill } from "react-icons/bs";
 import { CiMail, CiMobile3, CiLocationOn } from "react-icons/ci";
+import { FiCornerUpRight } from "react-icons/fi";
 
 export const ContactUs = () => {
   return (
@@ -234,7 +235,8 @@ export const ContactUs = () => {
             <section className="visit-Us">
               <div>
                 <h1 className="visit-us-heading">
-                  Call doesn't feel <br /> enough <span className="blue">Visit Us</span>
+                  Call doesn't feel <br /> enough{" "}
+                  <span className="blue">Visit Us</span>
                 </h1>
                 <p className="visit-us-para">
                   At GoCollege, it is our constant endeavour to provide great
@@ -242,13 +244,22 @@ export const ContactUs = () => {
                   created multiple ways to reach out to us
                 </p>
                 <button className="call-btn">Call Now</button>
-                <p>
-                  <span>icone</span> Visit Us: (10 AM to 7 PM)
+                <p className="visit-us-para-2">
+                  <CiLocationOn className="icon-2" /> Visit Us :{" "}
+                  <span className="blue-2"> (10 AM to 7 PM) </span>
                 </p>
-                <h3>C-1234 A block Sector 45, Noida, UK 20123</h3>
+                <h3 className="visit-us-address">
+                  {" "}
+                  <FiCornerUpRight className="icon-3" /> C-1234 A block Sector
+                  45, Noida, UK 20123
+                </h3>
               </div>
               <div>
-                <img src="" alt="img" />
+                <img
+                  className="imgs"
+                  src="https://plus.unsplash.com/premium_photo-1697945800303-2be12402095e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="img"
+                />
               </div>
             </section>
           </div>
@@ -259,7 +270,7 @@ export const ContactUs = () => {
 };
 const Main = styled.div`
       
-        *{padding: 0;
+*{padding: 0;
           margin: 0;
           font-family: 'Poppins', sans-serif;
         }
@@ -367,9 +378,9 @@ const Main = styled.div`
          .gender-box{
           display: flex;
           margin: 20px 0;
-        gap: 10px;
-         }
-         .input-radio{
+        gap: 10px;         }
+         
+        .input-radio{
           width: 20px;
          }
          .name-input{
@@ -398,7 +409,8 @@ const Main = styled.div`
           margin-bottom: 10px;
           width: 443px;
           height: 76px;
-      }.btnn{
+      }
+      .btnn{
         padding: 15px 206px 15px 194px;
         background-color: #f75d34;
         border-color: #f75d34;
@@ -429,4 +441,38 @@ const Main = styled.div`
         padding: 8px 14px;
         border-radius: 10px;
       }
+      .icon-2{
+        font-size: 1.4rem;
+        color: blue;
+        margin-right: 8px;
+      }
+      .visit-us-para-2{
+        font-size: 1rem;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+      }
+      .blue-2{
+
+        color: blue;
+        margin-left: 8px;
+
+      }
+      .icon-3{
+        background-color: #ECF9FF;
+        padding: 8px;
+        font-size: 1.4rem;
+        margin-right: 7px;
+            }
+            .visit-us-address{
+              display: flex;
+              align-items: center;
+              font-size: 1rem;
+              margin-top: 15px;
+
+            }
+            .imgs{
+              width: 640px;
+              border-radius: 6px;
+            }
        `;
