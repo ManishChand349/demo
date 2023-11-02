@@ -276,6 +276,8 @@ export const ContactUs = () => {
                 <p className="p-2"> <CiLocationOn/>  Visit Us : <span className="blue-3">(10 AM to 7 PM)</span></p>
                 </div>
                 <h4 className="need-heading">Need answers ? call us!</h4>
+                <p className="para-2"> Our team of expert are available for you around the clock</p>
+                <button className="booking-btn"> Book your 30 Mins Expert Career Advice </button>
               </div>
               <div>
               <img
@@ -284,6 +286,12 @@ export const ContactUs = () => {
                   alt="img"
                 />
               </div>
+              <div>
+              <button className="issue-btn">
+                <h4 >If you have Any Issue Raise Your ComPlain Here</h4>
+              </button>
+              </div>
+
             </section>
           </div>
         </div>
@@ -547,5 +555,43 @@ const Main = styled.div`
             .need-heading{
               margin-top: 20px;
               font-size: 1rem;
+            }
+            .para-2{
+              font-size: 1.1rem;
+              margin: 15px 0;
+            }
+            .booking-btn{
+              padding: 8px 12px;
+              font-weight: bold;
+              color: #fff;
+              border: none;
+              border-radius: 8px;
+              background-color: #2192FF;
+              cursor: pointer;
+              border: 0.1rem solid #2192FF;
+
+            }
+            .booking-btn:hover{
+              background-color: #fff;
+              color: #2192FF;
+              border: 0.1rem solid #2192FF;
+
+            }
+            .issue-btn{
+              padding: 8px 12px;
+              border: none;
+              background-color: #FAEBD7;
+              color: #f75d34;
+              border-radius: 8px;
+              margin-top: 18px;
+              box-shadow: 3px 3px 10px #DAFFFB;
+              box-shadow: -3px -3px 10px #DAFFFB;
+            }
+            .issue-btn h4{
+              font-size: 1rem;
+            }
+            .issue-btn:hover{
+              color: #2192FF;
+              cursor: pointer;
             }
        `;
