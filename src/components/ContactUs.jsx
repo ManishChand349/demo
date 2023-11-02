@@ -323,7 +323,7 @@ const Main = styled.div`
           padding-left: 70px;
         }
         .container{
-          max-width: 80%;
+          max-width: 70%;
           margin: auto;
         }
         .box-2{
@@ -363,7 +363,7 @@ const Main = styled.div`
          .contact-info{
          display: grid;
          grid-template-columns: 33% 33% 33%;
-         gap: 15px;
+         gap: 25px;
          }
          .icons{
           font-size: 3rem;
