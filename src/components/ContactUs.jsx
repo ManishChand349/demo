@@ -2,8 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import phone from "../assets/Contact-img/24-hours.webp";
 import { BsFillStarFill } from "react-icons/bs";
-import { CiMail, CiMobile3, CiLocationOn } from "react-icons/ci";
+import { CiMail, CiMobile3, CiLocationOn  } from "react-icons/ci";
 import { FiCornerUpRight } from "react-icons/fi";
+import { BiPhone , BiCog } from "react-icons/bi";
+import { AiOutlineMail } from "react-icons/ai";
 
 export const ContactUs = () => {
   return (
@@ -262,6 +264,27 @@ export const ContactUs = () => {
                 />
               </div>
             </section>
+
+            <section className="Expert-talk">
+              <div>
+                  <h1 className="Expert-talk-heading">Talk to our Experts</h1>
+                <div className="support-div">
+                <button className="support-btn">Support</button>
+                <p className="p-1"><BiPhone/>New Student : <span className="blue-3">1800-123-2342</span></p>
+                <p> <BiCog/> Existing Student : <span className="blue-3">1800-123-2342</span></p>
+                <p> <AiOutlineMail/> Email : <span className="blue-3">cvcare@gocollege.com</span></p>
+                <p className="p-2"> <CiLocationOn/>  Visit Us : <span className="blue-3">(10 AM to 7 PM)</span></p>
+                </div>
+                <h4 className="need-heading">Need answers ? call us!</h4>
+              </div>
+              <div>
+              <img
+                  className="imgs"
+                  src="https://plus.unsplash.com/premium_photo-1697945800303-2be12402095e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="img"
+                />
+              </div>
+            </section>
           </div>
         </div>
       </Main>
@@ -435,7 +458,7 @@ const Main = styled.div`
       }
       .call-btn{
         color: #fff;
-        background-color: blue;
+        background-color: #2192FF;
         border: none;
         font-weight: 500;
         padding: 8px 14px;
@@ -471,8 +494,58 @@ const Main = styled.div`
               margin-top: 15px;
 
             }
+            .Expert-talk-heading{
+              font-size: 2.2rem;
+              margin-bottom: 20px;
+            }
             .imgs{
               width: 640px;
               border-radius: 6px;
+            }
+            
+            .Expert-talk{
+              display: grid;
+              grid-template-columns: 50% 50%;
+              gap: 40px;
+              margin-top: 40px;
+            }
+            .support-div{
+              display: flex;
+              flex-direction: column;
+              background-color: #ECF9FF;
+              margin-right: 300px;
+              border-radius: 10px;
+            }
+            .support-div P{
+              display: flex;
+              align-items: center;
+              font-size: 1.1rem;
+              margin: 10px 0 0 10px;
+            }
+            .blue-3{
+              color: #2192FF;
+              font-weight: bold;
+              margin-left: 10px;
+            }
+            .p-1 {
+              padding-top: 15px !important;
+            }
+            .p-2 {
+              padding-bottom: 30px !important;
+            }
+            .support-btn{
+              max-width: 30%;
+              margin: auto;
+              border: none;
+              background-color: #2192FF;
+              color: #fff;
+              font-weight: bold;
+              font-size: 0.7rem;
+              border-radius: 5px;
+              padding: 1px 7px;
+            }
+            .need-heading{
+              margin-top: 20px;
+              font-size: 1rem;
             }
        `;
