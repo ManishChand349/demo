@@ -1,4 +1,4 @@
- import React from "react";
+import React from "react";
 import styled from "styled-components";
 import phone from "../assets/Contact-img/24-hours.webp";
 import { BsFillStarFill } from "react-icons/bs";
@@ -147,7 +147,7 @@ export const ContactUs = () => {
                       required
                     />
                   </div>
-                
+
                   <div>
                     <input
                       className="name-input"
@@ -159,9 +159,8 @@ export const ContactUs = () => {
                       onChange=""
                       required
                     />
-
                   </div>
-                 
+
                   <div>
                     <input
                       className="name-input"
@@ -173,7 +172,6 @@ export const ContactUs = () => {
                       onChange=""
                       required
                     />
-
                   </div>
 
                   <div>
@@ -187,42 +185,47 @@ export const ContactUs = () => {
                       onChange=""
                       required
                     />
-
                   </div>
-                   <div className="gridd">
+                  <div className="gridd">
+                    <div>
+                      <input
+                        className="name-inputt"
+                        type="text"
+                        autoComplete="off"
+                        placeholder="Select State"
+                        inputmode=""
+                        value=""
+                        onChange=""
+                        required
+                      />
+                    </div>
+                    <div>
+                      <input
+                        className="name-inputt"
+                        type="text"
+                        autoComplete="off"
+                        placeholder="Select City"
+                        inputmode=""
+                        value=""
+                        onChange=""
+                        required
+                      />
+                    </div>
+                  </div>
                   <div>
-                   <input
-                      className="name-inputt"
-                      type="text"
-                      autoComplete="off"
-                      placeholder="Select State"
-                      inputmode=""
+                    <textarea
+                      className="name-inputtt"
+                      name="message"
                       value=""
                       onChange=""
                       required
                     />
-                    </div>
-                     <div>
-                   <input
-                      className="name-inputt"
-                      type="text"
-                      autoComplete="off"
-                      placeholder="Select City"
-                      inputmode=""
-                      value=""
-                      onChange=""
-                      required
-                    /></div>
-               
-                
-               </div>
-                  <div>
-                  
-                    <textarea className="name-inputtt" name="message" value="" onChange="" required />
                   </div>
 
                   <div>
-                    <button className="btnn" type="submit">Submit</button>
+                    <button className="btnn" type="submit">
+                      Submit
+                    </button>
                   </div>
                 </form>
               </div>
@@ -230,10 +233,10 @@ export const ContactUs = () => {
 
             <section className="visit-Us">
               <div>
-                <h1>
-                  Call doesn't feel <br /> enough <span>Visit Us</span>
+                <h1 className="visit-us-heading">
+                  Call doesn't feel <br /> enough <span className="blue">Visit Us</span>
                 </h1>
-                <p>
+                <p className="visit-us-para">
                   At GoCollege, it is our constant endeavour to provide great
                   customer experience. In case you require assistance, we have
                   created multiple ways to reach out to us
@@ -245,7 +248,7 @@ export const ContactUs = () => {
                 <h3>C-1234 A block Sector 45, Noida, UK 20123</h3>
               </div>
               <div>
-                <img src="" alt="" />
+                <img src="" alt="img" />
               </div>
             </section>
           </div>
@@ -273,7 +276,7 @@ const Main = styled.div`
           padding: 10px 0;
           margin-bottom: 50px;
         }
-
+        
         .main-heading{
           color: #fff;
           text-align: center;
@@ -286,7 +289,7 @@ const Main = styled.div`
           padding-left: 70px;
         }
         .container{
-          max-width: 90%;
+          max-width: 80%;
           margin: auto;
         }
         .box-2{
@@ -324,17 +327,20 @@ const Main = styled.div`
           margin-bottom: 50px;
          }
          .contact-info{
-          display: flex;
-          justify-content: space-between;
-          
+         display: grid;
+         grid-template-columns: 33% 33% 33%;
+         gap: 15px;
          }
          .icons{
           font-size: 3rem;
            color: blue;
           
          }
-         .phone ,.location , .mail{
+        .phone ,.location , .mail{
           text-align: center;
+          padding: 10px 20px;
+          background-color: #ECF9FF;
+          border-radius: 8px;
          }
          .box-4{
           border: 1px solid blue;
@@ -353,8 +359,6 @@ const Main = styled.div`
          }
 
          .contact-form{
-
-         
           margin-top: 50px;
         display: grid;
         grid-template-columns: 50% 50%;
@@ -373,8 +377,9 @@ const Main = styled.div`
           border-radius: 10px;
           font-size: 1.2rem;
           margin-bottom: 10px;
-         }   .name-inputt{
-          padding: 10px 0px 10px 0px;
+         }  
+          .name-inputt{
+          padding: 10px 0px;
           border-radius: 10px;
           font-size: 1.2rem;
           margin-bottom: 10px;
@@ -399,6 +404,29 @@ const Main = styled.div`
         border-color: #f75d34;
        color:white;
       }
-      
-      
+      .visit-Us{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 100px;
+        gap: 40px;
+      }
+      .visit-us-heading{
+        font-weight: 300;
+        font-size: 2.2rem;
+      }
+      .blue{
+        color: blue;
+      }
+      .visit-us-para{
+        font-size: 1.1rem;
+        margin: 12px 0;
+      }
+      .call-btn{
+        color: #fff;
+        background-color: blue;
+        border: none;
+        font-weight: 500;
+        padding: 8px 14px;
+        border-radius: 10px;
+      }
        `;
