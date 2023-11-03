@@ -67,16 +67,22 @@ export const ContactUs = () => {
                     <CiMail />
                   </span>
                   <div className="box-4">
-                    <h4> For Job-Related Query</h4>
-                    <h2>hr@GoCollege.com</h2>
+                    <h4 className="box-4-1st-heading">
+                      {" "}
+                      For Job-Related Query
+                    </h4>
+                    <h2 className="box-4-2nd-heading">hr@GoCollege.com</h2>
                   </div>
                   <div className="box-4">
-                    <h4> For HR Assistance</h4>
-                    <h2>hrhelpdesk@GoCollege.com</h2>
+                    <h4 className="box-4-1st-heading"> For HR Assistance</h4>
+                    <h2 className="box-4-2nd-heading">
+                      {" "}
+                      hrhelpdesk@GoCollege.com
+                    </h2>
                   </div>
                   <div className="box-4">
-                    <h4> For Help & Support</h4>
-                    <h2>info@GoCollege.com</h2>
+                    <h4 className="box-4-1st-heading"> For Help & Support</h4>
+                    <h2 className="box-4-2nd-heading">info@GoCollege.com</h2>
                   </div>
                 </div>
                 <div className="phone">
@@ -151,18 +157,7 @@ export const ContactUs = () => {
                     />
                   </div>
 
-                  <div>
-                    <input
-                      className="name-input"
-                      type="text"
-                      autoComplete="off"
-                      placeholder="Mobile Number"
-                      inputmode="numeric"
-                      value=""
-                      onChange=""
-                      required
-                    />
-                  </div>
+                  <div></div>
 
                   <div>
                     <input
@@ -323,295 +318,296 @@ const Main = styled.div`
       
 *{padding: 0;
           margin: 0;
-          font-family: 'Poppins', sans-serif;
-        }
-        .banner{
-          background-color: blue;
-          padding-bottom: 10px;
-        }
-        .inner-banner{
-          display: grid;
-          grid-template-columns: 10% 80%;
-           margin: 20px 50px;
-          background-color: #fff;
-          border-radius: 10px;
-          padding: 10px 0;
-          margin-bottom: 50px;
-        }
-        
-        .main-heading{
-          color: #fff;
-          text-align: center;
-          padding-top: 50px;
-          font-size: 1.2rem;
-        }
-        .phone-img{
-          width: 120px;
-          padding-top: 10px;
-          padding-left: 70px;
-        }
-        .container{
-          max-width: 70%;
-          margin: auto;
-        }
-        .box-2{
-          display: flex;
-          justify-content: space-around;
-        }
-        .col-1 , .col-2{
-          margin-top: 30px;
-        }
-        .col-1 >h1{
-          margin-bottom: 8px;
-          font-weight: 510;
-          font-size: 1.8rem;
-        }
-        .col-1 >p , .col-2 > p{
-          font-size: 1.3rem;
-          margin-bottom: 10px;
-        }
-        .col-3{
+   font-family: 'Poppins', sans-serif;
+ }
+ .banner{
+   background-color: blue;
+   padding-bottom: 10px;
+ }
+ .inner-banner{
+   display: grid;
+   grid-template-columns: 10% 80%;
+    margin: 20px 50px;
+   background-color: #fff;
+   border-radius: 10px;
+   padding: 10px 0;
+   margin-bottom: 50px;
+ }
+ 
+ .main-heading{
+   color: #fff;
+   text-align: center;
+   padding-top: 50px;
+   font-size: 1.2rem;
+ }
+ .phone-img{
+   width: 120px;
+   padding-top: 10px;
+   padding-left: 70px;
+ }
+ .container{
+   max-width: 70%;
+   margin: auto;
+ }
+ .box-2{
+   display: flex;
+   justify-content: space-around;
+ }
+ .col-1 , .col-2{
+   margin-top: 30px;
+ }
+ .col-1 >h1{
+   margin-bottom: 8px;
+   font-weight: 510;
+   font-size: 1.8rem;
+ }
+ .col-1 >p , .col-2 > p{
+   font-size: 1.3rem;
+   margin-bottom: 10px;
+ }
+ .col-3{
           margin-top: 35px;
-        }
-        .star{
-          font-size: 1rem;
-          margin-top: 20px !important;
-        }
-          
-          .heading-get-in{
-            margin-top: 50px;
-            text-align: center;
-            font-size: 2.2rem;
-          }
-         .para{
-          text-align: center;
-          font-size: 1.4rem;
-          margin-bottom: 50px;
-         }
-         .contact-info{
-         display: grid;
-         grid-template-columns: 33% 33% 33%;
-         gap: 25px;
-         }
-         .icons{
-          font-size: 3rem;
-           color: blue;
-          
-         }
-        .phone ,.location , .mail{
-          text-align: center;
-          padding: 10px 20px;
-          background-color: #ECF9FF;
-          border-radius: 8px;
-         }
-         .box-4{
-          border: 1px solid blue;
-          text-align: center;
-          margin-top: 10px;
-          padding: 12px 50px;
-          border-radius: 10px;
-         }
-         h4{
-          font-size: 0.9rem;
-         }
-         h2{
-          font-size: 1.3rem;
-          color: blue;
-          font-weight: 900;
-         }
+ }
+ .star{
+   font-size: 1rem;
+   margin-top: 20px !important;
+ }
+   
+   .heading-get-in{
+     margin-top: 50px;
+     text-align: center;
+     font-size: 2.2rem;
+   }
+  .para{
+   text-align: center;
+   font-size: 1.4rem;
+   margin-bottom: 50px;
+  }
+  .box-4-2nd-heading{
+   font-size: 1.2rem;
+   font-weight: 700;
+  }
+  .box-4-1st-heading{
+            font-size: 0.8rem;
+  }
+  .contact-info{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 25px;
+  }
+  .icons{
+   font-size: 3rem;
+    color: blue;
+   
+  }
+ .phone ,.location , .mail{
+   text-align: center;
+   padding: 10px 20px;
+   background-color: #ECF9FF;
+   border-radius: 8px;
+  }
+  .box-4{
+   border: 1px solid blue;
+   text-align: center;
+   margin-top: 10px;
+   padding: 12px 50px;
+   border-radius: 10px;
+  }
+  h4{
+   font-size: 0.9rem;
+  }
+  h2{
+   font-size: 1.3rem;
+   color: blue;
+   font-weight: 900;
+  }
+ .contact-form{
+ margin-top: 50px;
+      display: grid;
+      grid-template-columns: 50% 50%;
+   gap: 40px;
+    }
+    .gender-box{
+     display: flex;
+     margin: 20px 0;
+   gap: 10px;         
+ }
+    
+   .input-radio{
+     width: 20px;
+    }
+   .name-input{
+     padding: 15px 200px 15px 10px;
+     border-radius: 10px;
+     font-size: 1.2rem;
+     margin-bottom: 10px;
+    }  
+  .name-inputt{
+  padding: 10px 0px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  width:215px;
+ }  
+ .gridd{
+  display:grid;
+  grid-template-columns: 38% 38%;
+ }
+  .name-inputtt{
+  padding: 10px 0px 10px 0px;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  width: 443px;
+  height: 76px;
+ }
+ .btnn{
+   padding: 15px 206px 15px 194px;
+   background-color: #f75d34;
+   border-color: #f75d34;
+  color:white;
+ }
+ .visit-Us{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   margin-top: 100px;
+   gap: 40px;
+ }
+ .visit-us-heading{
+   font-weight: 300;
+   font-size: 2.2rem;
+ }
+ .blue{
+  color: blue;
+}
+.visit-us-para{
+  font-size: 1.1rem;
+  margin: 12px 0;
+}
+.call-btn{
+  color: #fff;
+  background-color: #2192FF;
+  border: none;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 10px;
+}
+.icon-2{
+  font-size: 1.4rem;
+  color: blue;
+  margin-right: 8px;
+}
+.visit-us-para-2{
+  font-size: 1rem;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.blue-2{
+  color: blue;
+  margin-left: 8px;
 
-         .contact-form{
-          margin-top: 50px;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        gap: 40px;
-         }
-         .gender-box{
-          display: flex;
-          margin: 20px 0;
-        gap: 10px;         }
-         
-        .input-radio{
-          width: 20px;
-         }
-         .name-input{
-          padding: 15px 200px 15px 10px;
-          border-radius: 10px;
-          font-size: 1.2rem;
-          margin-bottom: 10px;
-         }  
-          .name-inputt{
-          padding: 10px 0px;
-          border-radius: 10px;
-          font-size: 1.2rem;
-          margin-bottom: 10px;
-          width:215px;
-
-         } 
-         
-         .gridd{
-      
-          display:grid;
-          grid-template-columns: 38% 38%;
-         }  .name-inputtt{
-          padding: 10px 0px 10px 0px;
-          border-radius: 4px;
-          font-size: 1.2rem;
-          margin-bottom: 10px;
-          width: 443px;
-          height: 76px;
-      }
-      .btnn{
-        padding: 15px 206px 15px 194px;
-        background-color: #f75d34;
-        border-color: #f75d34;
-       color:white;
-      }
-      .visit-Us{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        margin-top: 100px;
-        gap: 40px;
-      }
-      .visit-us-heading{
-        font-weight: 300;
-        font-size: 2.2rem;
-      }
-      .blue{
-        color: blue;
-      }
-      .visit-us-para{
-        font-size: 1.1rem;
-        margin: 12px 0;
-      }
-      .call-btn{
-        color: #fff;
-        background-color: #2192FF;
-        border: none;
-        font-weight: 500;
-        padding: 8px 14px;
-        border-radius: 10px;
-      }
-      .icon-2{
-        font-size: 1.4rem;
-        color: blue;
-        margin-right: 8px;
-      }
-      .visit-us-para-2{
-        font-size: 1rem;
-        margin-top: 10px;
-        display: flex;
-        align-items: center;
-      }
-      .blue-2{
-
-        color: blue;
-        margin-left: 8px;
-
-      }
-      .icon-3{
-        background-color: #ECF9FF;
-        padding: 8px;
-        font-size: 1.4rem;
-        margin-right: 7px;
-            }
-            .visit-us-address{
-              display: flex;
-              align-items: center;
-              font-size: 1rem;
-              margin-top: 15px;
-
-            }
-            .Expert-talk-heading{
-              font-size: 2.2rem;
-              margin-bottom: 20px;
-            }
-            .imgs{
-              width: 640px;
-              border-radius: 6px;
-            }
-            
-            .Expert-talk{
-              display: grid;
-              grid-template-columns: 50% 50%;
-              gap: 40px;
-              margin-top: 40px;
-            }
-            .support-div{
-              display: flex;
-              flex-direction: column;
-              background-color: #ECF9FF;
-              margin-right: 300px;
-              border-radius: 10px;
-            }
-            .support-div P{
-              display: flex;
-              align-items: center;
-              font-size: 1.1rem;
-              margin: 10px 0 0 10px;
-            }
-            .blue-3{
-              color: #2192FF;
-              font-weight: bold;
-              margin-left: 10px;
-            }
-            .p-1 {
-              padding-top: 15px !important;
-            }
-            .p-2 {
-              padding-bottom: 30px !important;
-            }
-            .support-btn{
-              max-width: 30%;
-              margin: auto;
-              border: none;
-              background-color: #2192FF;
-              color: #fff;
-              font-weight: bold;
-              font-size: 0.7rem;
-              border-radius: 5px;
-              padding: 1px 7px;
-            }
-            .need-heading{
-              margin-top: 20px;
-              font-size: 1rem;
-            }
-            .para-2{
-              font-size: 1.1rem;
-              margin: 15px 0;
-            }
-            .booking-btn{
-              padding: 10px 15px;
-              font-weight: bold;
-              color: #fff;
-              border: none;
-              border-radius: 8px;
-              background-color: #2192FF;
-              cursor: pointer;
-              border: 0.1rem solid #2192FF;
-
-            }
-            .booking-btn:hover{
-              background-color: #fff;
-              color: #2192FF;
-              border: 0.1rem solid #2192FF;
-
-            }
-            .issue-btn{
-              padding: 8px 12px;
-              border: none;
-              background-color: #FAEBD7;
-              color: #f75d34;
-              border-radius: 8px;
-              margin-top: 18px;
-              box-shadow: 3px 3px 10px #DAFFFB;
-              box-shadow: -3px -3px 10px #DAFFFB;
-            }
-            .issue-btn h4{
-              font-size: 1rem;
-            }
-            .issue-btn:hover{
-              color: #2192FF;
-              cursor: pointer;
-            }
+  }
+  .icon-3{
+    background-color: #ECF9FF;
+    padding: 8px;
+   font-size: 1.4rem;
+   margin-right: 7px;
+       }
+ .visit-us-address{
+         display: flex;
+         align-items: center;
+         font-size: 1rem;
+         margin-top: 15px;
+   }
+  .Expert-talk-heading{
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+ }
+ .imgs{
+   width: 640px;
+   border-radius: 6px;
+ }
+ 
+ .Expert-talk{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   gap: 40px;
+   margin-top: 40px;
+ }
+ .support-div{
+   display: flex;
+   flex-direction: column;
+   background-color: #ECF9FF;
+   margin-right: 300px;
+   border-radius: 10px;
+ }
+  .support-div P{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 10px 0 0 10px;
+  }
+  .blue-3{
+    color: #2192FF;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  .p-1 {
+    padding-top: 15px !important;
+  }
+  .p-2 {
+    padding-bottom: 30px !important;
+  }
+  .support-btn{
+    max-width: 30%;
+    margin: auto;
+    border: none;
+    background-color: #2192FF;
+    color: #fff;
+   font-weight: bold;
+   font-size: 0.7rem;
+   border-radius: 5px;
+   padding: 1px 7px;
+ }
+ .need-heading{
+   margin-top: 20px;
+   font-size: 1rem;
+ }
+ .para-2{
+   font-size: 1.1rem;
+   margin: 15px 0;
+ }
+ .booking-btn{
+   padding: 10px 15px;
+   font-weight: bold;
+   color: #fff;
+   border: none;
+   border-radius: 8px;
+   background-color: #2192FF;
+   cursor: pointer;
+   border: 0.1rem solid #2192FF;
+   }
+.booking-btn:hover{
+background-color: #fff;
+color: #2192FF;
+border: 0.1rem solid #2192FF;
+}
+.issue-btn{
+  padding: 8px 12px;
+  border: none;
+  background-color: #FAEBD7;
+  color: #f75d34;
+  border-radius: 8px;
+  margin-top: 18px;
+  box-shadow: 3px 3px 10px #DAFFFB;
+  box-shadow: -3px -3px 10px #DAFFFB;
+ }
+  .issue-btn h4{
+  font-size: 1rem;
+  }
+  .issue-btn:hover{
+  color: #2192FF;
+  cursor: pointer;
+  }
 `;
