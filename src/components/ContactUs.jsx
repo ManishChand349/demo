@@ -984,7 +984,7 @@ border: 0.1rem solid #2192FF;
     margin-top: 50px;
 }
 .visit-us-heading {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.6rem;
     text-align: center;
 }
