@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import phone from "../assets/Contact-img/24-hours.webp";
 import { BsFillStarFill } from "react-icons/bs";
-import { CiMail, CiMobile3, CiLocationOn  } from "react-icons/ci";
+import { CiMail, CiMobile3, CiLocationOn } from "react-icons/ci";
 import { FiCornerUpRight } from "react-icons/fi";
-import { BiPhone , BiCog } from "react-icons/bi";
+import { BiPhone, BiCog } from "react-icons/bi";
 import { AiOutlineMail } from "react-icons/ai";
 
 export const ContactUs = () => {
@@ -267,31 +267,51 @@ export const ContactUs = () => {
 
             <section className="Expert-talk">
               <div>
-                  <h1 className="Expert-talk-heading">Talk to our Experts</h1>
+                <h1 className="Expert-talk-heading">Talk to our Experts</h1>
                 <div className="support-div">
-                <button className="support-btn">Support</button>
-                <p className="p-1"><BiPhone/>New Student : <span className="blue-3">1800-123-2342</span></p>
-                <p> <BiCog/> Existing Student : <span className="blue-3">1800-123-2342</span></p>
-                <p> <AiOutlineMail/> Email : <span className="blue-3">cvcare@gocollege.com</span></p>
-                <p className="p-2"> <CiLocationOn/>  Visit Us : <span className="blue-3">(10 AM to 7 PM)</span></p>
+                  <button className="support-btn">Support</button>
+                  <p className="p-1">
+                    <BiPhone />
+                    New Student : <span className="blue-3">1800-123-2342</span>
+                  </p>
+                  <p>
+                    {" "}
+                    <BiCog /> Existing Student :{" "}
+                    <span className="blue-3">1800-123-2342</span>
+                  </p>
+                  <p>
+                    {" "}
+                    <AiOutlineMail /> Email :{" "}
+                    <span className="blue-3">cvcare@gocollege.com</span>
+                  </p>
+                  <p className="p-2">
+                    {" "}
+                    <CiLocationOn /> Visit Us :{" "}
+                    <span className="blue-3">(10 AM to 7 PM)</span>
+                  </p>
                 </div>
                 <h4 className="need-heading">Need answers ? call us!</h4>
-                <p className="para-2"> Our team of expert are available for you around the clock</p>
-                <button className="booking-btn"> Book your 30 Mins Expert Career Advice </button>
+                <p className="para-2">
+                  {" "}
+                  Our team of expert are available for you around the clock
+                </p>
+                <button className="booking-btn">
+                  {" "}
+                  Book your 30 Mins Expert Career Advice{" "}
+                </button>
               </div>
               <div>
-              <img
+                <img
                   className="imgs"
                   src="https://plus.unsplash.com/premium_photo-1697945800303-2be12402095e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="img"
                 />
               </div>
               <div>
-              <button className="issue-btn">
-                <h4 >If you have Any Issue Raise Your ComPlain Here</h4>
-              </button>
+                <button className="issue-btn">
+                  <h4>If you have Any Issue Raise Your ComPlain Here</h4>
+                </button>
               </div>
-
             </section>
           </div>
         </div>
@@ -594,4 +614,4 @@ const Main = styled.div`
               color: #2192FF;
               cursor: pointer;
             }
-       `;
+`;
