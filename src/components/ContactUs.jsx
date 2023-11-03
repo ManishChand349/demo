@@ -581,7 +581,7 @@ const Main = styled.div`
               margin: 15px 0;
             }
             .booking-btn{
-              padding: 8px 12px;
+              padding: 10px 15px;
               font-weight: bold;
               color: #fff;
               border: none;
