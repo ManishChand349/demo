@@ -15,16 +15,16 @@ import { AiOutlineMail } from "react-icons/ai";
 //      div.className = "button";
 //      bottom.appendChild(div);
 //    }
-   
+
 //    const buttons = document.querySelectorAll(".button");
 //    buttons[0].style.backgroundColor = "white";
-   
+
 //    const resetBg = () => {
 //      buttons.forEach((button) => {
 //        button.style.backgroundColor = "transparent";
 //      });
 //    };
-   
+
 //    buttons.forEach((button, i) => {
 //      button.addEventListener("click", () => {
 //        resetBg();
@@ -33,7 +33,6 @@ import { AiOutlineMail } from "react-icons/ai";
 //        button.style.backgroundColor = "white";
 //      });
 //    });
-   
 
 // const nextSlide = () => {
 //   slider.style.transform = `translateX(-${sliderNumber * 500}px)`;
@@ -134,13 +133,13 @@ export const ContactUs = () => {
                   <span className="icons">
                     <CiMobile3 />
                   </span>
-                  <h3>1234567890</h3>
+                  <h3 className="number">1234567890</h3>
                 </div>
                 <div className="location">
                   <span className="icons">
                     <CiLocationOn />
                   </span>
-                  <h3>C-1234 A block Sector 45, Noida, UK 20123</h3>
+                  <h3 className="address">C-1234 A block Sector 45, Noida, UK 20123</h3>
                 </div>
               </div>
             </section>
@@ -148,7 +147,7 @@ export const ContactUs = () => {
             <section className="contact-form">
               <div>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2947.227401214434!2d77.25884656050088!3d28.54381342552915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3dc72335957%3A0xc21b42d26a240ce1!2sDD-12%2C%20Block%20DD%2C%20Kalkaji%20Extension%2C%20Kalkaji%2C%20New%20Delhi%2C%20Delhi%20110019!5e0!3m2!1sen!2sin!4v1699002202844!5m2!1sen!2sin" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2947.227401214434!2d77.25884656050088!3d28.54381342552915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3dc72335957%3A0xc21b42d26a240ce1!2sDD-12%2C%20Block%20DD%2C%20Kalkaji%20Extension%2C%20Kalkaji%2C%20New%20Delhi%2C%20Delhi%20110019!5e0!3m2!1sen!2sin!4v1699002202844!5m2!1sen!2sin"
                   style={{ width: "100%", height: "100%" }}
                   frameborder="0"
                   loading="lazy"
@@ -296,7 +295,7 @@ export const ContactUs = () => {
                   45, Noida, UK 20123
                 </h3>
               </div>
-              <div className="slider">
+              <div className="img-div">
                 <img
                   className="image"
                   src="https://plus.unsplash.com/premium_photo-1697945800303-2be12402095e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -340,7 +339,7 @@ export const ContactUs = () => {
                   Book your 30 Mins Expert Career Advice{" "}
                 </button>
               </div>
-              <div>
+              <div className="img-div">
                 <img
                   className="image"
                   src="https://plus.unsplash.com/premium_photo-1697945800303-2be12402095e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -655,4 +654,367 @@ border: 0.1rem solid #2192FF;
   color: #2192FF;
   cursor: pointer;
   }
+   // for phone
+  @media (max-width : 320px){
+    .phone-img {
+    width: 50px;
+    padding-top: 10px;
+    padding-left: 70px;
+}
+    .main-heading {
+    font-size: 0.8rem;
+}
+.star {
+    font-size:  0.7rem;
+    margin-top: 20px!important;
+}
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.col-1>p, .col-2>p {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    /* text-align: center; */
+}
+.col-1>h1 {
+    margin-bottom: 8px;
+    font-weight: 510;
+    font-size: 1.1rem;
+    padding-top: 40px;
+}
+.col-2 {
+    margin-top: 10px;
+}
+     .contact-info {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 25px;
+}
+    .contact-form {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 40px;
+}
+.heading-get-in {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+}
+.para {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+.box-4 { 
+    padding: 12px 40px;
+}
+.box-4-2nd-heading {
+    font-size: 0.5rem;
+    font-weight: 700;
+}
+.box-4-1st-heading {
+    
+    font-weight: 700;
+}   
+.address, .number{
+  font-size: 0.8rem;
+}
+.Expert-talk {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 40px;
+    margin-top: 40px;
+}
+.Expert-talk-heading {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.need-heading {
+    margin-top: 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+.para-2 {
+    font-size: 1rem;
+    margin: 15px 0;
+    text-align: center;
+}
+.img-div{
+  display: flex;
+  justify-content: center;
+}
+.image {
+    width: 230px;
+    border-radius: 6px;
+}
+.issue-btn {
+  margin-top: 1px;
+}
+.name-input {
+    padding: 15px 5px 15px 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.name-inputtt {
+    padding: 10px 0px 10px 0px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 76px;
+}
+.name-inputt {
+    padding: 10px 0px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    width: 105px;
+}
+.btnn {
+    padding: 15px 10px 15px 194px;
+    background-color: #f75d34;
+    border-color: #f75d34;
+    color: white;
+    text-align: center;
+}
+.blue-3 {
+    color: #2192FF;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 0.7rem;
+}
+.support-div P {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    margin: 10px 0 0 10px;
+}
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+.support-div { 
+    margin-right: 3px;
+}
+.visit-Us {  
+    grid-template-columns: 100%;
+    margin-top: 50px;
+}
+.visit-us-heading {
+    font-weight: 300;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.visit-us-para {
+    font-size: 0.8rem;
+    margin: 12px 0;
+    text-align: center;
+}
+.call-btn {
+    padding: 3px 11px;
+}
+.visit-us-para-2 {
+    font-size: 0.8rem;
+}
+.icon-2 {
+    font-size: 1.1rem;   
+}
+.visit-us-address {  
+    font-size: 0.7rem;
+}
+.icon-3 {
+  font-size: 1rem;
+  padding: 5px;
+}
+
+}
+  @media (max-width : 375px){
+    .phone-img {
+    width: 50px;
+    padding-top: 10px;
+    padding-left: 70px;
+}
+    .main-heading {
+    font-size: 0.8rem;
+}
+.star {
+    font-size:  0.7rem;
+    margin-top: 20px!important;
+}
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.col-1>p, .col-2>p {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    /* text-align: center; */
+}
+.col-1>h1 {
+    margin-bottom: 8px;
+    font-weight: 510;
+    font-size: 1.1rem;
+    padding-top: 40px;
+}
+.col-2 {
+    margin-top: 10px;
+}
+     .contact-info {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 25px;
+}
+    .contact-form {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 40px;
+}
+.heading-get-in {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+}
+.para {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+.box-4 { 
+    padding: 12px 40px;
+}
+.box-4-2nd-heading {
+    font-size: 0.5rem;
+    font-weight: 700;
+}
+.box-4-1st-heading {
+    
+    font-weight: 700;
+}   
+.address, .number{
+  font-size: 0.8rem;
+}
+.Expert-talk {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 40px;
+    margin-top: 40px;
+}
+.Expert-talk-heading {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.need-heading {
+    margin-top: 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+.para-2 {
+    font-size: 1rem;
+    margin: 15px 0;
+    text-align: center;
+}
+.img-div{
+  display: flex;
+  justify-content: center;
+}
+.image {
+    width: 230px;
+    border-radius: 6px;
+}
+.issue-btn {
+  margin-top: 1px;
+}
+.name-input {
+    padding: 15px 5px 15px 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.name-inputtt {
+    padding: 10px 0px 10px 0px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 76px;
+}
+.name-inputt {
+    padding: 10px 0px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    width: 105px;
+}
+.btnn {
+    padding: 15px 10px 15px 194px;
+    background-color: #f75d34;
+    border-color: #f75d34;
+    color: white;
+    text-align: center;
+}
+.blue-3 {
+    color: #2192FF;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 0.7rem;
+}
+.support-div P {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    margin: 10px 0 0 10px;
+}
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+.support-div { 
+    margin-right: 3px;
+}
+.visit-Us {  
+    grid-template-columns: 100%;
+    margin-top: 50px;
+}
+.visit-us-heading {
+    font-weight: 300;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.visit-us-para {
+    font-size: 0.8rem;
+    margin: 12px 0;
+    text-align: center;
+}
+.call-btn {
+    padding: 3px 11px;
+}
+.visit-us-para-2 {
+    font-size: 0.8rem;
+}
+.icon-2 {
+    font-size: 1.1rem;   
+}
+.visit-us-address {  
+    font-size: 0.7rem;
+}
+.icon-3 {
+  font-size: 1rem;
+  padding: 5px;
+}
+.booking-btn {
+   text-align: center;
+   margin-left: 10px;
+}
+
+}
+
+
 `;
