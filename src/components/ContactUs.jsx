@@ -7,6 +7,52 @@ import { FiCornerUpRight } from "react-icons/fi";
 import { BiPhone, BiCog } from "react-icons/bi";
 import { AiOutlineMail } from "react-icons/ai";
 
+let sliderNumber = 1;
+const length = images.length;
+
+for (let i = 0; i < length; i++) {
+     const div = document.createElement("div");
+     div.className = "button";
+     bottom.appendChild(div);
+   }
+   
+   const buttons = document.querySelectorAll(".button");
+   buttons[0].style.backgroundColor = "white";
+   
+   const resetBg = () => {
+     buttons.forEach((button) => {
+       button.style.backgroundColor = "transparent";
+     });
+   };
+   
+   buttons.forEach((button, i) => {
+     button.addEventListener("click", () => {
+       resetBg();
+       slider.style.transform = `translateX(-${i * 500}px)`;
+       sliderNumber = i +1;
+       button.style.backgroundColor = "white";
+     });
+   });
+   
+
+const nextSlide = () => {
+  slider.style.transform = `translateX(-${sliderNumber * 500}px)`;
+  sliderNumber++;
+};
+const prevSlide = () => {
+  slider.style.transform = `translateX(-${(sliderNumber - 2) * 500}px)`;
+  sliderNumber--;
+};
+
+const getFirstSlider = () => {
+  slider.style.transform = `translateX(0px)`;
+  sliderNumber = 1;
+};
+const getLastSlider = () => {
+  slider.style.transform = `translateX(-${(length - 1) * 500}px`;
+  sliderNumber = length;
+};
+
 export const ContactUs = () => {
   return (
     <>
@@ -56,7 +102,6 @@ export const ContactUs = () => {
               </div>
             </div>
           </section>
-
           <div className="container">
             <section className="section-get-in">
               <h1 className="heading-get-in">Get in Touch</h1>
@@ -251,7 +296,7 @@ export const ContactUs = () => {
                   45, Noida, UK 20123
                 </h3>
               </div>
-              <div>
+              <div className="slider">
                 <img
                   className="imgs"
                   src="https://plus.unsplash.com/premium_photo-1697945800303-2be12402095e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -297,7 +342,7 @@ export const ContactUs = () => {
               </div>
               <div>
                 <img
-                  className="imgs"
+                  className="image"
                   src="https://plus.unsplash.com/premium_photo-1697945800303-2be12402095e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="img"
                 />
@@ -524,7 +569,7 @@ const Main = styled.div`
       font-size: 2.2rem;
       margin-bottom: 20px;
  }
- .imgs{
+ .image{
    width: 640px;
    border-radius: 6px;
  }
