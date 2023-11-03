@@ -148,11 +148,11 @@ export const ContactUs = () => {
             <section className="contact-form">
               <div>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.530741038066!2d77.31074431555618!3d28.583850693032392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce91a83de9ab3%3A0xd1ca78f64f373b2!2sCollege%20Vidya!5e0!3m2!1sen!2sin!4v1665561870569!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2947.227401214434!2d77.25884656050088!3d28.54381342552915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3dc72335957%3A0xc21b42d26a240ce1!2sDD-12%2C%20Block%20DD%2C%20Kalkaji%20Extension%2C%20Kalkaji%2C%20New%20Delhi%2C%20Delhi%20110019!5e0!3m2!1sen!2sin!4v1699002202844!5m2!1sen!2sin" 
                   style={{ width: "100%", height: "100%" }}
                   frameborder="0"
                   loading="lazy"
-                ></iframe>
+                />
               </div>
               <div>
                 <h2>Contact Us</h2>
