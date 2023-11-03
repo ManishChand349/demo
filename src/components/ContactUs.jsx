@@ -545,7 +545,7 @@ border: 0.1rem solid #2192FF;
     .phone-img {
     width: 55px;
     padding-top: 10px;
-    padding-left: 126px;
+    padding-left: 116px;
 }
 .col-3{
   margin-top: 15px;
