@@ -837,7 +837,7 @@ border: 0.1rem solid #2192FF;
     .phone-img {
     width: 50px;
     padding-top: 10px;
-    padding-left: 70px;
+    padding-left: 96px;
 }
     .main-heading {
     font-size: 0.8rem;
