@@ -611,7 +611,11 @@ border: 0.1rem solid #2192FF;
     border-radius: 6px;
     margin-left: 0;
 }
+.support-div {
+    margin-right: 30px;
+}
   }
+  // for tablet
   @media (max-width : 768px){
     .phone-img {
     width: 60px;
@@ -719,16 +723,17 @@ border: 0.1rem solid #2192FF;
 }
 .Experts-img-div{
   gap: 12px;
+  padding: 1px 1px 1px 1px;
  }
  
 .image-2{
-   width: 210px;
+   width: 170px;
    border-radius: 6px;
    margin-left: 0;
  }
 .issue-btn {
   margin-top: 1px;
-  margin-left: 124px;
+  margin-left: 52px;
 }
 .blue-3 {
     color: #2192FF;
