@@ -644,34 +644,7 @@ border: 0.1rem solid #2192FF;
 .issue-btn {
   margin-top: 1px;
 }
-.name-input {
-    padding: 15px 5px 15px 10px;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-.name-inputtt {
-    padding: 10px 0px 10px 0px;
-    border-radius: 4px;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    width: 150px;
-    height: 76px;
-}
-.name-inputt {
-    padding: 10px 0px;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    width: 105px;
-}
-.btnn {
-    padding: 15px 10px 15px 194px;
-    background-color: #f75d34;
-    border-color: #f75d34;
-    color: white;
-    text-align: center;
-}
+
 .blue-3 {
     color: #2192FF;
     font-weight: bold;
