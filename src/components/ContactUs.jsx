@@ -549,6 +549,21 @@ border: 0.1rem solid #2192FF;
   cursor: pointer;
   }
 
+  @media (max-width : 1024px){
+    .container {
+    max-width: 95%;
+    margin: auto;
+}
+    .image {
+    width: 440px;
+    border-radius: 6px;
+}
+.image-2 {
+    width: 120px;
+    border-radius: 6px;
+    margin-left: 0;
+}
+  }
   @media (max-width : 768px){
     .phone-img {
     width: 60px;
