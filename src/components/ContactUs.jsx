@@ -345,12 +345,12 @@ const Main = styled.div`
   .box-4-1st-heading{
             font-size: 0.8rem;
   }
-  .contact-info{
+.contact-info{
   display: grid;
   grid-template-columns: 33% 33% 33%;
   gap: 25px;
   }
-  .icons{
+.icons{
    font-size: 3rem;
     color: blue;
    
@@ -361,7 +361,7 @@ const Main = styled.div`
    background-color: #ECF9FF;
    border-radius: 8px;
   }
-  .box-4{
+.box-4{
    border: 1px solid blue;
    text-align: center;
    margin-top: 10px;
@@ -381,8 +381,8 @@ const Main = styled.div`
       display: grid;
       grid-template-columns: 50% 50%;
    gap: 40px;
-    }
-    .gender-box{
+}
+.gender-box{
      display: flex;
      margin: 20px 0;
    gap: 10px;         
@@ -466,7 +466,6 @@ const Main = styled.div`
   gap: 30px;
   justify-content: center;
  }
- 
  .Expert-talk{
    display: grid;
    grid-template-columns: 50% 50%;
@@ -549,6 +548,7 @@ border: 0.1rem solid #2192FF;
   cursor: pointer;
   }
 
+   // for Laptop
   @media (max-width : 1024px){
     .container {
     max-width: 95%;
