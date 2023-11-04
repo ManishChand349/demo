@@ -225,9 +225,34 @@ export const ContactUs = () => {
                   Book your 30 Mins Expert Career Advice{" "}
                 </button>
               </div>
-              <div className="img-div">
+              <div className="Experts-img-div">
                 <img
-                  className="image"
+                  className="image-2"
+                  src="https://plus.unsplash.com/premium_photo-1697945800303-2be12402095e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="img"
+                />
+                <img
+                  className="image-2"
+                  src="https://plus.unsplash.com/premium_photo-1697945800303-2be12402095e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="img"
+                />
+                <img
+                  className="image-2"
+                  src="https://plus.unsplash.com/premium_photo-1697945800303-2be12402095e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="img"
+                />
+                <img
+                  className="image-2"
+                  src="https://plus.unsplash.com/premium_photo-1697945800303-2be12402095e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="img"
+                />
+                <img
+                  className="image-2"
+                  src="https://plus.unsplash.com/premium_photo-1697945800303-2be12402095e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="img"
+                />
+                <img
+                  className="image-2"
                   src="https://plus.unsplash.com/premium_photo-1697945800303-2be12402095e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="img"
                 />
@@ -362,35 +387,6 @@ const Main = styled.div`
      margin: 20px 0;
    gap: 10px;         
  }
-    
-   .input-radio{
-     width: 20px;
-    }
-   .name-input{
-     padding: 15px 200px 15px 10px;
-     border-radius: 10px;
-     font-size: 1.2rem;
-     margin-bottom: 10px;
-    }  
-  .name-inputt{
-  padding: 10px 0px;
-  border-radius: 10px;
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  width:215px;
- }  
- .gridd{
-  display:grid;
-  grid-template-columns: 38% 38%;
- }
-  .name-inputtt{
-  padding: 10px 0px 10px 0px;
-  border-radius: 4px;
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  width: 443px;
-  height: 76px;
- }
  .btnn{
    padding: 15px 206px 15px 194px;
    background-color: #f75d34;
@@ -457,6 +453,18 @@ const Main = styled.div`
  .image{
    width: 640px;
    border-radius: 6px;
+ }
+ .image-2{
+   width: 200px;
+   border-radius: 6px;
+   margin-left: 20px;
+  
+ }
+ .Experts-img-div{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 30px;
+  justify-content: center;
  }
  
  .Expert-talk{
@@ -641,10 +649,18 @@ border: 0.1rem solid #2192FF;
     width: 290px;
     border-radius: 6px;
 }
+.Experts-img-div{
+  gap: 12px;
+ }
+.image-2{
+   width: 210px;
+   border-radius: 6px;
+   margin-left: 0;
+ }
 .issue-btn {
   margin-top: 1px;
+  margin-left: 124px;
 }
-
 .blue-3 {
     color: #2192FF;
     font-weight: bold;
@@ -663,6 +679,7 @@ border: 0.1rem solid #2192FF;
 }
 .support-div { 
     margin-right: 3px;
+    /* padding-left: 30px; */
 }
 .visit-Us {  
     grid-template-columns: 100%;
@@ -696,7 +713,7 @@ border: 0.1rem solid #2192FF;
 }
 .booking-btn {
    text-align: center;
-   margin-left: 32px;
+   margin-left: 184px;
 }
 
 }
@@ -803,34 +820,14 @@ border: 0.1rem solid #2192FF;
 .issue-btn {
   margin-top: 1px;
 }
-.name-input {
-    padding: 15px 5px 15px 10px;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-.name-inputtt {
-    padding: 10px 0px 10px 0px;
-    border-radius: 4px;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    width: 150px;
-    height: 76px;
-}
-.name-inputt {
-    padding: 10px 0px;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    width: 105px;
-}
-.btnn {
-    padding: 15px 10px 15px 194px;
-    background-color: #f75d34;
-    border-color: #f75d34;
-    color: white;
-    text-align: center;
-}
+.Experts-img-div{
+  gap: 12px;
+ }
+.image-2{
+   width: 110px;
+   border-radius: 6px;
+   margin-left: 0;
+ }
 .blue-3 {
     color: #2192FF;
     font-weight: bold;
@@ -983,37 +980,19 @@ border: 0.1rem solid #2192FF;
     width: 230px;
     border-radius: 6px;
 }
+.Experts-img-div{
+  gap: 12px;
+ }
+.image-2{
+   width: 90px;
+   border-radius: 6px;
+   margin-left: 0;
+ }
 .issue-btn {
   margin-top: 1px;
 }
-.name-input {
-    padding: 15px 5px 15px 10px;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-.name-inputtt {
-    padding: 10px 0px 10px 0px;
-    border-radius: 4px;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    width: 150px;
-    height: 76px;
-}
-.name-inputt {
-    padding: 10px 0px;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    width: 105px;
-}
-.btnn {
-    padding: 15px 10px 15px 194px;
-    background-color: #f75d34;
-    border-color: #f75d34;
-    color: white;
-    text-align: center;
-}
+
+
 .blue-3 {
     color: #2192FF;
     font-weight: bold;
@@ -1166,6 +1145,17 @@ border: 0.1rem solid #2192FF;
     width: 230px;
     border-radius: 6px;
 }
+.Experts-img-div{
+  
+  gap: 12px;
+ }
+.image-2{
+   width: 90px;
+   border-radius: 6px;
+   margin-left: 0;
+
+  
+ }
 .issue-btn {
   margin-top: 1px;
 }
