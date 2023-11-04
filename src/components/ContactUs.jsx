@@ -455,9 +455,9 @@ const Main = styled.div`
    border-radius: 6px;
  }
  .image-2{
-   width: 200px;
+   width: 180px;
    border-radius: 6px;
-   margin-left: 20px;
+   /* margin-left: 20px; */
   
  }
  .Experts-img-div{
@@ -465,6 +465,7 @@ const Main = styled.div`
   grid-template-columns: 33% 33% 33%;
   gap: 30px;
   justify-content: center;
+  padding: 50px 60px 50px 40px;
  }
  .Expert-talk{
    display: grid;
@@ -550,8 +551,55 @@ border: 0.1rem solid #2192FF;
 
    // for Laptop
   @media (max-width : 1024px){
+    .phone-img {
+    width: 120px;
+    padding-top: 49px;
+    padding-left: 30px;
+}
+    .col-1 {
+    margin-top: 30px;
+    padding-left: 100px;
+}
+    .col-2 {
+    margin-top: 40px;
+    padding-left: 90px;
+}
+.col-1>h1 {
+    margin-bottom: 6px;
+    font-weight: 510;
+    font-size: 1.7rem;
+}
+.col-2>p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.col-1>p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.star {
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+.phone, .location, .mail {
+    text-align: center;
+    padding: 0;
+    background-color: #ECF9FF;
+    border-radius: 8px;
+}
+
+.box-4-1st-heading {
+    font-size: 0.7rem;
+}
+.box-4-2nd-heading {
+    font-size: 1rem;
+    font-weight: 700;
+}
+.address{
+  font-size: 1rem;
+}
     .container {
-    max-width: 95%;
+    max-width: 100%;
     margin: auto;
 }
     .image {
@@ -596,9 +644,14 @@ border: 0.1rem solid #2192FF;
     font-size: 2rem;
     padding-top: 40px;
 }
+.col-1 {
+    margin-top: 30px;
+    padding-left: 0;
+}
 .col-2 {
-    margin-top: 10px;
-    margin-left: 31px;
+    margin-top: 5px;
+    margin-left: 0;
+    padding-left: 26px;
 }
      .contact-info {
     display: grid;
@@ -667,6 +720,7 @@ border: 0.1rem solid #2192FF;
 .Experts-img-div{
   gap: 12px;
  }
+ 
 .image-2{
    width: 210px;
    border-radius: 6px;
@@ -689,7 +743,7 @@ border: 0.1rem solid #2192FF;
     margin: 10px 0 0 10px;
 }
 .container {
-    max-width: 90%;
+    max-width: 70%;
     margin: auto;
 }
 .support-div { 
@@ -728,7 +782,7 @@ border: 0.1rem solid #2192FF;
 }
 .booking-btn {
    text-align: center;
-   margin-left: 184px;
+   margin-left: 135px;
 }
 
 }
@@ -928,8 +982,15 @@ border: 0.1rem solid #2192FF;
     font-size: 1.1rem;
     padding-top: 40px;
 }
+
+.col-1 {
+    margin-top: 30px;
+    padding-left: 0;
+} 
 .col-2 {
-    margin-top: 10px;
+  padding-left: 0;
+  margin-top: 10px;
+  margin-left: 0;
 }
      .contact-info {
     display: grid;
@@ -960,7 +1021,6 @@ border: 0.1rem solid #2192FF;
     font-weight: 700;
 }
 .box-4-1st-heading {
-    
     font-weight: 700;
 }   
 .address, .number{
@@ -977,6 +1037,11 @@ border: 0.1rem solid #2192FF;
     margin-bottom: 10px;
     text-align: center;
 }
+.Experts-img-div{
+  padding: 10px;
+  margin-right: 5px;
+  gap: 12px; 
+ }
 .need-heading {
     margin-top: 20px;
     font-size: 1rem;
@@ -1006,8 +1071,6 @@ border: 0.1rem solid #2192FF;
 .issue-btn {
   margin-top: 1px;
 }
-
-
 .blue-3 {
     color: #2192FF;
     font-weight: bold;
@@ -1061,6 +1124,10 @@ border: 0.1rem solid #2192FF;
    text-align: center;
    margin-left: 10px;
 }
+.issue-btn {
+  margin-top: 1px;
+  margin-left: 0px;
+}
 
 }
 // for S Mobile
@@ -1081,6 +1148,14 @@ border: 0.1rem solid #2192FF;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+ .col-1 {
+    margin-top: 30px;
+    padding-left: 0;
+} 
+.col-2 {
+  padding-left: 0;
+  margin-left: 0;
 }
 .col-1>p, .col-2>p {
     font-size: 0.8rem;
@@ -1121,15 +1196,15 @@ border: 0.1rem solid #2192FF;
     padding: 12px 40px;
 }
 .box-4-2nd-heading {
-    font-size: 0.5rem;
-    font-weight: 700;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 .box-4-1st-heading {
-    
+    font-size: 0.8rem;
     font-weight: 700;
 }   
 .address, .number{
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 .Expert-talk {
     display: grid;
@@ -1161,46 +1236,18 @@ border: 0.1rem solid #2192FF;
     border-radius: 6px;
 }
 .Experts-img-div{
-  
-  gap: 12px;
+  padding: 10px;
+  margin-right: 5px;
+  gap: 12px; 
  }
 .image-2{
    width: 90px;
    border-radius: 6px;
    margin-left: 0;
-
-  
  }
 .issue-btn {
   margin-top: 1px;
-}
-.name-input {
-    padding: 15px 5px 15px 10px;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-.name-inputtt {
-    padding: 10px 0px 10px 0px;
-    border-radius: 4px;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    width: 150px;
-    height: 76px;
-}
-.name-inputt {
-    padding: 10px 0px;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    width: 105px;
-}
-.btnn {
-    padding: 15px 10px 15px 194px;
-    background-color: #f75d34;
-    border-color: #f75d34;
-    color: white;
-    text-align: center;
+  margin-left: 0px;
 }
 .blue-3 {
     color: #2192FF;
@@ -1244,6 +1291,10 @@ border: 0.1rem solid #2192FF;
 .icon-2 {
     font-size: 1.1rem;   
 }
+.booking-btn {
+    text-align: center;
+    margin-left: 0;
+}
 .visit-us-address {  
     font-size: 0.7rem;
 }
@@ -1253,6 +1304,4 @@ border: 0.1rem solid #2192FF;
 }
 
 }
-
-
 `;
