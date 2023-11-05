@@ -46,7 +46,17 @@ export const GoCHireSupport = () => {
             </div>
             <div>
               <div className="form-div">
-                <p>Full Name</p>
+              <p>Full Name*</p>
+                <input type="text" placeholder="Enter your full name" />
+              <p>Company Email*</p>
+                <input type="text" placeholder="Enter your Company email address" />
+              <p>Mobile Number*</p>
+                <input type="text" placeholder="Enter Your mobile number" />
+              <p>Looking For?*</p>
+                <input type="text" placeholder="Enter your required designatin" />
+             <div>
+              <button>Submit</button>
+             </div>
               </div>
             </div>
           </div>
@@ -130,7 +140,21 @@ const Main = styled.div`
   .form-div{
     background-color: #fff;
     border: 0.1rem solid ;
-    border-radius: 8px;
+    border-radius: 12px;
+    border: none;
+    padding: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 8px 8px 5px #888888,  -8px -5px 5px #888888;
+    
+
   }
-  
+  .form-div input {
+   font-size: 1.1rem;
+   padding: 5px 380px 5px 20px ;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   border-radius: 8px;
+  }
+   
   `;
