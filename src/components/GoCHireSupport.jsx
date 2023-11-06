@@ -45,7 +45,7 @@ export const GoCHireSupport = () => {
               <img className="img-1" src={img2} alt="" />
             </div>
             <div>
-              <img className="img-1" src={img3} alt="" />
+              <img className="img-1 img-3" src={img3} alt="" />
             </div>
             <div>
               <div className="box-1">
@@ -234,7 +234,7 @@ const Main = styled.div`
   .blue{
     color: blue;
   }
-  
+
   .line{
     background-color: blue;
     height: 2px;
@@ -306,7 +306,243 @@ const Main = styled.div`
     color: #fff;
     cursor: pointer;
   }
+  @media (max-width : 1440px){
+    .main-heading {
+    padding: 52px 15px;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #fff;
+}
+.row{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding: 0 20px;
+}
+.heading{
+    padding: 10px 20px;
+    font-size: 2rem;
+    color: #1043E9;
+}
+.second-heading{
+    color: #1043E9;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.para{
+    font-size: 0.6rem;
+    text-align: center;
+}
+.img-1{
+    width: 350px;
+}
+  .img-4{
+  width: 270px;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+  .img-3{
+  width: 390px;
+  margin-top: 60px;
+  margin-left: -10px;
+}
+.Contact-us{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 90%;
+    margin: auto;
+    gap: 10px;
+}
+.contact-heading {
+  font-weight: 550;
+  font-size: 1.5rem;
+  margin-top: 25px;
+  /* text-align: center; */
+}
+.eagerness-heading {
+  margin-top: 60px;
+}
+.line {
+    width: 150px;
+    margin-left: 0;
+}
+.number {
+ font-size: 1.8rem;
+ font-weight: 700;
+ /* text-align: center; */
+}
+.Contact-para {
+ font-size: 1.4rem;
+ /* text-align: center; */
+}
+.form-div input {
+  font-size: 1rem;
+}
+.form-div p {
+  font-size: 0.9rem;
+}
+.icon {
+  margin-left: 0;
+}
+  }
+  // for lapto
+  @media (max-width : 1024px){
+    .main-heading {
+    padding: 52px 15px;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #fff;
+}
+.row{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding: 0 20px;
+}
+.heading{
+    padding: 10px 20px;
+    font-size: 2rem;
+    color: #1043E9;
+}
+.second-heading{
+    color: #1043E9;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.para{
+    font-size: 0.6rem;
+    text-align: center;
+}
+.img-1{
+    width: 350px;
+}
+  .img-4{
+  width: 270px;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+  .img-3{
+  width: 390px;
+  margin-top: 60px;
+  margin-left: -30px;
+}
+.Contact-us{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 90%;
+    margin: auto;
+    gap: 10px;
+}
+.contact-heading {
+  font-weight: 550;
+  font-size: 1.5rem;
+  margin-top: 25px;
+  /* text-align: center; */
+}
+.eagerness-heading {
+  margin-top: 60px;
+}
+.line {
+    width: 150px;
+    margin-left: 0;
+}
+.number {
+ font-size: 1.8rem;
+ font-weight: 700;
+ /* text-align: center; */
+}
+.Contact-para {
+ font-size: 1.4rem;
+ /* text-align: center; */
+}
+.form-div input {
+  font-size: 1rem;
+}
+.form-div p {
+  font-size: 0.9rem;
+}
+.icon {
+  margin-left: 0;
+}
+  }
+  //for Tablet
+  @media (max-width : 768px){
+    .main-heading {
+    padding: 52px 15px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+}
+.row{
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0 20px;
+}
+.heading{
+    padding: 10px 20px;
+    font-size: 2rem;
+    color: #1043E9;
+}
+.second-heading{
+    color: #1043E9;
+    text-align: center;
+    font-size: 2rem;
+}
+.para{
+    font-size: 1.1rem;
+    text-align: center;
+}
+.img-1{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.img-4{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 20px;
+}
+.Contact-us{
+    display: grid;
+    grid-template-columns: 100%;
+    max-width: 75%;
+    margin: auto;
+    gap: 10px;
 
+}
+.contact-heading {
+  font-weight: 550;
+  font-size: 1.5rem;
+  margin-top: 25px;
+  text-align: center;
+}
+.eagerness-heading {
+  margin-top: 60px;
+}
+.line {
+    width: 230px;
+    margin-left: 164px;
+}
+.number {
+ font-size: 1.8rem;
+ font-weight: 700;
+ text-align: center;
+}
+.Contact-para {
+ font-size: 1.4rem;
+ text-align: center;
+}
+.form-div input {
+  font-size: 1rem;
+}
+.form-div p {
+  font-size: 0.9rem;
+}
+.icon {
+  margin-left: 170px;
+}
+  }
   ///for L mobile
   @media (max-width : 425px){
     .main-heading {
@@ -319,9 +555,9 @@ const Main = styled.div`
     display: grid;
     grid-template-columns: 100%;
     padding: 0 20px;
-    
+
   }
-  
+
   .heading{
     padding: 10px 20px;
     font-size: 1.6rem;
@@ -391,10 +627,15 @@ const Main = styled.div`
 .form-div p {
     font-size: 0.8rem;
   }
-  
+  .icon {
+    margin-right: 10px;
+    color: #2192FF;
+    font-size: 1.2rem;
+    margin-left: 23px;
+}
 
   }
-  // for M mobile 
+  // for M mobile
   @media (max-width : 375px){
     .main-heading {
     padding: 20px 5px;
@@ -406,9 +647,9 @@ const Main = styled.div`
     display: grid;
     grid-template-columns: 100%;
     padding: 0 20px;
-    
+
   }
-  
+
   .heading{
     padding: 10px 20px;
     font-size: 1.4rem;
@@ -478,10 +719,10 @@ const Main = styled.div`
 .form-div p {
     font-size: 0.8rem;
   }
-  
+
 
   }
-// for S mobile
+  // for S mobile
   @media (max-width : 320px){
     .main-heading {
     padding: 20px 5px;
@@ -493,9 +734,9 @@ const Main = styled.div`
     display: grid;
     grid-template-columns: 100%;
     padding: 0 20px;
-    
+
   }
-  
+
   .heading{
     padding: 10px 20px;
     font-size: 1.4rem;
@@ -564,7 +805,7 @@ const Main = styled.div`
 .form-div p {
     font-size: 0.8rem;
   }
-  
+
 
   }
   `;
