@@ -306,42 +306,46 @@ const Main = styled.div`
     color: #fff;
     cursor: pointer;
   }
+
+  // For L Laptop  
   @media (max-width : 1440px){
     .main-heading {
-    padding: 52px 15px;
-    font-size: 1.9rem;
+    padding: 92px 15px;
+    font-size: 2.3rem;
     font-weight: 700;
     color: #fff;
 }
 .row{
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    padding: 0 20px;
+    padding: 0 40px;
+    margin-left: 50px;
 }
 .heading{
     padding: 10px 20px;
-    font-size: 2rem;
+    font-size: 2.7rem;
     color: #1043E9;
+    text-align: center;
 }
 .second-heading{
     color: #1043E9;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
 .para{
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     text-align: center;
 }
 .img-1{
-    width: 350px;
+    width: 450px;
 }
   .img-4{
-  width: 270px;
+  width: 370px;
   margin-top: 60px;
   margin-left: 60px;
 }
   .img-3{
-  width: 390px;
+  width: 490px;
   margin-top: 60px;
   margin-left: -10px;
 }
@@ -354,7 +358,7 @@ const Main = styled.div`
 }
 .contact-heading {
   font-weight: 550;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 25px;
   /* text-align: center; */
 }
@@ -362,29 +366,35 @@ const Main = styled.div`
   margin-top: 60px;
 }
 .line {
-    width: 150px;
+    width: 200px;
     margin-left: 0;
 }
 .number {
- font-size: 1.8rem;
+ font-size: 1.9rem;
  font-weight: 700;
  /* text-align: center; */
 }
 .Contact-para {
- font-size: 1.4rem;
+ font-size: 1.6rem;
  /* text-align: center; */
 }
 .form-div input {
   font-size: 1rem;
 }
 .form-div p {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  margin-left: 5px;
 }
 .icon {
   margin-left: 0;
 }
+.blue-3 {
+    color: #2192FF;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
   }
-  // for lapto
+  // for laptop
   @media (max-width : 1024px){
     .main-heading {
     padding: 52px 15px;
@@ -633,6 +643,11 @@ const Main = styled.div`
     font-size: 1.2rem;
     margin-left: 23px;
 }
+.blue-3 {
+    color: #2192FF;
+    font-weight: 400;
+    font-size: 1rem;
+}
 
   }
   // for M mobile
@@ -643,11 +658,10 @@ const Main = styled.div`
     font-weight: 700;
     color: #fff;
 }
-     .row{
+  .row{
     display: grid;
     grid-template-columns: 100%;
     padding: 0 20px;
-
   }
 
   .heading{
@@ -719,8 +733,11 @@ const Main = styled.div`
 .form-div p {
     font-size: 0.8rem;
   }
-
-
+  .blue-3 {
+    color: #2192FF;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
   }
   // for S mobile
   @media (max-width : 320px){
@@ -730,13 +747,12 @@ const Main = styled.div`
     font-weight: 700;
     color: #fff;
 }
-     .row{
+  .row{
     display: grid;
     grid-template-columns: 100%;
     padding: 0 20px;
-
+    margin-left: 0;
   }
-
   .heading{
     padding: 10px 20px;
     font-size: 1.4rem;
@@ -785,6 +801,7 @@ const Main = styled.div`
     border: none;
     width: 230px;
     margin-top: 10px;
+    margin-left: 0;
 }
 .number {
     color: red;
@@ -795,7 +812,7 @@ const Main = styled.div`
 }
 
 .Contact-para {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: 20px;
     text-align: center;
 }
@@ -805,7 +822,10 @@ const Main = styled.div`
 .form-div p {
     font-size: 0.8rem;
   }
-
-
+  .blue-3 {
+    color: #2192FF;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
   }
   `;
