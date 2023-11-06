@@ -370,7 +370,7 @@ const Main = styled.div`
     border: none;
     width: 230px;
     margin-top: 10px ;
-
+    margin-left: 35px;
 }
 .number {
     color: red;
@@ -457,6 +457,7 @@ const Main = styled.div`
     border: none;
     width: 230px;
     margin-top: 10px;
+    margin-left: 24px;
 }
 .number {
     color: red;
