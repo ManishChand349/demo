@@ -394,6 +394,7 @@ const Main = styled.div`
   
 
   }
+  // for M mobile 
   @media (max-width : 375px){
     .main-heading {
     padding: 20px 5px;
@@ -479,6 +480,7 @@ const Main = styled.div`
   
 
   }
+// for S mobile
   @media (max-width : 320px){
     .main-heading {
     padding: 20px 5px;
