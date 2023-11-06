@@ -55,7 +55,7 @@ export const GoCHireSupport = () => {
               <p>Looking For?*</p>
                 <input type="text" placeholder="Enter your required designatin" />
              <div>
-              <button>Submit</button>
+              <button className="submit-btn">Submit</button>
              </div>
               </div>
             </div>
@@ -135,7 +135,11 @@ const Main = styled.div`
   .mail , .visit{
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
+  }
+  .visit{
+    margin-top: 10px;
+
   }
   .form-div{
     background-color: #fff;
@@ -146,15 +150,31 @@ const Main = styled.div`
     margin-top: 50px;
     margin-bottom: 50px;
     box-shadow: 8px 8px 5px #888888,  -8px -5px 5px #888888;
-    
-
   }
   .form-div input {
    font-size: 1.1rem;
-   padding: 5px 380px 5px 20px ;
+   width: 100%;
+   padding: 0.345rem ;
    margin-bottom: 10px;
    margin-top: 10px;
    border-radius: 8px;
+   border: 1px solid #ced4da;
   }
-   
+  .submit-btn{
+    width: 100%;
+    background: aliceblue;
+    color: #0056d2;
+    border: dotted 1px #0056d2;
+    box-shadow: none;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .submit-btn:hover{
+    background: #0056d2;
+    color: #fff;
+    cursor: pointer;
+  }
   `;
