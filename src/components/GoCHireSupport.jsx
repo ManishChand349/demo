@@ -87,6 +87,7 @@ export const GoCHireSupport = () => {
               <h1 className="contact-heading">
                 Contact <span className="blue">Us</span>
               </h1>
+
               <hr className="line" />
 
               <p className="number">1233-456-5757</p>
@@ -185,12 +186,16 @@ const Main = styled.div`
 
   }
   .img-1{
-    width: 650px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
   .img-4{
-    width: 550px;
-    margin-top: 30px;
-    padding-left: 20px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
   .second-heading{
     color: #1043E9;
@@ -229,6 +234,7 @@ const Main = styled.div`
   .blue{
     color: blue;
   }
+  
   .line{
     background-color: blue;
     height: 2px;
@@ -301,11 +307,11 @@ const Main = styled.div`
     cursor: pointer;
   }
 
-  ///for M mobile
+  ///for L mobile
   @media (max-width : 425px){
     .main-heading {
     padding: 20px 5px;
-    font-size:0.6rem;
+    font-size:0.7rem;
     font-weight: 700;
     color: #fff;
 }
@@ -318,25 +324,28 @@ const Main = styled.div`
   
   .heading{
     padding: 10px 20px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .second-heading{
     color: #1043E9;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .para{
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     text-align: center;
   }
   .img-1{
-    width: 130px;
-    padding-left: 60px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
   .img-4{
-    width: 120px;
-    margin-top: 30px;
-    padding-left: 67px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
   .Contact-us{
     display: grid;
@@ -360,7 +369,8 @@ const Main = styled.div`
     height: 2px;
     border: none;
     width: 230px;
-    margin-top: 10px;
+    margin-top: 10px ;
+
 }
 .number {
     color: red;
@@ -412,13 +422,16 @@ const Main = styled.div`
     text-align: center;
   }
   .img-1{
-    width: 130px;
-    padding-left: 60px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
   .img-4{
-    width: 120px;
-    margin-top: 30px;
-    padding-left: 67px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
   .Contact-us{
     display: grid;
@@ -494,13 +507,16 @@ const Main = styled.div`
     text-align: center;
   }
   .img-1{
-    width: 130px;
-    padding-left: 60px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
   .img-4{
-    width: 120px;
-    margin-top: 30px;
-    padding-left: 67px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
   .Contact-us{
     display: grid;
