@@ -485,6 +485,7 @@ const Main = styled.div`
     display: grid;
     grid-template-columns: 100%;
     padding: 0 20px;
+    margin-left: 0;
 }
 .heading{
     padding: 10px 20px;
@@ -565,6 +566,8 @@ const Main = styled.div`
     display: grid;
     grid-template-columns: 100%;
     padding: 0 20px;
+    margin-left: 0;
+
 
   }
 
@@ -662,6 +665,8 @@ const Main = styled.div`
     display: grid;
     grid-template-columns: 100%;
     padding: 0 20px;
+    margin-left: 0;
+
   }
 
   .heading{
