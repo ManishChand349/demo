@@ -31,7 +31,21 @@ export const OnlineBca = () => {
 
           <div className="row-2">
                <div className="top-div">
-
+                  <div className="UC-div">
+                  <p>Universities</p>
+                  <p>15</p>
+                  </div>
+                  <div  className="UC-div">
+                  <p >Duration</p>
+                  <p>3 Years</p>
+                  </div>
+                  <div  className="UC-div">
+                  <p className="Eligi-para">Eligibiliy</p>
+                  <p>12th Pass out</p>
+                  <div>
+                    <p>info</p>
+                  </div>
+                  </div>
                </div>
                <p className="para">
                In the digital age, where technology is everywhere, getting an Online BCA (Bachelor of Computer Application) has become a great way for people excited about computers and technology to change their lives. The program is made to be open and easy to use so that students can fully know computer science and its many uses.
@@ -80,6 +94,7 @@ const Main = styled.div`
      width: 81%;
      padding-right: 50px;
      border-radius: 8px;
+     margin-bottom: 100px;
    }
    .para-div{
      padding-top: 35px;
@@ -100,6 +115,25 @@ const Main = styled.div`
    }
    .watch-video{
      margin-right: 135px;
+   }
+   .top-div{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #0056d2;
+    /* align-items: center; */
+    position: relative;
+    top: -89px;
+    left: 46px;
+    width: 90%;
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-radius: 8px;
+   }
+   .UC-div p{
+      text-align: center;
+   }
+   .Eligi-para{
+    padding-top: 1px;
    }
    .row-2{
     border: 1px solid #A5ABB0;
