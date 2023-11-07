@@ -47,7 +47,7 @@ export const OnlineBca = () => {
                   </div>
                   </div>
                </div>
-               <p className="para">
+               <p className="para first-para">
                In the digital age, where technology is everywhere, getting an Online BCA (Bachelor of Computer Application) has become a great way for people excited about computers and technology to change their lives. The program is made to be open and easy to use so that students can fully know computer science and its many uses.
                </p>
                <p className="para">
@@ -119,25 +119,27 @@ const Main = styled.div`
    .top-div{
     display: flex;
     justify-content: space-around;
-    border: 1px solid #0056d2;
+    border:0.131rem solid #0056d2;
     /* align-items: center; */
     position: relative;
-    top: -89px;
-    left: 46px;
+    top: -49px;
+    left: 43px;
     width: 90%;
     background-color: #f0f8ff;
     padding: 10px;
     border-radius: 8px;
    }
+   
    .UC-div p{
       text-align: center;
+      font-size: 1rem;
    }
    .Eligi-para{
     padding-top: 1px;
    }
    .row-2{
     border: 1px solid #A5ABB0;
-    padding: 50px 24px;
+    padding: 2px 24px;
     margin-top: 50px;
     width: 81%;
     border-radius: 8px;
