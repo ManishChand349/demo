@@ -57,6 +57,7 @@ const Main = styled.div`
      background-color: #F8F9FA;
      width: 81%;
      padding-right: 50px;
+     border-radius: 8px;
    }
    .para-div{
      padding-top: 35px;
