@@ -21,6 +21,10 @@ export const OnlineBca = () => {
                 applications and gives them the skills they need for many jobs
                 in the tech field.
               </p>
+              <div className="media-div">
+               <h4 className="watch-video">Watch Video</h4>
+               <h4>Listen Podcast</h4>
+              </div>
             </div>
           </div>
         </div>
@@ -64,8 +68,14 @@ const Main = styled.div`
      color: #A5ABB0;
 }
 .main-para{
-        color: #6D7073;
-        font-size: 1rem;
-
+     color: #6D7073;
+     font-size: 1rem;
+   }
+   .media-div{
+     display: flex;
+     margin-top: 30px;
+   }
+   .watch-video{
+     margin-right: 135px;
    }
 `;
