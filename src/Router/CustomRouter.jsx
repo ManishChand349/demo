@@ -6,6 +6,8 @@ import {ContactUs} from "../components/ContactUs"
 import {Policy} from "../components/Policy"
 import {GoCHireSupport} from "../components/GoCHireSupport"
 import {ListOfFakeUniversitie} from "../components/ListOfFakeUniversitie"
+import {OnlineBca} from "../components/OnlineBca"
+
 
 function CustomRouter() {
      return(
@@ -18,6 +20,7 @@ function CustomRouter() {
                <Route path="/contactus" element={<ContactUs/>}/>
                <Route path="/ListOfFakeUniversities" element={<ListOfFakeUniversitie/>}/>
                <Route path="/job-hire" element={<GoCHireSupport/>}/>
+               <Route path="/Online-Bca" element={<OnlineBca/>}/>
           </Routes>
      )
      

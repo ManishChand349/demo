@@ -20,11 +20,14 @@ function Btn() {
     <Link to="/contactus">
     ContactUs
     </Link> */}
-     <Link to="/ListOfFakeUniversities">
+     {/* <Link to="/ListOfFakeUniversities">
     ListOfFakeUniversities
     </Link> 
     <Link to="/job-hire">
     GoC Hire Support
+    </Link> */}
+    <Link to="/Online-Bca">
+    BCA
     </Link>
     </div>
   )
