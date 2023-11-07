@@ -5,6 +5,10 @@ import img1 from "../assets/GoCHire-img/1.jpg";
 import img2 from "../assets/GoCHire-img/2.jpg";
 import img3 from "../assets/GoCHire-img/3.jpg";
 import img4 from "../assets/GoCHire-img/4.jpg";
+import amity from "../assets/GoCHire-img/amity.webp";
+import cu from "../assets/GoCHire-img/cu.webp";
+import lpu from "../assets/GoCHire-img/lpu.png";
+import mm from "../assets/GoCHire-img/mm.png";
 import { CiMail, CiLocationOn } from "react-icons/ci";
 
 export const GoCHireSupport = () => {
@@ -81,15 +85,22 @@ export const GoCHireSupport = () => {
             </div>
           </div>
         </section>
+        <section className="Regitered-Campuses">
+        <h1 className="Regitered-heading">Regitered  <span className="blue-3-uc"> Campuses </span> </h1>
+            <div className="Regitered-row">
+              <div className="box-2"><img className="img-2-uc" src={amity} alt="" /></div>
+              <div className="box-2"><img className="img-2-uc" src={cu} alt="" /></div>
+              <div className="box-2"><img className="img-2-uc" src={lpu} alt="" /></div>
+              <div className="box-2"><img className="img-2-uc" src={mm} alt="" /></div>
+            </div>
+        </section>
         <section className="Contact-us-div">
           <div className="Contact-us">
             <div>
               <h1 className="contact-heading">
                 Contact <span className="blue">Us</span>
               </h1>
-
               <hr className="line" />
-
               <p className="number">1233-456-5757</p>
               <p className="Contact-para">
                 Want to know more? Speak With us get the ideal candidate that
@@ -102,7 +113,6 @@ export const GoCHireSupport = () => {
                   goccare@gocollege.com
                 </a>
               </div>
-
               <div className="visit">
                 <CiLocationOn className="icon" />
                 <p className="blue-3">
@@ -173,6 +183,8 @@ const Main = styled.div`
     font-size: 2.5rem;
     margin: 5px 0;
     padding: 20px 2px;
+    color: #002545;
+
   }
 
   .Why-hire{
@@ -183,7 +195,6 @@ const Main = styled.div`
   .row{
     display: grid;
     grid-template-columns: 33% 33% 33% ;
-
   }
   .img-1{
     display: block;
@@ -213,7 +224,32 @@ const Main = styled.div`
   .eagerness-heading{
     margin-top: 60px;
   }
-
+  .Regitered-row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .Regitered-heading{
+    text-align: center;
+    font-size: 2.9rem;
+    font-weight: 500;
+    color: #002545;
+    margin-top: 20px;
+  }
+  .blue-3-uc{
+    color: blue;
+  }
+  .box-2{
+      border: none;
+      border-radius: 8px;
+      box-shadow: 2px 4px 2px #888888,  -2px -2px 5px #888888;
+      padding: 8px 14px;
+      margin: 50px 0;
+      cursor: pointer;
+  }
+  .img-2-uc{
+    width: 130px;
+  }
   // Contact section
   .Contact-us-div{
     background-color: #F0F8FF;
@@ -224,17 +260,16 @@ const Main = styled.div`
     max-width: 75%;
     margin: auto;
     gap: 10px;
-
   }
   .contact-heading{
     font-weight: 550;
     font-size: 2rem;
     margin-top: 100px;
+    color: #002545;
   }
   .blue{
     color: blue;
   }
-
   .line{
     background-color: blue;
     height: 2px;
@@ -268,7 +303,6 @@ const Main = styled.div`
   }
   .visit{
     margin-top: 10px;
-
   }
   .form-div{
     background-color: #fff;
@@ -307,7 +341,8 @@ const Main = styled.div`
     cursor: pointer;
   }
 
-  // For L Laptop  
+
+  // For L Laptop
   @media (max-width : 1440px){
     .main-heading {
     padding: 92px 15px;
@@ -668,7 +703,6 @@ const Main = styled.div`
     margin-left: 0;
 
   }
-
   .heading{
     padding: 10px 20px;
     font-size: 1.4rem;
@@ -693,6 +727,11 @@ const Main = styled.div`
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  }
+  .Regitered-row{
+    display: grid;
+    justify-content: center;
+    gap: 10px;
   }
   .Contact-us{
     display: grid;
@@ -791,6 +830,36 @@ const Main = styled.div`
     gap: 10px;
 
   }
+  .Regitered-heading{
+    text-align: center;
+    font-size: 2.9rem;
+    font-weight: 500;
+    color: #002545;
+    margin-top: 20px;
+  }
+  .blue-3-uc{
+    color: blue;
+  }
+  .box-2{
+      border: none;
+      border-radius: 8px;
+      box-shadow: 2px 4px 2px #888888,  -2px -2px 5px #888888;
+      padding: 8px 14px;
+      margin: 50px 0;
+      cursor: pointer;
+  }
+  .img-2-uc{
+    width: 130px;
+  }
+  .box-2 {
+    border: none;
+    margin: 10px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.img-2-uc {
+    width: 90px;
+}
   .contact-heading {
     font-weight: 550;
     font-size: 1.5rem;
