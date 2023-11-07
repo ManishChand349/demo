@@ -170,6 +170,7 @@ const Main = styled.div`
     background-image: url(${banner});
     background-size: 100%;
     background-Repeat: no-repeat;
+    opacity: 0.7;
   }
   .main-heading{
     padding: 120px 30px;
@@ -184,7 +185,6 @@ const Main = styled.div`
     margin: 5px 0;
     padding: 20px 2px;
     color: #002545;
-
   }
 
   .Why-hire{
