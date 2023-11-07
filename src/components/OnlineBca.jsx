@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import BCA from "../assets/OnlineBca-img/online-bca-program.webp";
+import Education from "../assets/OnlineBca-img/who-should-pursue-bca-distance-education-course.webp";
 
 export const OnlineBca = () => {
   return (
@@ -28,16 +29,25 @@ export const OnlineBca = () => {
             </div>
           </div>
 
-          <div>
+          <div className="row-2">
                <div className="top-div">
 
                </div>
                <p className="para">
                In the digital age, where technology is everywhere, getting an Online BCA (Bachelor of Computer Application) has become a great way for people excited about computers and technology to change their lives. The program is made to be open and easy to use so that students can fully know computer science and its many uses.
                </p>
-               <p>
+               <p className="para">
                UGC-DEB has approved online BCA and has the same value as a normal BCA. One of the best things about online BCA programs is their flexibility. These programs consider learners' many tasks, such as a full-time job, family obligations, or other duties. Online learning lets students build their study plans around what they already do to keep a good mix between work, school, and life.
                </p>
+               <h1 className="second-heading">Why Online BCA?</h1>
+               <p className="para-2">Online BCA is delivered completely online and focuses on learning through interaction. Virtual classes, chat platforms, and group projects help students and teachers from different parts of the world work together. This variety of points of view makes learning more interesting and gives a taste of how tech is used worldwide.</p>
+               <div>
+                <img className="education-img" src={Education} alt="" />
+               </div>
+               <p className="para-2">Online BCA programs build their courses around what the tech industry needs. This ensures that graduates have the skills and information useful in an industry that is always changing. From computer languages like Java and Python to building websites, making mobile apps, and managing data, students learn skills that can be used immediately in the real world.</p>
+               <p className="para-2">Students automatically learn digital knowledge and technical skills by pursuing an Online BCA program. Using online learning platforms, working with virtual teamwork tools, and solving tech problems have become second nature. Moreover, the program is a great way to meet new people. Students work with their peers, teachers, and workers from many fields. With a bigger network, you can work together, get job leads, and learn about a wider range of views in the tech field.</p>
+               <h1 className="second-heading">Who Should Pursue Online BCA?</h1>
+               <p className="para-2">Online BCA program is available to many people who want to learn computer science and start a job in the tech industry, which is always changing. The following groups should consider getting an online BCA:</p>
           </div>
         </div>
       </Main>
@@ -90,5 +100,32 @@ const Main = styled.div`
    }
    .watch-video{
      margin-right: 135px;
+   }
+   .row-2{
+    border: 1px solid #A5ABB0;
+    padding: 50px 24px;
+    margin-top: 50px;
+    width: 81%;
+    border-radius: 8px;
+   }
+   .para{
+    margin-bottom: 18px;
+    color: #3C3F43;
+   }
+   .second-heading{
+    font-size: 1.6rem;
+    color: #212529;
+   }
+   .para-2{
+    color: #3C3F43;
+    margin-bottom: 20px;
+   }
+   .education-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
    }
 `;
