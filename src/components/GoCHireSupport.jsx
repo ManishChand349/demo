@@ -602,8 +602,6 @@ const Main = styled.div`
     grid-template-columns: 100%;
     padding: 0 20px;
     margin-left: 0;
-
-
   }
 
   .heading{
@@ -631,13 +629,25 @@ const Main = styled.div`
   margin-right: auto;
   width: 50%;
   }
+  .Regitered-row{
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+  }
+  .box-2 {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 4px 2px #888888, -2px -2px 5px #888888;
+    padding: 4px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
   .Contact-us{
     display: grid;
     grid-template-columns: 100%;
     max-width: 75%;
     margin: auto;
     gap: 10px;
-
   }
   .contact-heading {
     font-weight: 550;
@@ -733,6 +743,14 @@ const Main = styled.div`
     justify-content: center;
     gap: 10px;
   }
+  .box-2 {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 4px 2px #888888, -2px -2px 5px #888888;
+    padding: 4px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
   .Contact-us{
     display: grid;
     grid-template-columns: 100%;
@@ -832,7 +850,7 @@ const Main = styled.div`
   }
   .Regitered-heading{
     text-align: center;
-    font-size: 2.9rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #002545;
     margin-top: 20px;
