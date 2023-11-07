@@ -27,6 +27,18 @@ export const OnlineBca = () => {
               </div>
             </div>
           </div>
+
+          <div>
+               <div className="top-div">
+
+               </div>
+               <p className="para">
+               In the digital age, where technology is everywhere, getting an Online BCA (Bachelor of Computer Application) has become a great way for people excited about computers and technology to change their lives. The program is made to be open and easy to use so that students can fully know computer science and its many uses.
+               </p>
+               <p>
+               UGC-DEB has approved online BCA and has the same value as a normal BCA. One of the best things about online BCA programs is their flexibility. These programs consider learners' many tasks, such as a full-time job, family obligations, or other duties. Online learning lets students build their study plans around what they already do to keep a good mix between work, school, and life.
+               </p>
+          </div>
         </div>
       </Main>
     </>
