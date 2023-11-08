@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom"
 import BCA from "../assets/OnlineBca-img/online-bca-program.webp";
 import Education from "../assets/OnlineBca-img/who-should-pursue-bca-distance-education-course.webp";
 import { BsFillCheckSquareFill } from "react-icons/bs";
@@ -28,7 +29,6 @@ export const OnlineBca = () => {
               </div>
             </div>
           </div>
-
           <div className="row-2">
             <div className="top-div">
               <div className="UC-div">
@@ -125,18 +125,83 @@ export const OnlineBca = () => {
               <div className="inner-div"> <strong>Private Universities Offering BCA</strong> </div>
               <div className="inner-div"> <strong>NIRF Ranking</strong> </div>
               <div className="inner-div"> <strong>Starting Fee Range</strong></div>
-              <div className="inner-div"> <a to="">Amrita University online</a></div>
+              <div className="inner-div"> <Link to="">Amrita University online</Link></div>
               <div className="inner-div"> <p>7</p> </div>
               <div className="inner-div"> <p>INR 1,40,000</p> </div>
-              <div className="inner-div"> <a to="">LPU Online</a></div>
+              <div className="inner-div"> <Link to="">LPU Online</Link></div>
               <div className="inner-div"> <p>38</p> </div>
               <div className="inner-div"> <p>INR 1,30,000</p> </div>
-              <div className="inner-div"> <a to="">Amity University Online</a></div>
+              <div className="inner-div"> <Link to="">Amity University Online</Link></div>
               <div className="inner-div"> <p>35</p></div>
               <div className="inner-div"> <p>INR 1,30,000</p> </div>
-              <div className="inner-div"> <a to="">Amity University Online</a></div>
-              <div className="inner-div"> <p>35</p></div>
-              <div className="inner-div"> <p>INR 1,30,000</p> </div>
+              <div className="inner-div"> <Link to="">UPES Online</Link></div>
+              <div className="inner-div"> <p>52</p></div>
+              <div className="inner-div"> <p>INR 1,40,000</p></div>
+              <div className="inner-div"> <Link to="">Chandigarh University Online</Link></div>
+              <div className="inner-div"> <p>27</p></div>
+              <div className="inner-div"> <p>INR 1,50,000</p></div>
+              <div className="inner-div"> <Link to="">DMIMS Online</Link></div>
+              <div className="inner-div"> <p>39</p></div>
+              <div className="inner-div"> <p>INR 1,45,000</p></div>
+          </div>
+          <h1 className="second-heading">Key Highlight of online BCA In India</h1>
+          <div className="para-div-3">
+          <BsFillCheckSquareFill className="second-icons"/>
+            <p>With an online BCA program, you can learn at your own pace and fit school in around work and other obligations.</p>
+          </div>
+          <div className="para-div-3">
+          <BsFillCheckSquareFill className="second-icons"/>
+            <p>The program helps students develop technical skills related to computer programming, data visualisation, cloud computing, etc. </p>
+          </div>
+          <div className="para-div-3">
+          <BsFillCheckSquareFill className="second-icons icon-3"/>
+            <p>The Online BCA program covers various topics, from the basics to more advanced computer tools, to prepare you for various tech jobs. </p>
+          </div>
+          <div className="para-div-3">
+          <BsFillCheckSquareFill className="second-icons icon-4"/>
+            <p>Learn in a digital setting to improve your digital Knowledge and technical skills</p>
+          </div>
+          <div className="para-div-3">
+          <BsFillCheckSquareFill className="second-icons icon-5"/>
+            <p>Make virtual connections with peers and professionals to grow your network and find new ways to work together and advance your job.</p>
+          </div>
+          <div className="para-div-3">
+          <BsFillCheckSquareFill className="second-icons icon-6"/>
+            <p>You can move through your schoolwork at your own pace and change it to fit your learning style and what you already know.</p>
+          </div>
+          <div className="para-div-3">
+          <BsFillCheckSquareFill className="second-icons icon-7"/>
+            <p>Use the program's flexibility to get into tech-related jobs, such as software creation and IT counselling.</p>
+          </div>
+          <div className="para-div-3">
+          <BsFillCheckSquareFill className="second-icons icon-8"/>
+            <p>With an online BCA program, engage with teachers and peers worldwide through virtual classes and group projects for a more varied learning experience.</p>
+          </div>
+          <div className="para-div-3">
+          <BsFillCheckSquareFill className="second-icons icon-9"/>
+            <p>Learn skills needed in the job market, such as computer languages, web creation, and data management.</p>
+          </div>
+          {/* //Online BCA Course Subjects */}
+            <div>
+          <h1 className="second-heading">Online BCA Course Subjects</h1>
+          <p className="para-2 Subject-para">
+          The online BCA program curriculum is meant to teach students everything they need to know about computer science and how it can be used in real life. Even though the exact syllabus can change from university to university, here is a general overview of what is usually taught in an online BCA program:
+            </p>
+          </div>
+
+          <div className="subject-grid">
+            <div className="inner-div" ><p>Computer Fundamenals</p></div>
+            <div className="inner-div" ><p>Programming Fundamentals</p></div>
+            <div className="inner-div" ><p>Digital Electronics</p></div>
+            <div className="inner-div" ><p>Mathematics for Computing</p></div>
+            <div className="inner-div" ><p>Communication Skills</p></div>
+            <div className="inner-div" ><p>Data Structures and Algorithms</p></div>
+            <div className="inner-div" ><p>Database Managements Systems</p></div>
+            <div className="inner-div" ><p>Object-Oriented Programming</p></div>
+            <div className="inner-div" ><p>Operating Systems</p></div>
+            <div className="inner-div" ><p>Software Engineering</p></div>
+            <div className="inner-div" ><p>Web Development</p></div>
+            <div className="inner-div" ><p>Mobile App Development</p></div>
           </div>
           </div>
         </div>
@@ -285,8 +350,53 @@ const Main = styled.div`
     display: grid;
     grid-template-columns: 33% 33% 33%;
     /* border: 0.3rem solid; */
+    margin-bottom: 15px;
    }
    .inner-div{
+    padding: 10px;
     border: 1px solid;
+   }
+   .para-div-3{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .second-icons{
+    font-size: 1rem;
+    margin-bottom: 4px;
+    margin-right: 5px;
+    margin-left: 6px;
+    color: #BDE3FF;
+  }
+  .icon-3{
+     margin-bottom: 27px;
+   }
+  .icon-4{
+     margin-bottom: 1px;
+   }
+  .icon-5{
+     margin-bottom: 25px;
+   }
+  .icon-6{
+     margin-bottom: 1px;
+   }
+  .icon-7{
+     margin-bottom: 1px;
+   }
+  .icon-8{
+     margin-bottom: 22px;
+     font-size: 1.2rem;
+   }
+  .icon-9{
+     margin-bottom: 1px;
+   }
+   .Subject-para{
+    margin: 10px 0;
+   }
+   .subject-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px 0;
    }
 `;
