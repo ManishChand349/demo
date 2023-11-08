@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import BCA from "../assets/OnlineBca-img/online-bca-program.webp";
 import Education from "../assets/OnlineBca-img/who-should-pursue-bca-distance-education-course.webp";
-
+import { BsFillCheckSquareFill } from "react-icons/bs";
 export const OnlineBca = () => {
   return (
     <>
@@ -98,6 +98,46 @@ export const OnlineBca = () => {
               always changing. The following groups should consider getting an
               online BCA:
             </p>
+          <div>
+          <div className="para-div-2">
+          <BsFillCheckSquareFill className="icons"/>
+            <p className=""> <span className="highlight">People who want to work as computer professionals:</span>  Online BCA is a great choice for people who want to work as computer professional. This program gives you the information and skill to start your job if you are interested in technology, Programming, and digital systems.</p>
+          </div>
+          <div className="para-div-2">
+          <BsFillCheckSquareFill className="icons-1"/>
+            <p className=""> <span className="highlight">Working Professionals:</span>  Online BCA is very helpful for people already working in non-technical areas but want to switch to a tech-related job. It lets them learn new skills while keeping their current job, which can lead to new chances in the tech field.</p>
+          </div>
+          <div className="para-div-2">
+          <BsFillCheckSquareFill className="icons-2"/>
+            <p className=""> <span className="highlight">Geographically Diverse Learners:</span>  Students from many places can attend online BCA. Online learning is a good option if you live in an area where going to school on campus is hard to get to or if you have personal issues that keep you from going regularly.</p>
+          </div>
+          <div className="para-div-2">
+          <BsFillCheckSquareFill className="icons-3"/>
+            <p className=""> <span className="highlight">Remote Professionals: </span>  The flexibility of Online BCA can help professionals whose jobs require them to move a lot or work from home. It's easier for them to keep up with their schoolwork because they can access course materials and attend class from anywhere.</p>
+          </div>
+          </div>
+          <h1 className="second-heading">When to do an Online BCA?</h1>
+          <p className="para-2">
+          The best time to pursue online BCA depends on your situation and job goals. Online BCA programs are flexible enough to work with many different scenarios. If you just graduated from high school, this is a great way to start a tech-related job without studying full-time in college. People who are already working and want to change careers or get better at their jobs in technology can do so without quitting. People who can't go to college because of where they live or want a more open learning setting can also start their Online BCA at any age. The decision is mostly based on the person's goals, circumstances, and willingness to embark on a fulfilling journey in computer apps.
+            </p>
+          <h1 className="second-heading">Popular and Affordable Online BCA Colleges Or Universities in India?</h1>
+          <div className="gird-div">
+              <div className="inner-div"> <strong>Private Universities Offering BCA</strong> </div>
+              <div className="inner-div"> <strong>NIRF Ranking</strong> </div>
+              <div className="inner-div"> <strong>Starting Fee Range</strong></div>
+              <div className="inner-div"> <a to="">Amrita University online</a></div>
+              <div className="inner-div"> <p>7</p> </div>
+              <div className="inner-div"> <p>INR 1,40,000</p> </div>
+              <div className="inner-div"> <a to="">LPU Online</a></div>
+              <div className="inner-div"> <p>38</p> </div>
+              <div className="inner-div"> <p>INR 1,30,000</p> </div>
+              <div className="inner-div"> <a to="">Amity University Online</a></div>
+              <div className="inner-div"> <p>35</p></div>
+              <div className="inner-div"> <p>INR 1,30,000</p> </div>
+              <div className="inner-div"> <a to="">Amity University Online</a></div>
+              <div className="inner-div"> <p>35</p></div>
+              <div className="inner-div"> <p>INR 1,30,000</p> </div>
+          </div>
           </div>
         </div>
       </Main>
@@ -208,5 +248,45 @@ const Main = styled.div`
   width: 70%;
   margin-top: 20px;
   margin-bottom: 20px;
+   }
+   .highlight{
+    font-weight: bold;
+   }
+   .para-div-2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+   }
+   .icons{
+    font-size: 2.4rem;
+    margin-bottom: 50px;
+    margin-right: 5px;
+    color: #BDE3FF;
+   }
+   .icons-1{
+    font-size: 2.4rem;
+    margin-bottom: 27px;
+    margin-right: 5px;
+    color: #BDE3FF;
+   }
+   .icons-2{
+    font-size: 2.4rem;
+    margin-bottom: 27px;
+    margin-right: 5px;
+    color: #BDE3FF;
+   }
+   .icons-3{
+    font-size: 2.4rem;
+    margin-bottom: 50px;
+    margin-right: 5px;
+    color: #BDE3FF;
+   }
+   .gird-div{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* border: 0.3rem solid; */
+   }
+   .inner-div{
+    border: 1px solid;
    }
 `;
