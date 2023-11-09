@@ -789,19 +789,31 @@ export const OnlineBca = () => {
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para"> Full access to libraries, labs, and campus facilities</p>
+                <p className="part-time-para">
+                  {" "}
+                  Full access to libraries, labs, and campus facilities
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para"> Limited access, often remote resources</p>
+                <p className="part-time-para">
+                  {" "}
+                  Limited access, often remote resources
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para"> Virtual access to digital resources</p>
+                <p className="part-time-para">
+                  {" "}
+                  Virtual access to digital resources
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para"> Partial access to campus facilitiess</p>
+                <p className="part-time-para">
+                  {" "}
+                  Partial access to campus facilitiess
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
@@ -809,19 +821,27 @@ export const OnlineBca = () => {
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Printed textbooks, physical resources</p>
+                <p className="part-time-para">
+                  Printed textbooks, physical resources
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Printed and online materials, occasional workshops</p>
+                <p className="part-time-para">
+                  Printed and online materials, occasional workshops
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Online materials, digital resources</p>
+                <p className="part-time-para">
+                  Online materials, digital resources
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Varied, including printed and online</p>
+                <p className="part-time-para">
+                  Varied, including printed and online
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
@@ -829,15 +849,21 @@ export const OnlineBca = () => {
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">In-person support from professors</p>
+                <p className="part-time-para">
+                  In-person support from professors
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Remote tutor support and occasional in-person sessions</p>
+                <p className="part-time-para">
+                  Remote tutor support and occasional in-person sessions
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Virtual support from instructors</p>
+                <p className="part-time-para">
+                  Virtual support from instructors
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
@@ -849,39 +875,57 @@ export const OnlineBca = () => {
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Typically 3 years of full-time study</p>
+                <p className="part-time-para">
+                  Typically 3 years of full-time study
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Variable, depending on self-paced progress</p>
+                <p className="part-time-para">
+                  Variable, depending on self-paced progress
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Variable, often flexible for working professionals</p>
+                <p className="part-time-para">
+                  Variable, often flexible for working professionals
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Longer duration due to part-time schedule</p>
+                <p className="part-time-para">
+                  Longer duration due to part-time schedule
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Suitable for Working Professionals</p>
+                <p className="part-time-para">
+                  Suitable for Working Professionals
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Less suitable due to full-time commitment</p>
+                <p className="part-time-para">
+                  Less suitable due to full-time commitment
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Highly suitable, as it accommodates work schedules</p>
+                <p className="part-time-para">
+                  Highly suitable, as it accommodates work schedules
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Ideal for working professionals, flexible schedule</p>
+                <p className="part-time-para">
+                  Ideal for working professionals, flexible schedule
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Designed specifically for working individuals</p>
+                <p className="part-time-para">
+                  Designed specifically for working individuals
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
@@ -889,19 +933,27 @@ export const OnlineBca = () => {
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Limited to students living near the campusy</p>
+                <p className="part-time-para">
+                  Limited to students living near the campusy
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Accessible to students across different locations</p>
+                <p className="part-time-para">
+                  Accessible to students across different locations
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Accessible to students worldwide</p>
+                <p className="part-time-para">
+                  Accessible to students worldwide
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Depending on the institution's location</p>
+                <p className="part-time-para">
+                  Depending on the institution's location
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
@@ -909,53 +961,118 @@ export const OnlineBca = () => {
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Requires effective time management</p>
+                <p className="part-time-para">
+                  Requires effective time management
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Demands strong self-discipline and time managementt</p>
+                <p className="part-time-para">
+                  Demands strong self-discipline and time managementt
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Necessitates self-motivation and time management</p>
+                <p className="part-time-para">
+                  Necessitates self-motivation and time management
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para">Requires good time management for work-study balance</p>
+                <p className="part-time-para">
+                  Requires good time management for work-study balance
+                </p>
               </div>
             </div>
-            <h1 className="second-heading">
-              Top Specializations in Online BCA
-            </h1>
+            <h1 className="second-heading">Online BCA Eligibility</h1>
             <p className="para-2">
-              Depending on the university that offers the program, na online BCA program's eligibiliy requirements and duration can differ. But there are same things that students usually need to do before they can enroll: 
+              Depending on the university that offers the program, na online BCA
+              program's eligibiliy requirements and duration can differ. But
+              there are same things that students usually need to do before they
+              can enroll:
             </p>
             <div className="para-div-3">
               <BsFillCheckSquareFill className="second-icons " />
-              <p>
-                Applicants must have finished their 10+2 eduction from a recognized board or a similar test.{" "}
-              </p>
-              </div>
-            <div className="para-div-3">
-              <BsFillCheckSquareFill className="second-icons " />
-              <p>
-                Most school expect students to have gotten at least a certain number of marks on their 10+2 exams, usually at least 50%.
+              <p className="para-3">
+                Applicants must have finished their 10+2 eduction from a
+                recognized board or a similar test.{" "}
               </p>
             </div>
             <div className="para-div-3">
               <BsFillCheckSquareFill className="second-icons " />
-              <p>
-               There may not be strict subject requirements, but knowing math and computer science can be helpful.
+              <p className="para-3">
+                Most school expect students to have gotten at least a certain
+                number of marks on their 10+2 exams, usually at least 50%.
               </p>
             </div>
             <div className="para-div-3">
-              <BsFillCheckSquareFill className="second-icons icon-3" />
-              <p>
-               Since the program is taught in English, it is generally assumed that you know a certain amount of that language. Some school might want you to take a test to see how well you speak English.
+              <BsFillCheckSquareFill className="second-icons " />
+              <p className="para-3">
+                There may not be strict subject requirements, but knowing math
+                and computer science can be helpful.
               </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons icon-4" />
+              <p className="para-3">
+                Since the program is taught in English, it is generally assumed
+                that you know a certain amount of that language. Some school
+                might want you to take a test to see how well you speak English.
+              </p>
+            </div>
+            <h1 className="second-heading">Online BCA Duration</h1>
+            <p className="para-2">
+            Most online BCA programs take about 3 to 4 years to finish. This time is broken into six semesters, each about six months long. The program's framework is set up so that the courses and topics are spread evenly over the three years. This way, students can slowly build their knowledge and skills in computer applications.
+            </p>
+            <h1 className="second-heading">Skills Required for online BCA</h1>
+            <p className="para-2">
+           You must have certain skills and traits to do well in an online BCA program. Here are some important skills you need to be successfull:
+            </p>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons icon-4" />
+              <p className="para-3">
+              <strong>Self-motivation and Discipline: </strong>
+                To stay focused on your schoolwork, meet deadlines, and handle your study plan while studying, you must be self-motivated and disciplined.
+              </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons icon-5" />
+              <p className="para-3">
+              <strong>Effective Time Management: </strong>
+                You must manage your time well to balance schoolwork with other obligations and ensure enough time for learning and tasks.
+              </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons icon-4" />
+              <p className="para-3">
+              <strong>Digital Literacy and Adaptability: </strong>
+               You must know how to use digital platforms, tools, and apps well. It's important to adapt and learn new tools in the tech business, which changes quickly. 
+              </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons icon-6" />
+              <p className="para-3">
+              <strong>Critical Thinking and Problem-handling: </strong>
+               A lot of the work in online BCA classes is handling hard problems. Being able to think critically helps you understand and solve complex problems well. 
+              </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons icon-4" />
+              <p className="para-3">
+              <strong>Communication and Teamwork: </strong>
+               You must communicate clearly both orally and in writing to participate in online talks, ask for help, and work well with others on group tasks. 
+              </p>
+            </div>
+            <h1 className="second-heading">BCA Entrance Exams 2023</h1>
+            <p className="para-2">
+            The followaing is a list of some of the most prevalent admission examinations for BCA degrees in India:
+            </p>
+
+            <div className="BCA-exams-grid">
+
             </div>
           </div>
-        </div>
+        </div> 
       </Main>
     </>
   );
@@ -1186,5 +1303,20 @@ const Main = styled.div`
   }
   .part-time-para{
      padding: 0 10px;
+   }
+   .icon-4{
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+   }
+   .icon-5{
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+   }
+   .icon-6{
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+   }
+   .para-3{
+    color: #3C3F43;
    }
 `;
