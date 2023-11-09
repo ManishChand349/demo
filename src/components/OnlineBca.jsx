@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import BCA from "../assets/OnlineBca-img/online-bca-program.webp";
 import Education from "../assets/OnlineBca-img/who-should-pursue-bca-distance-education-course.webp";
+import AdmissionProcedure from "../assets/OnlineBca-img/AdmissionProcedure.jpg";
+import CVCourseBcaSalary from "../assets/OnlineBca-img/CVCourseBcaSalary.png";
 import { BsFillCheckSquareFill } from "react-icons/bs";
 
 export const OnlineBca = () => {
@@ -1105,7 +1107,9 @@ export const OnlineBca = () => {
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para Book-para">SET (Symbiosis Entrance Test)</p>
+                <p className="part-time-para Book-para">
+                  SET (Symbiosis Entrance Test)
+                </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
@@ -1127,7 +1131,9 @@ export const OnlineBca = () => {
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para Book-para">SET (Symbiosis Entrance Test)</p>
+                <p className="part-time-para Book-para">
+                  SET (Symbiosis Entrance Test)
+                </p>
               </div>
             </div>
             <div className="inner-div  ">
@@ -1164,208 +1170,225 @@ export const OnlineBca = () => {
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
+                <p className="part-time-para Book-para">Database Management</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">Raghu Ramakrishnan</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
                 <p className="part-time-para Book-para">
-                  Database Management
+                  Introduction to the Theory of Computation
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para Book-para">
-                 Raghu Ramakrishnan
+                  Theory of Computation
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">Michael Sipser</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  Data Structures and Algorithm Analysis in C++
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para Book-para">
-                 Introduction to the Theory of Computation
+                  Data Structures and Algorithms
                 </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">Mark A. Weiss</p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para Book-para">
-                Theory of Computation
+                  Operating System Concepts
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para Book-para" >
-               Michael Sipser
-                </p>
+                <p className="part-time-para Book-para">Operating Systems</p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para Book-para">
-               Data Structures and Algorithm Analysis in C++
-                </p>
+                <p className="part-time-para Book-para">Abraham Silberschatz</p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para Book-para">
-               Data Structures and Algorithms
-                </p>
+                <p className="part-time-para Book-para">Computer Network</p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para Book-para">
-               Mark A. Weiss
-                </p>
+                <p className="part-time-para Book-para">Computer Network</p>
               </div>
+
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para Book-para">
-              Operating System Concepts
-                </p>
-              </div>
-              <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-              Operating Systems
-                </p>
-              </div>
-              <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-               Abraham Silberschatz
-                </p>
-              </div>
-              <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-               Computer Network
-                </p>
-              </div>
-              <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-                Computer Network
-                </p>
-              </div>
-              
-              <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-               Andrew S.Tanenbaum
-                </p>
+                <p className="part-time-para Book-para">Andrew S.Tanenbaum</p>
               </div>
 
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para Book-para">
-              Software Engineering: A Practitioner's Approach
+                  Software Engineering: A Practitioner's Approach
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">Software Engineering</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">Roger S.pressman</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  Artificial Intelligence: A Modern Approach
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para Book-para">
-              Software Engineering
+                  Artificial Intelligence
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para Book-para">
-              Roger S.pressman
+                  Stuart Russell and peter Norvig
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para Book-para">
-              Artificial Intelligence: A Modern Approach
+                  Web Technologies: HTML, CSS JavaScript, and XML
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para Book-para">
-              Artificial Intelligence
-                </p>
+                <p className="part-time-para Book-para">Web Development</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">Jeffrey C.Jackson</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">Programming in Java</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">Java Programming</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">E.Balagurusamy</p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para Book-para">
-               Stuart Russell and peter Norvig
+                  Introduction to Computer Graphics and the Vulkan API
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para Book-para">
-               Web Technologies: HTML, CSS JavaScript, and XML
-                </p>
+                <p className="part-time-para Book-para">Computer Graphics</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">Kenwright</p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para Book-para">
-               Web Development 
+                  Cryptography and NetWork Security: Principles and Practice
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para Book-para">
-               Jeffrey C.Jackson
-                </p>
+                <p className="part-time-para Book-para">Network Security</p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para Book-para">
-               Programming in Java
-                </p>
-              </div>
-              <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-              Java Programming
-                </p>
-              </div>
-              <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-             E.Balagurusamy
-                </p>
-              </div>
-              <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-             Introduction to Computer Graphics and the Vulkan API
-                </p>
-              </div>
-              <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-             Computer Graphics
-                </p>
-              </div>
-              <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-             Kenwright
-                </p>
-              </div>
-              <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-             Cryptography and NetWork Security: Principles and Practice
-                </p>
-              </div>
-              <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-             Network Security 
-                </p>
-              </div>
-              <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-             William Stallings
-                </p>
+                <p className="part-time-para Book-para">William Stallings</p>
               </div>
             </div>
-            <h1 className="second-heading Books-heading">Online BCA Academic Fees</h1>
+            <h1 className="second-heading Books-heading">
+              Online BCA Academic Fees
+            </h1>
             <p className="para-2">
-            Fees for the online BCA Program usually cost between 50,000 INR and 2 lakhs INR. The university name causes this difference, the program's length, how complete the education is, and what other support services are offered. The low cost of these programs and the fact that they can be done online make them a good choice for people who want to get a good education in computer applications.
+              Fees for the online BCA Program usually cost between 50,000 INR
+              and 2 lakhs INR. The university name causes this difference, the
+              program's length, how complete the education is, and what other
+              support services are offered. The low cost of these programs and
+              the fact that they can be done online make them a good choice for
+              people who want to get a good education in computer applications.
             </p>
-            <h1 className="second-heading Books-heading">Online BCA Admission Procedure</h1>
+            <h1 className="second-heading Books-heading">
+              Online BCA Admission Procedure
+            </h1>
             <p className="para-2">
-            Several steps in the admissions process for online BCA schools make registration easy and quick. Applicants must complete their forms online and include important personal and academic details. Depending on the school, candidates might have to take an entrance test to see how good they are at computer science. Also, applicants might have to send their college records, proof of identity, and English language proficiency test marks. Some applicants who made the shortlist might be asked to see how motivated they are and if they are a good fit for the program. Once a student is accepted, they get an offer letter with information about the school and how to pay the fees. This simplified process makes it easy for people who want to learn to start their online BCA path and learn more about the world of technology.
+              Several steps in the admissions process for online BCA schools
+              make registration easy and quick. Applicants must complete their
+              forms online and include important personal and academic details.
+              Depending on the school, candidates might have to take an entrance
+              test to see how good they are at computer science. Also,
+              applicants might have to send their college records, proof of
+              identity, and English language proficiency test marks. Some
+              applicants who made the shortlist might be asked to see how
+              motivated they are and if they are a good fit for the program.
+              Once a student is accepted, they get an offer letter with
+              information about the school and how to pay the fees. This
+              simplified process makes it easy for people who want to learn to
+              start their online BCA path and learn more about the world of
+              technology.
             </p>
-            <img className="education-img" src={Education} alt="" />
+            <img className="education-img" src={AdmissionProcedure} alt="" />
+            <h1 className="second-heading Books-heading">
+              Why Opt for an Education Loan for an Online BCA?
+            </h1>
+            <p className="para-2">
+              A student loan can be used to pay for an Online BCA program. Like
+              any other course, this can be paid for with a student loan. The
+              minimum requirements for getting a student loan for the BCA school
+              are the same as for the other classes. That is, the person must
+              live in India and be between the ages of 18 and 35. They must also
+              have a letter of acceptance from a recognised university. If you
+              meet all these requirements, you can apply for an education loan
+              for any school, whether online or offline.
+            </p>
+            <h1 className="second-heading Books-heading">
+              Is Online BCA Worth It?
+            </h1>
+            <p className="para-2">
+              Pursuing an Online BCA is a good idea in the digital age as it
+              offers many benefits, freedom and convenience that can't be found
+              anywhere else. The program lets people fit their learning around
+              other things they must do, like work, family, or personal
+              interests. This makes education available to more people.
+            </p>
+            <p className="para-2">
+              The courses in the online BCA program cover a lot of ground, are
+              up-to-date, and are based on interactive learning, which disproves
+              the idea that online learning is done alone. Students interact
+              with teachers and classmates worldwide through virtual classrooms,
+              conversation forums, and group projects. This creates a learning
+              atmosphere that is diverse and rich. Another important benefit is
+              that it saves money. Tuition for online BCA is often less than for
+              standard on-campus programs. They are also attractive because they
+              save money on transportation and moving costs.
+            </p>
+            <img className="education-img" src={CVCourseBcaSalary} alt="" />
 
           </div>
         </div>
