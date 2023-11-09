@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import BCA from "../assets/OnlineBca-img/online-bca-program.webp";
 import Education from "../assets/OnlineBca-img/who-should-pursue-bca-distance-education-course.webp";
 import { BsFillCheckSquareFill } from "react-icons/bs";
+
 export const OnlineBca = () => {
   return (
     <>
@@ -661,22 +662,121 @@ export const OnlineBca = () => {
                   <strong className="center">Part-Time-BCA</strong>
                 </p>
               </div>
-            <div className="inner-div">
+            <div className="inner-div inner-part-time ">
                 {" "}
-                <p className="center">
+                <p className=" part-time-para">
                   {" "}
-                 Learning Environment
+                 Learning <br /> Environment
                 </p>
               </div>
-            <div className="inner-div ">
+            <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="center">
+                <p className="part-time-para">
                   {" "}
                 On-Campus classes with in-person interactions
                 </p>
               </div>
-           
+            <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                Mostly remote with occasinal in-person session
+                </p>
+              </div>
+            <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                Entirely online <br /> with virtual <br /> interactions
+                </p>
+              </div>
+            <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                On-campus or virtual
+                part-time schedule
+                </p>
+              </div>
+            <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                Classroom <br /> Attendance
+                </p>
+              </div>
+            <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                Mandatory in- <br /> person Attendance
+                </p>
+              </div>
+            <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+               No mandatory in- <br /> person classes
+                </p>
+              </div>
+            <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+               No in-person <br /> classes, Entirely <br /> virtual
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+              part-time, with some <br /> in-person sessions
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+             Flexibility
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+            Limited flexibility, <br /> fixed class schedules
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+            High flexibility, self-paced learning
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+            Maximum flexibility, study at your own pace
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+            Moderate flexibility with evening/weekend <br /> classes
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+            Interaction with Peers
+                </p>
+              </div>
             </div>
+            
           </div>
         </div>
       </Main>
@@ -901,5 +1001,14 @@ const Main = styled.div`
    .part-time-BCA{
     display: grid;
     grid-template-columns: repeat(5, 1fr);;
+   }
+   
+   .inner-part-time{
+    display: flex;
+    align-items: end;
+  }
+  .part-time-para{
+     padding: 0 10px;
+
    }
 `;
