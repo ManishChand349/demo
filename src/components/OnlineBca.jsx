@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import BCA from "../assets/OnlineBca-img/online-bca-program.webp";
 import Education from "../assets/OnlineBca-img/who-should-pursue-bca-distance-education-course.webp";
 import { BsFillCheckSquareFill } from "react-icons/bs";
@@ -98,140 +98,585 @@ export const OnlineBca = () => {
               always changing. The following groups should consider getting an
               online BCA:
             </p>
-          <div>
-          <div className="para-div-2">
-          <BsFillCheckSquareFill className="icons"/>
-            <p className=""> <span className="highlight">People who want to work as computer professionals:</span>  Online BCA is a great choice for people who want to work as computer professional. This program gives you the information and skill to start your job if you are interested in technology, Programming, and digital systems.</p>
-          </div>
-          <div className="para-div-2">
-          <BsFillCheckSquareFill className="icons-1"/>
-            <p className=""> <span className="highlight">Working Professionals:</span>  Online BCA is very helpful for people already working in non-technical areas but want to switch to a tech-related job. It lets them learn new skills while keeping their current job, which can lead to new chances in the tech field.</p>
-          </div>
-          <div className="para-div-2">
-          <BsFillCheckSquareFill className="icons-2"/>
-            <p className=""> <span className="highlight">Geographically Diverse Learners:</span>  Students from many places can attend online BCA. Online learning is a good option if you live in an area where going to school on campus is hard to get to or if you have personal issues that keep you from going regularly.</p>
-          </div>
-          <div className="para-div-2">
-          <BsFillCheckSquareFill className="icons-3"/>
-            <p className=""> <span className="highlight">Remote Professionals: </span>  The flexibility of Online BCA can help professionals whose jobs require them to move a lot or work from home. It's easier for them to keep up with their schoolwork because they can access course materials and attend class from anywhere.</p>
-          </div>
-          </div>
-          <h1 className="second-heading">When to do an Online BCA?</h1>
-          <p className="para-2">
-          The best time to pursue online BCA depends on your situation and job goals. Online BCA programs are flexible enough to work with many different scenarios. If you just graduated from high school, this is a great way to start a tech-related job without studying full-time in college. People who are already working and want to change careers or get better at their jobs in technology can do so without quitting. People who can't go to college because of where they live or want a more open learning setting can also start their Online BCA at any age. The decision is mostly based on the person's goals, circumstances, and willingness to embark on a fulfilling journey in computer apps.
-            </p>
-          <h1 className="second-heading">Popular and Affordable Online BCA Colleges Or Universities in India?</h1>
-          <div className="gird-div">
-              <div className="inner-div"> <strong>Private Universities Offering BCA</strong> </div>
-              <div className="inner-div"> <strong>NIRF Ranking</strong> </div>
-              <div className="inner-div"> <strong>Starting Fee Range</strong></div>
-              <div className="inner-div"> <Link to="">Amrita University online</Link></div>
-              <div className="inner-div"> <p>7</p> </div>
-              <div className="inner-div"> <p>INR 1,40,000</p> </div>
-              <div className="inner-div"> <Link to="">LPU Online</Link></div>
-              <div className="inner-div"> <p>38</p> </div>
-              <div className="inner-div"> <p>INR 1,30,000</p> </div>
-              <div className="inner-div"> <Link to="">Amity University Online</Link></div>
-              <div className="inner-div"> <p>35</p></div>
-              <div className="inner-div"> <p>INR 1,30,000</p> </div>
-              <div className="inner-div"> <Link to="">UPES Online</Link></div>
-              <div className="inner-div"> <p>52</p></div>
-              <div className="inner-div"> <p>INR 1,40,000</p></div>
-              <div className="inner-div"> <Link to="">Chandigarh University Online</Link></div>
-              <div className="inner-div"> <p>27</p></div>
-              <div className="inner-div"> <p>INR 1,50,000</p></div>
-              <div className="inner-div"> <Link to="">DMIMS Online</Link></div>
-              <div className="inner-div"> <p>39</p></div>
-              <div className="inner-div"> <p>INR 1,45,000</p></div>
-          </div>
-          <h1 className="second-heading">Key Highlight of online BCA In India</h1>
-          <div className="para-div-3">
-          <BsFillCheckSquareFill className="second-icons"/>
-            <p>With an online BCA program, you can learn at your own pace and fit school in around work and other obligations.</p>
-          </div>
-          <div className="para-div-3">
-          <BsFillCheckSquareFill className="second-icons"/>
-            <p>The program helps students develop technical skills related to computer programming, data visualisation, cloud computing, etc. </p>
-          </div>
-          <div className="para-div-3">
-          <BsFillCheckSquareFill className="second-icons icon-3"/>
-            <p>The Online BCA program covers various topics, from the basics to more advanced computer tools, to prepare you for various tech jobs. </p>
-          </div>
-          <div className="para-div-3">
-          <BsFillCheckSquareFill className="second-icons icon-4"/>
-            <p>Learn in a digital setting to improve your digital Knowledge and technical skills</p>
-          </div>
-          <div className="para-div-3">
-          <BsFillCheckSquareFill className="second-icons icon-5"/>
-            <p>Make virtual connections with peers and professionals to grow your network and find new ways to work together and advance your job.</p>
-          </div>
-          <div className="para-div-3">
-          <BsFillCheckSquareFill className="second-icons icon-6"/>
-            <p>You can move through your schoolwork at your own pace and change it to fit your learning style and what you already know.</p>
-          </div>
-          <div className="para-div-3">
-          <BsFillCheckSquareFill className="second-icons icon-7"/>
-            <p>Use the program's flexibility to get into tech-related jobs, such as software creation and IT counselling.</p>
-          </div>
-          <div className="para-div-3">
-          <BsFillCheckSquareFill className="second-icons icon-8"/>
-            <p>With an online BCA program, engage with teachers and peers worldwide through virtual classes and group projects for a more varied learning experience.</p>
-          </div>
-          <div className="para-div-3">
-          <BsFillCheckSquareFill className="second-icons icon-9"/>
-            <p>Learn skills needed in the job market, such as computer languages, web creation, and data management.</p>
-          </div>
-          {/* //Online BCA Course Subjects */}
             <div>
-          <h1 className="second-heading">Online BCA Course Subjects</h1>
-          <p className="para-2 Subject-para">
-          The online BCA program curriculum is meant to teach students everything they need to know about computer science and how it can be used in real life. Even though the exact syllabus can change from university to university, here is a general overview of what is usually taught in an online BCA program:
+              <div className="para-div-2">
+                <BsFillCheckSquareFill className="icons" />
+                <p className="">
+                  {" "}
+                  <span className="highlight">
+                    People who want to work as computer professionals:
+                  </span>{" "}
+                  Online BCA is a great choice for people who want to work as
+                  computer professional. This program gives you the information
+                  and skill to start your job if you are interested in
+                  technology, Programming, and digital systems.
+                </p>
+              </div>
+              <div className="para-div-2">
+                <BsFillCheckSquareFill className="icons-1" />
+                <p className="">
+                  {" "}
+                  <span className="highlight">Working Professionals:</span>{" "}
+                  Online BCA is very helpful for people already working in
+                  non-technical areas but want to switch to a tech-related job.
+                  It lets them learn new skills while keeping their current job,
+                  which can lead to new chances in the tech field.
+                </p>
+              </div>
+              <div className="para-div-2">
+                <BsFillCheckSquareFill className="icons-2" />
+                <p className="">
+                  {" "}
+                  <span className="highlight">
+                    Geographically Diverse Learners:
+                  </span>{" "}
+                  Students from many places can attend online BCA. Online
+                  learning is a good option if you live in an area where going
+                  to school on campus is hard to get to or if you have personal
+                  issues that keep you from going regularly.
+                </p>
+              </div>
+              <div className="para-div-2">
+                <BsFillCheckSquareFill className="icons-3" />
+                <p className="">
+                  {" "}
+                  <span className="highlight">Remote Professionals: </span> The
+                  flexibility of Online BCA can help professionals whose jobs
+                  require them to move a lot or work from home. It's easier for
+                  them to keep up with their schoolwork because they can access
+                  course materials and attend class from anywhere.
+                </p>
+              </div>
+            </div>
+            <h1 className="second-heading">When to do an Online BCA?</h1>
+            <p className="para-2">
+              The best time to pursue online BCA depends on your situation and
+              job goals. Online BCA programs are flexible enough to work with
+              many different scenarios. If you just graduated from high school,
+              this is a great way to start a tech-related job without studying
+              full-time in college. People who are already working and want to
+              change careers or get better at their jobs in technology can do so
+              without quitting. People who can't go to college because of where
+              they live or want a more open learning setting can also start
+              their Online BCA at any age. The decision is mostly based on the
+              person's goals, circumstances, and willingness to embark on a
+              fulfilling journey in computer apps.
             </p>
-          </div>
+            <h1 className="second-heading">
+              Popular and Affordable Online BCA Colleges Or Universities in
+              India?
+            </h1>
+            <div className="gird-div">
+              <div className="inner-div">
+                {" "}
+                <strong>Private Universities Offering BCA</strong>{" "}
+              </div>
+              <div className="inner-div">
+                {" "}
+                <strong>NIRF Ranking</strong>{" "}
+              </div>
+              <div className="inner-div">
+                {" "}
+                <strong>Starting Fee Range</strong>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <Link to="">Amrita University online</Link>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p>7</p>{" "}
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p>INR 1,40,000</p>{" "}
+              </div>
+              <div className="inner-div">
+                {" "}
+                <Link to="">LPU Online</Link>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p>38</p>{" "}
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p>INR 1,30,000</p>{" "}
+              </div>
+              <div className="inner-div">
+                {" "}
+                <Link to="">Amity University Online</Link>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p>35</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p>INR 1,30,000</p>{" "}
+              </div>
+              <div className="inner-div">
+                {" "}
+                <Link to="">UPES Online</Link>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p>52</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p>INR 1,40,000</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <Link to="">Chandigarh University Online</Link>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p>27</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p>INR 1,50,000</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <Link to="">DMIMS Online</Link>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p>39</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p>INR 1,45,000</p>
+              </div>
+            </div>
+            <h1 className="second-heading">
+              Key Highlight of online BCA In India
+            </h1>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons" />
+              <p>
+                With an online BCA program, you can learn at your own pace and
+                fit school in around work and other obligations.
+              </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons" />
+              <p>
+                The program helps students develop technical skills related to
+                computer programming, data visualisation, cloud computing, etc.{" "}
+              </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons icon-3" />
+              <p>
+                The Online BCA program covers various topics, from the basics to
+                more advanced computer tools, to prepare you for various tech
+                jobs.{" "}
+              </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons icon-4" />
+              <p>
+                Learn in a digital setting to improve your digital Knowledge and
+                technical skills
+              </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons icon-5" />
+              <p>
+                Make virtual connections with peers and professionals to grow
+                your network and find new ways to work together and advance your
+                job.
+              </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons icon-6" />
+              <p>
+                You can move through your schoolwork at your own pace and change
+                it to fit your learning style and what you already know.
+              </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons icon-7" />
+              <p>
+                Use the program's flexibility to get into tech-related jobs,
+                such as software creation and IT counselling.
+              </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons icon-8" />
+              <p>
+                With an online BCA program, engage with teachers and peers
+                worldwide through virtual classes and group projects for a more
+                varied learning experience.
+              </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons icon-9" />
+              <p>
+                Learn skills needed in the job market, such as computer
+                languages, web creation, and data management.
+              </p>
+            </div>
+            {/* //Online BCA Course Subjects */}
+            <div>
+              <h1 className="second-heading">Online BCA Course Subjects</h1>
+              <p className="para-2 Subject-para">
+                The online BCA program curriculum is meant to teach students
+                everything they need to know about computer science and how it
+                can be used in real life. Even though the exact syllabus can
+                change from university to university, here is a general overview
+                of what is usually taught in an online BCA program:
+              </p>
+            </div>
 
-          <div className="subject-grid">
-            <div className="inner-div" ><p>Computer Fundamenals</p></div>
-            <div className="inner-div" ><p>Programming Fundamentals</p></div>
-            <div className="inner-div" ><p>Digital Electronics</p></div>
-            <div className="inner-div" ><p>Mathematics for Computing</p></div>
-            <div className="inner-div" ><p>Communication Skills</p></div>
-            <div className="inner-div" ><p>Data Structures and Algorithms</p></div>
-            <div className="inner-div" ><p>Database Managements Systems</p></div>
-            <div className="inner-div" ><p>Object-Oriented Programming</p></div>
-            <div className="inner-div" ><p>Operating Systems</p></div>
-            <div className="inner-div" ><p>Software Engineering</p></div>
-            <div className="inner-div" ><p>Web Development</p></div>
-            <div className="inner-div" ><p>Mobile App Development</p></div>
-            <div className="inner-div" ><p>Cloud Computing</p></div>
-            <div className="inner-div" ><p>Computer Graphics and multimedia</p></div>
-          </div>
-          <h1 className="second-heading">Top Specializations in Online BCA</h1>
-          <p className="para-2 ">
-          When students enroll in an online BCA Program, they can often pick from several specialisation that fit their hobbies and job goals. Here are a few of the <a href="">best BCA specialisation:</a>
+            <div className="subject-grid">
+              <div className="inner-div">
+                <p>Computer Fundamenals</p>
+              </div>
+              <div className="inner-div">
+                <p>Programming Fundamentals</p>
+              </div>
+              <div className="inner-div">
+                <p>Digital Electronics</p>
+              </div>
+              <div className="inner-div">
+                <p>Mathematics for Computing</p>
+              </div>
+              <div className="inner-div">
+                <p>Communication Skills</p>
+              </div>
+              <div className="inner-div">
+                <p>Data Structures and Algorithms</p>
+              </div>
+              <div className="inner-div">
+                <p>Database Managements Systems</p>
+              </div>
+              <div className="inner-div">
+                <p>Object-Oriented Programming</p>
+              </div>
+              <div className="inner-div">
+                <p>Operating Systems</p>
+              </div>
+              <div className="inner-div">
+                <p>Software Engineering</p>
+              </div>
+              <div className="inner-div">
+                <p>Web Development</p>
+              </div>
+              <div className="inner-div">
+                <p>Mobile App Development</p>
+              </div>
+              <div className="inner-div">
+                <p>Cloud Computing</p>
+              </div>
+              <div className="inner-div">
+                <p>Computer Graphics and multimedia</p>
+              </div>
+            </div>
+            <h1 className="second-heading">
+              Top Specializations in Online BCA
+            </h1>
+            <p className="para-2 ">
+              When students enroll in an online BCA Program, they can often pick
+              from several specialisation that fit their hobbies and job goals.
+              Here are a few of the <a href="">best BCA specialisation:</a>
             </p>
-                <div className="Top-Specializations-grid">
-                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In Computer Science</Link></div>
-                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In Data Analytics</Link></div>
-                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In Cyber Security</Link>
-                </div>
-                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In Database Management</Link>
-                </div>
-                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In cloud Security</Link>
-                </div>
-                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In Artficial Intelligence and Machine Learning</Link>
-                </div>
-                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In Multimedia and Animation</Link>
-                </div>
-                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In Data Science and Big Data</Link>
-                </div>
-                </div>
-                <h1 className="second-heading">Top Specializations in Online BCA</h1>
-                <p className="para-2 ">Besides Online BCA Programs, there are different kinds of BCA programs for students with different learning styles and ways of life:</p>
-                <p className=""> <span className="highlight">1. Regular on-Campus BCA program:</span> Regular on-campus BCA programs offer a standard and in-depth way to learn. Students attend classes in real classrooms on university or college grounds and interact directly with teachers and other students. This program lets students meet in person, which can be helpful for in-depth talks, group projects, and quick access to educational resources like labs and libraries. It also helps students feel like they are part of the university community by letting them participate in events and activities outside of class. This method provides an organised and guided education, but students may need to be on campus all the time, which can be hard for those who have other obligations or need help getting to college.</p>
-                <p className="Ranking-heading"> <span className="highlight">Top Universities for BCA As Per NIRF Ranking 2023</span></p>
-                <p className="para-2 ">Here is a list of the top best universities in India as per the NIRF Ranking 2023</p>
-
-                
+            <div className="Top-Specializations-grid">
+              <div className="inner-div">
+                {" "}
+                <Link className="link-tag" to="">
+                  BCA Online In Computer Science
+                </Link>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <Link className="link-tag" to="">
+                  BCA Online In Data Analytics
+                </Link>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <Link className="link-tag" to="">
+                  BCA Online In Cyber Security
+                </Link>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <Link className="link-tag" to="">
+                  BCA Online In Database Management
+                </Link>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <Link className="link-tag" to="">
+                  BCA Online In cloud Security
+                </Link>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <Link className="link-tag" to="">
+                  BCA Online In Artficial Intelligence and Machine Learning
+                </Link>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <Link className="link-tag" to="">
+                  BCA Online In Multimedia and Animation
+                </Link>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <Link className="link-tag" to="">
+                  BCA Online In Data Science and Big Data
+                </Link>
+              </div>
+            </div>
+            <h1 className="second-heading">
+              Top Specializations in Online BCA
+            </h1>
+            <p className="para-2 ">
+              Besides Online BCA Programs, there are different kinds of BCA
+              programs for students with different learning styles and ways of
+              life:
+            </p>
+            <p className="">
+              {" "}
+              <span className="highlight">
+                1. Regular on-Campus BCA program:
+              </span>{" "}
+              Regular on-campus BCA programs offer a standard and in-depth way
+              to learn. Students attend classes in real classrooms on university
+              or college grounds and interact directly with teachers and other
+              students. This program lets students meet in person, which can be
+              helpful for in-depth talks, group projects, and quick access to
+              educational resources like labs and libraries. It also helps
+              students feel like they are part of the university community by
+              letting them participate in events and activities outside of
+              class. This method provides an organised and guided education, but
+              students may need to be on campus all the time, which can be hard
+              for those who have other obligations or need help getting to
+              college.
+            </p>
+            <p className="Ranking-heading">
+              {" "}
+              <span className="highlight">
+                Top Universities for BCA As Per NIRF Ranking 2023
+              </span>
+            </p>
+            <p className="para-2">
+              Here is a list of the top best universities in India as per the
+              NIRF Ranking 2023
+            </p>
+            <div className="Top-Universities-grid">
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                  {" "}
+                  <strong className="center">Universities/Institution</strong>
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                  <strong>NIRF 2023 Ranking in University Category</strong>
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                  Indian Institute of Science
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                 1
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                 Jawaharlal Nehru University
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                 2
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                 Jamia Millia Islamia
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                 3
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                 Jadavpur University
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                 4
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                 Banaras Hindu University
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                 5
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                Manipal Academy Of Higher Education-Manipal
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+               6
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                Amrita Vishwa Vidyapeetham
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                7
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+               Vellore Institute of Technology
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                8
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                Aligarh Muslim University
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                9
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+               University of Hyderabad
+                </p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">
+                10
+                </p>
+              </div>
+            </div>
+            <p className="para-2">
+              {" "}
+              <span className="highlight">
+                2. Distance BCA:
+              </span>{" "}
+              Students who need more flexible schedules can use <a className="link-tag" href="">distance BCA programs</a>
+              . These programs use various distance learning methods, such as written study guides, online tools, and tutoring from afar. Apart from online classes, you must attend university to take your exams. Students can access course materials from home or anywhere else with an internet connection. This freedom will benefit people balancing work, family, or other obligations while getting their BCA degree. Distance BCA programs are especially helpful for people who may need help to easily go to school on campus because of where they live. However, self-discipline and time management are very important for doing well in online learning.
+            </p>
+            <p className="para-2">
+              {" "}
+              <span className="highlight">
+              3. Part Time BCA:
+              </span>{" "}
+              Part time BCA programs are designed for people with full-time jobs or responsibilities. Because these programs offer evening or weekend classes, students can keep their jobs and improve their skills simultaneously.  <a className="link-tag" href="">Part time BCA</a>
+              . students can interact with teachers and classmates during class time, which can help them make connections and work together to learn. One good thing about part-time classes is that they give you the freedom to get your BCA while still working. It is important to remember that part-time BCA programs may take longer to finish than full-time ones because they usually have lighter course loads to suit students who work full-time jobs. The table below enlists the key differences between a regular, distance, online and part time BCA.
+            </p>
+            <p className="para-2">
+             The table below enlists the key difference between a regular, distance, online and part time BCA:
+            </p>
+            <div className="part-time-BCA"> 
+            <div className="inner-div">
+                {" "}
+                <p className="center">
+                  {" "}
+                  <strong className="center">Aspect</strong>
+                </p>
+              </div>
+            <div className="inner-div">
+                {" "}
+                <p className="center">
+                  {" "}
+                  <strong className="center">Regular BCA</strong>
+                </p>
+              </div>
+            <div className="inner-div">
+                {" "}
+                <p className="center">
+                  {" "}
+                  <strong className="center">Distance BCA</strong>
+                </p>
+              </div>
+            <div className="inner-div">
+                {" "}
+                <p className="center">
+                  {" "}
+                  <strong className="center">Online BCA</strong>
+                </p>
+              </div>
+            <div className="inner-div">
+                {" "}
+                <p className="center">
+                  {" "}
+                  <strong className="center">Part-Time-BCA</strong>
+                </p>
+              </div>
+            <div className="inner-div">
+                {" "}
+                <p className="center">
+                  {" "}
+                 Learning Environment
+                </p>
+              </div>
+            <div className="inner-div ">
+                {" "}
+                <p className="center">
+                  {" "}
+                On-Campus classes with in-person interactions
+                </p>
+              </div>
+           
+            </div>
           </div>
         </div>
       </Main>
@@ -244,6 +689,9 @@ const Main = styled.div`
      margin: 0;
      font-family: 'Poppins', sans-serif;
      text-decoration: none;
+   }
+   .center{
+    text-align: center;
    }
    .row{
      max-width: 70%;
@@ -443,6 +891,15 @@ const Main = styled.div`
    }
    .Ranking-heading{
     margin-top: 10px;
-    margin-bottom: 14px;
+    margin-bottom: 10px;
+   }
+   .Top-Universities-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 20px;
+   }
+   .part-time-BCA{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);;
    }
 `;
