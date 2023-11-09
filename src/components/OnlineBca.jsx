@@ -488,295 +488,472 @@ export const OnlineBca = () => {
               </div>
               <div className="inner-div">
                 {" "}
-                <p className="center">
-                  Indian Institute of Science
-                </p>
+                <p className="center">Indian Institute of Science</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">1</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">Jawaharlal Nehru University</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">2</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">Jamia Millia Islamia</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">3</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">Jadavpur University</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">4</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">Banaras Hindu University</p>
+              </div>
+              <div className="inner-div">
+                {" "}
+                <p className="center">5</p>
               </div>
               <div className="inner-div">
                 {" "}
                 <p className="center">
-                 1
+                  Manipal Academy Of Higher Education-Manipal
                 </p>
               </div>
               <div className="inner-div">
                 {" "}
-                <p className="center">
-                 Jawaharlal Nehru University
-                </p>
+                <p className="center">6</p>
               </div>
               <div className="inner-div">
                 {" "}
-                <p className="center">
-                 2
-                </p>
+                <p className="center">Amrita Vishwa Vidyapeetham</p>
               </div>
               <div className="inner-div">
                 {" "}
-                <p className="center">
-                 Jamia Millia Islamia
-                </p>
+                <p className="center">7</p>
               </div>
               <div className="inner-div">
                 {" "}
-                <p className="center">
-                 3
-                </p>
+                <p className="center">Vellore Institute of Technology</p>
               </div>
               <div className="inner-div">
                 {" "}
-                <p className="center">
-                 Jadavpur University
-                </p>
+                <p className="center">8</p>
               </div>
               <div className="inner-div">
                 {" "}
-                <p className="center">
-                 4
-                </p>
+                <p className="center">Aligarh Muslim University</p>
               </div>
               <div className="inner-div">
                 {" "}
-                <p className="center">
-                 Banaras Hindu University
-                </p>
+                <p className="center">9</p>
               </div>
               <div className="inner-div">
                 {" "}
-                <p className="center">
-                 5
-                </p>
+                <p className="center">University of Hyderabad</p>
               </div>
               <div className="inner-div">
                 {" "}
-                <p className="center">
-                Manipal Academy Of Higher Education-Manipal
-                </p>
-              </div>
-              <div className="inner-div">
-                {" "}
-                <p className="center">
-               6
-                </p>
-              </div>
-              <div className="inner-div">
-                {" "}
-                <p className="center">
-                Amrita Vishwa Vidyapeetham
-                </p>
-              </div>
-              <div className="inner-div">
-                {" "}
-                <p className="center">
-                7
-                </p>
-              </div>
-              <div className="inner-div">
-                {" "}
-                <p className="center">
-               Vellore Institute of Technology
-                </p>
-              </div>
-              <div className="inner-div">
-                {" "}
-                <p className="center">
-                8
-                </p>
-              </div>
-              <div className="inner-div">
-                {" "}
-                <p className="center">
-                Aligarh Muslim University
-                </p>
-              </div>
-              <div className="inner-div">
-                {" "}
-                <p className="center">
-                9
-                </p>
-              </div>
-              <div className="inner-div">
-                {" "}
-                <p className="center">
-               University of Hyderabad
-                </p>
-              </div>
-              <div className="inner-div">
-                {" "}
-                <p className="center">
-                10
-                </p>
+                <p className="center">10</p>
               </div>
             </div>
             <p className="para-2">
               {" "}
-              <span className="highlight">
-                2. Distance BCA:
-              </span>{" "}
-              Students who need more flexible schedules can use <a className="link-tag" href="">distance BCA programs</a>
-              . These programs use various distance learning methods, such as written study guides, online tools, and tutoring from afar. Apart from online classes, you must attend university to take your exams. Students can access course materials from home or anywhere else with an internet connection. This freedom will benefit people balancing work, family, or other obligations while getting their BCA degree. Distance BCA programs are especially helpful for people who may need help to easily go to school on campus because of where they live. However, self-discipline and time management are very important for doing well in online learning.
+              <span className="highlight">2. Distance BCA:</span> Students who
+              need more flexible schedules can use{" "}
+              <a className="link-tag" href="">
+                distance BCA programs
+              </a>
+              . These programs use various distance learning methods, such as
+              written study guides, online tools, and tutoring from afar. Apart
+              from online classes, you must attend university to take your
+              exams. Students can access course materials from home or anywhere
+              else with an internet connection. This freedom will benefit people
+              balancing work, family, or other obligations while getting their
+              BCA degree. Distance BCA programs are especially helpful for
+              people who may need help to easily go to school on campus because
+              of where they live. However, self-discipline and time management
+              are very important for doing well in online learning.
             </p>
             <p className="para-2">
               {" "}
-              <span className="highlight">
-              3. Part Time BCA:
-              </span>{" "}
-              Part time BCA programs are designed for people with full-time jobs or responsibilities. Because these programs offer evening or weekend classes, students can keep their jobs and improve their skills simultaneously.  <a className="link-tag" href="">Part time BCA</a>
-              . students can interact with teachers and classmates during class time, which can help them make connections and work together to learn. One good thing about part-time classes is that they give you the freedom to get your BCA while still working. It is important to remember that part-time BCA programs may take longer to finish than full-time ones because they usually have lighter course loads to suit students who work full-time jobs. The table below enlists the key differences between a regular, distance, online and part time BCA.
+              <span className="highlight">3. Part Time BCA:</span> Part time BCA
+              programs are designed for people with full-time jobs or
+              responsibilities. Because these programs offer evening or weekend
+              classes, students can keep their jobs and improve their skills
+              simultaneously.{" "}
+              <a className="link-tag" href="">
+                Part time BCA
+              </a>
+              . students can interact with teachers and classmates during class
+              time, which can help them make connections and work together to
+              learn. One good thing about part-time classes is that they give
+              you the freedom to get your BCA while still working. It is
+              important to remember that part-time BCA programs may take longer
+              to finish than full-time ones because they usually have lighter
+              course loads to suit students who work full-time jobs. The table
+              below enlists the key differences between a regular, distance,
+              online and part time BCA.
             </p>
             <p className="para-2">
-             The table below enlists the key difference between a regular, distance, online and part time BCA:
+              The table below enlists the key difference between a regular,
+              distance, online and part time BCA:
             </p>
-            <div className="part-time-BCA"> 
-            <div className="inner-div">
+            <div className="part-time-BCA">
+              <div className="inner-div">
                 {" "}
                 <p className="center">
                   {" "}
                   <strong className="center">Aspect</strong>
                 </p>
               </div>
-            <div className="inner-div">
+              <div className="inner-div">
                 {" "}
                 <p className="center">
                   {" "}
                   <strong className="center">Regular BCA</strong>
                 </p>
               </div>
-            <div className="inner-div">
+              <div className="inner-div">
                 {" "}
                 <p className="center">
                   {" "}
                   <strong className="center">Distance BCA</strong>
                 </p>
               </div>
-            <div className="inner-div">
+              <div className="inner-div">
                 {" "}
                 <p className="center">
                   {" "}
                   <strong className="center">Online BCA</strong>
                 </p>
               </div>
-            <div className="inner-div">
+              <div className="inner-div">
                 {" "}
                 <p className="center">
                   {" "}
                   <strong className="center">Part-Time-BCA</strong>
                 </p>
               </div>
-            <div className="inner-div inner-part-time ">
+              <div className="inner-div inner-part-time ">
                 {" "}
                 <p className=" part-time-para">
                   {" "}
-                 Learning <br /> Environment
-                </p>
-              </div>
-            <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para">
-                  {" "}
-                On-Campus classes with in-person interactions
-                </p>
-              </div>
-            <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para">
-                  {" "}
-                Mostly remote with occasinal in-person session
-                </p>
-              </div>
-            <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para">
-                  {" "}
-                Entirely online <br /> with virtual <br /> interactions
-                </p>
-              </div>
-            <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para">
-                  {" "}
-                On-campus or virtual
-                part-time schedule
-                </p>
-              </div>
-            <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para">
-                  {" "}
-                Classroom <br /> Attendance
-                </p>
-              </div>
-            <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para">
-                  {" "}
-                Mandatory in- <br /> person Attendance
-                </p>
-              </div>
-            <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para">
-                  {" "}
-               No mandatory in- <br /> person classes
-                </p>
-              </div>
-            <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para">
-                  {" "}
-               No in-person <br /> classes, Entirely <br /> virtual
+                  Learning <br /> Environment
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para">
                   {" "}
-              part-time, with some <br /> in-person sessions
+                  On-Campus classes with in-person interactions
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para">
                   {" "}
-             Flexibility
+                  Mostly remote with occasinal in-person session
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para">
                   {" "}
-            Limited flexibility, <br /> fixed class schedules
+                  Entirely online <br /> with virtual <br /> interactions
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para">
                   {" "}
-            High flexibility, self-paced learning
+                  On-campus or virtual part-time schedule
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para">
                   {" "}
-            Maximum flexibility, study at your own pace
+                  Classroom <br /> Attendance
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para">
                   {" "}
-            Moderate flexibility with evening/weekend <br /> classes
+                  Mandatory in- <br /> person Attendance
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para">
                   {" "}
-            Interaction with Peers
+                  No mandatory in- <br /> person classes
                 </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                  No in-person <br /> classes, Entirely <br /> virtual
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                  part-time, with some <br /> in-person sessions
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para"> Flexibility</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                  Limited flexibility, <br /> fixed class schedules
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                  High flexibility, self-paced learning
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                  Maximum flexibility, study at your own pace
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                  Moderate flexibility with evening/weekend <br /> classes
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para"> Interaction with Peers</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                  Extensive face-to-face interaction
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                  Limited in-person interactions
+                </p>
+              </div>
+
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                  Virtual access to digital resources
+                </p>
+              </div>
+
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">
+                  {" "}
+                  In-person and virtual interactions
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para"> Access to Campus Resources</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para"> Full access to libraries, labs, and campus facilities</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para"> Limited access, often remote resources</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para"> Virtual access to digital resources</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para"> Partial access to campus facilitiess</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para"> Learning Materials</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Printed textbooks, physical resources</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Printed and online materials, occasional workshops</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Online materials, digital resources</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Varied, including printed and online</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Tutor/Instructor Support</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">In-person support from professors</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Remote tutor support and occasional in-person sessions</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Virtual support from instructors</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">In-person and virtual support</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Schedule Duration</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Typically 3 years of full-time study</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Variable, depending on self-paced progress</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Variable, often flexible for working professionals</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Longer duration due to part-time schedule</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Suitable for Working Professionals</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Less suitable due to full-time commitment</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Highly suitable, as it accommodates work schedules</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Ideal for working professionals, flexible schedule</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Designed specifically for working individuals</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Geographical Accessibility</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Limited to students living near the campusy</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Accessible to students across different locations</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Accessible to students worldwide</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Depending on the institution's location</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Time Management Skills</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Requires effective time management</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Demands strong self-discipline and time managementt</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Necessitates self-motivation and time management</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para">Requires good time management for work-study balance</p>
               </div>
             </div>
-            
+            <h1 className="second-heading">
+              Top Specializations in Online BCA
+            </h1>
+            <p className="para-2">
+              Depending on the university that offers the program, na online BCA program's eligibiliy requirements and duration can differ. But there are same things that students usually need to do before they can enroll: 
+            </p>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons " />
+              <p>
+                Applicants must have finished their 10+2 eduction from a recognized board or a similar test.{" "}
+              </p>
+              </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons " />
+              <p>
+                Most school expect students to have gotten at least a certain number of marks on their 10+2 exams, usually at least 50%.
+              </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons " />
+              <p>
+               There may not be strict subject requirements, but knowing math and computer science can be helpful.
+              </p>
+            </div>
+            <div className="para-div-3">
+              <BsFillCheckSquareFill className="second-icons icon-3" />
+              <p>
+               Since the program is taught in English, it is generally assumed that you know a certain amount of that language. Some school might want you to take a test to see how well you speak English.
+              </p>
+            </div>
           </div>
         </div>
       </Main>
@@ -997,18 +1174,17 @@ const Main = styled.div`
     display: grid;
     grid-template-columns: 50% 50%;
     margin-bottom: 20px;
-   }
+  }
    .part-time-BCA{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 20px;
    }
-   
    .inner-part-time{
     display: flex;
     align-items: end;
   }
   .part-time-para{
      padding: 0 10px;
-
    }
 `;
