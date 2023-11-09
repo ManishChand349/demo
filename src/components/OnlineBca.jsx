@@ -1022,57 +1022,353 @@ export const OnlineBca = () => {
             </div>
             <h1 className="second-heading">Online BCA Duration</h1>
             <p className="para-2">
-            Most online BCA programs take about 3 to 4 years to finish. This time is broken into six semesters, each about six months long. The program's framework is set up so that the courses and topics are spread evenly over the three years. This way, students can slowly build their knowledge and skills in computer applications.
+              Most online BCA programs take about 3 to 4 years to finish. This
+              time is broken into six semesters, each about six months long. The
+              program's framework is set up so that the courses and topics are
+              spread evenly over the three years. This way, students can slowly
+              build their knowledge and skills in computer applications.
             </p>
             <h1 className="second-heading">Skills Required for online BCA</h1>
             <p className="para-2">
-           You must have certain skills and traits to do well in an online BCA program. Here are some important skills you need to be successfull:
+              You must have certain skills and traits to do well in an online
+              BCA program. Here are some important skills you need to be
+              successfull:
             </p>
             <div className="para-div-3">
               <BsFillCheckSquareFill className="second-icons icon-4" />
               <p className="para-3">
-              <strong>Self-motivation and Discipline: </strong>
-                To stay focused on your schoolwork, meet deadlines, and handle your study plan while studying, you must be self-motivated and disciplined.
+                <strong>Self-motivation and Discipline: </strong>
+                To stay focused on your schoolwork, meet deadlines, and handle
+                your study plan while studying, you must be self-motivated and
+                disciplined.
               </p>
             </div>
             <div className="para-div-3">
               <BsFillCheckSquareFill className="second-icons icon-5" />
               <p className="para-3">
-              <strong>Effective Time Management: </strong>
-                You must manage your time well to balance schoolwork with other obligations and ensure enough time for learning and tasks.
+                <strong>Effective Time Management: </strong>
+                You must manage your time well to balance schoolwork with other
+                obligations and ensure enough time for learning and tasks.
               </p>
             </div>
             <div className="para-div-3">
               <BsFillCheckSquareFill className="second-icons icon-4" />
               <p className="para-3">
-              <strong>Digital Literacy and Adaptability: </strong>
-               You must know how to use digital platforms, tools, and apps well. It's important to adapt and learn new tools in the tech business, which changes quickly. 
+                <strong>Digital Literacy and Adaptability: </strong>
+                You must know how to use digital platforms, tools, and apps
+                well. It's important to adapt and learn new tools in the tech
+                business, which changes quickly.
               </p>
             </div>
             <div className="para-div-3">
               <BsFillCheckSquareFill className="second-icons icon-6" />
               <p className="para-3">
-              <strong>Critical Thinking and Problem-handling: </strong>
-               A lot of the work in online BCA classes is handling hard problems. Being able to think critically helps you understand and solve complex problems well. 
+                <strong>Critical Thinking and Problem-handling: </strong>A lot
+                of the work in online BCA classes is handling hard problems.
+                Being able to think critically helps you understand and solve
+                complex problems well.
               </p>
             </div>
             <div className="para-div-3">
               <BsFillCheckSquareFill className="second-icons icon-4" />
               <p className="para-3">
-              <strong>Communication and Teamwork: </strong>
-               You must communicate clearly both orally and in writing to participate in online talks, ask for help, and work well with others on group tasks. 
+                <strong>Communication and Teamwork: </strong>
+                You must communicate clearly both orally and in writing to
+                participate in online talks, ask for help, and work well with
+                others on group tasks.
               </p>
             </div>
             <h1 className="second-heading">BCA Entrance Exams 2023</h1>
             <p className="para-2">
-            The followaing is a list of some of the most prevalent admission examinations for BCA degrees in India:
+              The followaing is a list of some of the most prevalent admission
+              examinations for BCA degrees in India:
             </p>
 
             <div className="BCA-exams-grid">
-
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  DU JAT (Delhi University Joint Admission Test)
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  IPU CET (Indraprastha University Common Entrance Test)
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  CUET (Commmon University Entrance Test)
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">SET (Symbiosis Entrance Test)</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  NPAT (NMIMS Programs After Twelfth)
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  UGAT (Under Graduate Apitiude Test)
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  DU JAT (Delhi University Joint Admission Test)
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">SET (Symbiosis Entrance Test)</p>
+              </div>
             </div>
+            <div className="inner-div  ">
+              {" "}
+              <p className="center Book-para">
+                IPU CET (Indraprastha University Common Entrance Test)
+              </p>
+            </div>
+            <h1 className="second-heading Books-heading">Recommended Books:</h1>
+            <div className="Books-grid">
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  <strong>Book Title</strong>
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  <strong>Subject</strong>
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  <strong>Author Name</strong>
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  Database Management Systems
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  Database Management
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                 Raghu Ramakrishnan
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                 Introduction to the Theory of Computation
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                Theory of Computation
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para" >
+               Michael Sipser
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+               Data Structures and Algorithm Analysis in C++
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+               Data Structures and Algorithms
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+               Mark A. Weiss
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+              Operating System Concepts
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+              Operating Systems
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+               Abraham Silberschatz
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+               Computer Network
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                Computer Network
+                </p>
+              </div>
+              
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+               Andrew S.Tanenbaum
+                </p>
+              </div>
+
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+              Software Engineering: A Practitioner's Approach
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+              Software Engineering
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+              Roger S.pressman
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+              Artificial Intelligence: A Modern Approach
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+              Artificial Intelligence
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+               Stuart Russell and peter Norvig
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+               Web Technologies: HTML, CSS JavaScript, and XML
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+               Web Development 
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+               Jeffrey C.Jackson
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+               Programming in Java
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+              Java Programming
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+             E.Balagurusamy
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+             Introduction to Computer Graphics and the Vulkan API
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+             Computer Graphics
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+             Kenwright
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+             Cryptography and NetWork Security: Principles and Practice
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+             Network Security 
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+             William Stallings
+                </p>
+              </div>
+            </div>
+            <h1 className="second-heading Books-heading">Online BCA Academic Fees</h1>
+            <p className="para-2">
+            Fees for the online BCA Program usually cost between 50,000 INR and 2 lakhs INR. The university name causes this difference, the program's length, how complete the education is, and what other support services are offered. The low cost of these programs and the fact that they can be done online make them a good choice for people who want to get a good education in computer applications.
+            </p>
+            <h1 className="second-heading Books-heading">Online BCA Admission Procedure</h1>
+            <p className="para-2">
+            Several steps in the admissions process for online BCA schools make registration easy and quick. Applicants must complete their forms online and include important personal and academic details. Depending on the school, candidates might have to take an entrance test to see how good they are at computer science. Also, applicants might have to send their college records, proof of identity, and English language proficiency test marks. Some applicants who made the shortlist might be asked to see how motivated they are and if they are a good fit for the program. Once a student is accepted, they get an offer letter with information about the school and how to pay the fees. This simplified process makes it easy for people who want to learn to start their online BCA path and learn more about the world of technology.
+            </p>
+            <img className="education-img" src={Education} alt="" />
+
           </div>
-        </div> 
+        </div>
       </Main>
     </>
   );
@@ -1318,5 +1614,22 @@ const Main = styled.div`
    }
    .para-3{
     color: #3C3F43;
+   }
+   .BCA-exams-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .Books-heading{
+     margin-top: 20px;
+    }
+    .Books-grid{
+  display: grid;
+  grid-template-columns: 44% 28% 28%;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+   }
+   .Book-para{
+    /* padding-top: 10px ; */
+    padding-bottom: 10px ;
    }
 `;
