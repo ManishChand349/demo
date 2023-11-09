@@ -202,7 +202,36 @@ export const OnlineBca = () => {
             <div className="inner-div" ><p>Software Engineering</p></div>
             <div className="inner-div" ><p>Web Development</p></div>
             <div className="inner-div" ><p>Mobile App Development</p></div>
+            <div className="inner-div" ><p>Cloud Computing</p></div>
+            <div className="inner-div" ><p>Computer Graphics and multimedia</p></div>
           </div>
+          <h1 className="second-heading">Top Specializations in Online BCA</h1>
+          <p className="para-2 ">
+          When students enroll in an online BCA Program, they can often pick from several specialisation that fit their hobbies and job goals. Here are a few of the <a href="">best BCA specialisation:</a>
+            </p>
+                <div className="Top-Specializations-grid">
+                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In Computer Science</Link></div>
+                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In Data Analytics</Link></div>
+                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In Cyber Security</Link>
+                </div>
+                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In Database Management</Link>
+                </div>
+                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In cloud Security</Link>
+                </div>
+                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In Artficial Intelligence and Machine Learning</Link>
+                </div>
+                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In Multimedia and Animation</Link>
+                </div>
+                <div className="inner-div"> <Link className="link-tag" to="">BCA Online In Data Science and Big Data</Link>
+                </div>
+                </div>
+                <h1 className="second-heading">Top Specializations in Online BCA</h1>
+                <p className="para-2 ">Besides Online BCA Programs, there are different kinds of BCA programs for students with different learning styles and ways of life:</p>
+                <p className=""> <span className="highlight">1. Regular on-Campus BCA program:</span> Regular on-campus BCA programs offer a standard and in-depth way to learn. Students attend classes in real classrooms on university or college grounds and interact directly with teachers and other students. This program lets students meet in person, which can be helpful for in-depth talks, group projects, and quick access to educational resources like labs and libraries. It also helps students feel like they are part of the university community by letting them participate in events and activities outside of class. This method provides an organised and guided education, but students may need to be on campus all the time, which can be hard for those who have other obligations or need help getting to college.</p>
+                <p className="Ranking-heading"> <span className="highlight">Top Universities for BCA As Per NIRF Ranking 2023</span></p>
+                <p className="para-2 ">Here is a list of the top best universities in India as per the NIRF Ranking 2023</p>
+
+                
           </div>
         </div>
       </Main>
@@ -214,6 +243,7 @@ const Main = styled.div`
      padding: 0;
      margin: 0;
      font-family: 'Poppins', sans-serif;
+     text-decoration: none;
    }
    .row{
      max-width: 70%;
@@ -398,5 +428,21 @@ const Main = styled.div`
     display: grid;
     grid-template-columns: 50% 50%;
     margin: 10px 0;
+   }
+   .para-2 a{
+    color: #568CDA;
+   }
+   .Top-Specializations-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 15px;
+   }  
+   .link-tag{
+    text-decoration: underline;
+    color: #0056d2;
+   }
+   .Ranking-heading{
+    margin-top: 10px;
+    margin-bottom: 14px;
    }
 `;
