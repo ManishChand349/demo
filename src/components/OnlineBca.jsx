@@ -5,6 +5,7 @@ import BCA from "../assets/OnlineBca-img/online-bca-program.webp";
 import Education from "../assets/OnlineBca-img/who-should-pursue-bca-distance-education-course.webp";
 import AdmissionProcedure from "../assets/OnlineBca-img/AdmissionProcedure.jpg";
 import CVCourseBcaSalary from "../assets/OnlineBca-img/CVCourseBcaSalary.png";
+import CVCourseBcaSalaryGraph from "../assets/OnlineBca-img/CVCourseSalaryGraph.png";
 import { BsFillCheckSquareFill } from "react-icons/bs";
 
 export const OnlineBca = () => {
@@ -1389,7 +1390,85 @@ export const OnlineBca = () => {
               save money on transportation and moving costs.
             </p>
             <img className="education-img" src={CVCourseBcaSalary} alt="" />
-
+            <p className="para-2"> <strong>Source:</strong> <span className="blue-para">Payscale</span>  </p>
+            <p className="para-2">
+            To sum up, choosing to go to an online BCA school is a smart move. In an age ruled by technological progress, its importance is shown by its flexibility, strong curriculum, interactive learning, industry alignment, global networking, technological skills, and job possibilities. It's an investment that adds to your skills and puts you at the center of a technology-driven future.
+            </p>
+            <img className="education-img" src={CVCourseBcaSalaryGraph} alt="" />
+            <h1 className="second-heading Books-heading">
+             Job Opportunities For Online BCA Degree
+            </h1>
+            <p className="para-2">
+            Graduates of online BCA programs have plenty of job possibilities, and most companies recognize the skills they've learned. The program's full coursework prepares people for jobs in software creation, web design, IT consulting, and other fields. Employers like the real skills and flexibility graduates show through online learning, making them very competitive in the job market. Here are some job prospects after Online BCA. 
+            </p>
+            <div className="jop-grid">
+            <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  Software Developer
+                </p>
+              </div>
+            <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  Web Developer
+                </p>
+              </div>
+            <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                 Database Administrator
+                </p>
+              </div>
+            <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                 IT Consultant
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                 System Analyst
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  Mobile App Developer
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  Network Administrator
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  Quality Assurance Analyst
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  Technical Support Specialist
+                </p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">
+                  E-commerce Specialist
+                </p>
+              </div>
+            </div>
+            <h1 className="second-heading Books-heading">
+             Top Recruiters
+            </h1>
+            <p className="para-2">
+            India's IT business has grown to over $250 billion. It is growing by 7.7% every year. India is home to many IT parks, such as those in Bangalore, Hyderabad, Pune, Noida, and Mumbai, all looking for Online BCA grads. Here are some of the leading companies which are actively hiring Online BCA graduates.
+            </p>
           </div>
         </div>
       </Main>
@@ -1654,5 +1733,13 @@ const Main = styled.div`
    .Book-para{
     /* padding-top: 10px ; */
     padding-bottom: 10px ;
+   }
+   .blue-para{
+    color: #7752FE;
+    font-weight: 900;
+   }
+   .jop-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
    }
 `;
