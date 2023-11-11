@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import bg from "../assets/ReferEarn/banner_bg.png";
-import Time from "../assets/ReferEarn/Time.png";
-import Boss from "../assets/ReferEarn/Boss.png";
-import Help from "../assets/ReferEarn/Help.png";
-import Income from "../assets/ReferEarn/Income.png";
+import { Link } from "react-router-dom"
+// import Time from "../assets/ReferEarn/Time.png";
+// import Boss from "../assets/ReferEarn/Boss.png";
+// import Help from "../assets/ReferEarn/Help.png";
+// import Income from "../assets/ReferEarn/Income.png";
 import EducationConsultants from "../assets/ReferEarn/Education-Consultants.png";
 import Coaching from "../assets/ReferEarn/Coaching.png";
 import K12Facilities from "../assets/ReferEarn/12KFacilities.png";
@@ -37,7 +38,9 @@ export const ReferEarn = () => {
               One Stop point for all Faculties / Consultants / mentors to
               suggest best Campus to <br /> Your Learners as per their need{" "}
             </p>
+            <Link to="/register">
             <button className="btn-1">Referal & Earn</button>
+            </Link>
           </div>
           <div className="right-div">
             <div className="div-1">

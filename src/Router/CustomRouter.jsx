@@ -7,11 +7,10 @@ import {Policy} from "../components/Policy"
 import {GoCHireSupport} from "../components/GoCHireSupport"
 import {ListOfFakeUniversitie} from "../components/ListOfFakeUniversitie"
 import {OnlineBca} from "../components/OnlineBca"
-
+import {Register} from "../pages/Register"
 
 function CustomRouter() {
      return(
-
           <Routes>
                <Route path="/Checklist" element={<Checklist/>}/>
                <Route path="/trust" element={<Trust/>}/>
@@ -21,6 +20,7 @@ function CustomRouter() {
                <Route path="/ListOfFakeUniversities" element={<ListOfFakeUniversitie/>}/>
                <Route path="/job-hire" element={<GoCHireSupport/>}/>
                <Route path="/Online-Bca" element={<OnlineBca/>}/>
+               <Route path="/register" element={<Register/>}/>
           </Routes>
      )
      
