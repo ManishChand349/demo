@@ -1466,7 +1466,7 @@ export const OnlineBca = () => {
             <h1 className="second-heading Books-heading">
              Top Recruiters
             </h1>
-            <p className="para-2">
+            <p className="para-2 last-para">
             India's IT business has grown to over $250 billion. It is growing by 7.7% every year. India is home to many IT parks, such as those in Bangalore, Hyderabad, Pune, Noida, and Mumbai, all looking for Online BCA grads. Here are some of the leading companies which are actively hiring Online BCA graduates.
             </p>
           </div>
@@ -1723,8 +1723,8 @@ const Main = styled.div`
   }
   .Books-heading{
      margin-top: 20px;
-    }
-    .Books-grid{
+  }
+  .Books-grid{
   display: grid;
   grid-template-columns: 44% 28% 28%;
   /* margin-top: 20px; */
@@ -1742,4 +1742,18 @@ const Main = styled.div`
     display: grid;
     grid-template-columns: 50% 50%;
    }
+   .last-para{
+    margin-bottom: 40px;
+   }
+   // for S mobile
+   @media (max-width : 320px) {
+    .img-div {
+      flex-direction: column;
+    }
+    .row {
+    max-width: 70%;
+    margin: auto;
+    padding-left: 0;
+}
+  }
 `;

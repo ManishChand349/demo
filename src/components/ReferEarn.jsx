@@ -73,7 +73,7 @@ export const ReferEarn = () => {
 
         {/* Partner Section starting */}
         <section className="partner-section">
-          <div>
+          <div className="boxs">
             <h1 className="partner-heading">
               Why you should join
               <span className="Partners-blue"> GoOnlineCollege </span>
@@ -82,46 +82,43 @@ export const ReferEarn = () => {
             <p className="partner-para">
               Become a member of get Online College. Our Platform hosts a a
               diverse range of courses and collaborations with universities.{" "}
-              <br />
+            
               We pride ourselves on our robust structure, guaranteeing swift and
               reliable counseling seeions. Embrace the future of learning with
-              us, <br /> where opportunities are limitless and knowledge knows
+              us, where opportunities are limitless and knowledge knows
               no boundaries.{" "}
             </p>
+
+            <div className="boxs-grid">
+                  <div className="inner-box-1">
+                  <span className="count">1</span> 
+                  <p>
+                  Looking to be 
+                  </p> 
+                   </div>
+                  <div className="inner-box-1">
+                  <span className="count">2</span> 
+                  <p>
+                  Looking to be 
+                  </p> 
+                   </div>
+                  <div className="inner-box-1">
+                  <span className="count">3</span> 
+                  <p>
+                  Looking to be 
+                  </p> 
+                   </div>
+                  <div className="inner-box-1">
+                  <span className="count">4</span> 
+                  <p>
+                  Looking to be 
+                  </p> 
+                   </div>
+                  
+            </div>
           </div>
 
-          <div className="boxs-grid">
-            <div className="box-1">
-              <span className="icon-1">
-                <img src={Time} alt="" />
-              </span>
-              <h1 className="heading">Flexible Work Timings</h1>
-            </div>
-            <div className="box-1">
-              <div className=" circle">
-                <span className="icon-2">
-                  <img src={Boss} alt="" />
-                </span>
-              </div>
-              <h1>Be Your Own Boss</h1>
-            </div>
-            <div className="box-1">
-              <div className=" circle">
-                <span className="icon-3">
-                  <img src={Help} alt="" />
-                </span>
-              </div>
-              <h1>Opportunitiey to Help Thousands of Families</h1>
-            </div>
-            <div className="box-1">
-              <div className=" circle">
-                <span className="icon-4">
-                  <img src={Income} alt="" />
-                </span>
-              </div>
-              <h1>Unlimited Income Potential</h1>
-            </div>
-          </div>
+         
         </section>
         {/* Partner Section End */}
 
@@ -252,14 +249,43 @@ const Main = styled.div`
       margin-top: 30px;
       font-weight: 300;
     }
+     .partner-para{
+      padding-right: 80px;
+      padding-left: 80px;
+    }
+    .partner-section{
+      background-color: #F8F9FA;
+    }
+    .boxs{
+      max-width: 70%;
+      margin: auto;
+    }
+    
     .boxs-grid{
-      max-width: 90%;
+      max-width: 60%;
       margin: auto;
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 10px;
       margin-top: 40px;
       margin-bottom: 100px;
+    }
+    .count{
+      background-color: #0D6EFD;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding: 2px 15px;
+      margin-right: 8px;
+    }
+    .inner-box-1{
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    .inner-box-1{
+      color: #758081;
     }
     .box-1{
       background-color: #B6FFFA;
