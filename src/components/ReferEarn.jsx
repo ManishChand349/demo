@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import bg from "../assets/ReferEarn/banner_bg.png";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 // import Time from "../assets/ReferEarn/Time.png";
 // import Boss from "../assets/ReferEarn/Boss.png";
 // import Help from "../assets/ReferEarn/Help.png";
@@ -39,7 +39,7 @@ export const ReferEarn = () => {
               suggest best Campus to <br /> Your Learners as per their need{" "}
             </p>
             <Link to="/register">
-            <button className="btn-1">Referal & Earn</button>
+              <button className="btn-1">Referal & Earn</button>
             </Link>
           </div>
           <div className="right-div">
@@ -84,44 +84,31 @@ export const ReferEarn = () => {
             </h1>
             <p className="partner-para">
               Become a member of get Online College. Our Platform hosts a a
-              diverse range of courses and collaborations with universities.{" "}
-            
-              We pride ourselves on our robust structure, guaranteeing swift and
+              diverse range of courses and collaborations with universities. We
+              pride ourselves on our robust structure, guaranteeing swift and
               reliable counseling seeions. Embrace the future of learning with
-              us, where opportunities are limitless and knowledge knows
-              no boundaries.{" "}
+              us, where opportunities are limitless and knowledge knows no
+              boundaries.{" "}
             </p>
-
             <div className="boxs-grid">
-                  <div className="inner-box-1">
-                  <span className="count">1</span> 
-                  <p>
-                  Looking to be 
-                  </p> 
-                   </div>
-                  <div className="inner-box-1">
-                  <span className="count">2</span> 
-                  <p>
-                  Looking to be 
-                  </p> 
-                   </div>
-                  <div className="inner-box-1">
-                  <span className="count">3</span> 
-                  <p>
-                  Looking to be 
-                  </p> 
-                   </div>
-                  <div className="inner-box-1">
-                  <span className="count">4</span> 
-                  <p>
-                  Looking to be 
-                  </p> 
-                   </div>
-                  
+              <div className="inner-box-1">
+                <span className="count">1</span>
+                <p>Looking to be</p>
+              </div>
+              <div className="inner-box-1">
+                <span className="count">2</span>
+                <p>Looking to be</p>
+              </div>
+              <div className="inner-box-1">
+                <span className="count">3</span>
+                <p>Looking to be</p>
+              </div>
+              <div className="inner-box-1">
+                <span className="count">4</span>
+                <p>Looking to be</p>
+              </div>
             </div>
           </div>
-
-         
         </section>
         {/* Partner Section End */}
 
@@ -195,13 +182,13 @@ const Main = styled.div`
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
-    .banner{
-      display: flex;
-      justify-content: space-between;
-      background-image: url(${bg});
-      padding: 135px 0;
-      color: #fff;
-      width: 100%;
+   .banner{
+   display: flex;
+   justify-content: space-between;
+   background-image: url(${bg});
+   padding: 135px 0;
+   color: #fff;
+   width: 100%;
     }
     .left-div{
       margin-left: 40px;
@@ -228,10 +215,10 @@ const Main = styled.div`
       cursor: pointer;
     }
     .right-div{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    position: absolute;
     right: 0;
     width: 37%;
     transform: translateY(-50%);
@@ -263,7 +250,6 @@ const Main = styled.div`
       max-width: 70%;
       margin: auto;
     }
-    
     .boxs-grid{
       max-width: 60%;
       margin: auto;
@@ -324,26 +310,30 @@ const Main = styled.div`
       top: 34px;
       left: 169px;
     }
-      .Eligible-div{
-        max-width: 90%;
+    .Eligible-div{
+      max-width: 90%;
       margin: auto;
       }
       .Eligible-grid{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr) ;
-        margin-top: 40px;
-        padding: 30px;
-        gap: 10px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr) ;
+      margin-top: 40px;
+      padding: 30px;
+      gap: 10px;
       }
       .grid-box{
-        background-color: #B6FFFA;
-        border-radius: 8px;
-        text-align: center;
-        padding: 20px 0 0 0;
+      background-color: #B6FFFA;
+      border-radius: 8px;
+      text-align: center;
+      padding: 20px 0 0 0;
       }
       .HR-img,.LIC-img,.Education-img{
         width: 66px;
       }
+      .grid-box h1{
+        font-size: 1rem;
+      }
+
 @media (max-width: 768px)
 {
         .boxs-grid {
