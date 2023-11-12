@@ -230,7 +230,8 @@ const Main = styled.div`
     //2nd section Css starting
     .partner-heading, .Eligible-heading {
       text-align: center;
-      margin-top: 40px;
+      /* margin-top: 10px; */
+      padding-top: 50px;
       font-size: 2.3rem;
     }
     .partner-para, .Eligible-para{
@@ -257,7 +258,9 @@ const Main = styled.div`
       grid-template-columns: repeat(2, 1fr);
       gap: 10px;
       margin-top: 40px;
-      margin-bottom: 100px;
+      /* margin-bottom: 100px; */
+      padding-bottom: 50px;
+
     }
     .count{
       background-color: #0D6EFD;
