@@ -32,10 +32,10 @@ export const ReferEarn = () => {
         <section className="banner">
           <div className="left-div">
             <h1 className="main-heading">
-              GoOnlineCollege <span className="Partners-bluee">Partners</span>
+              Join Us Become a <span className="Partners-bluee">Partners</span> Earn with us
             </h1>
             <p className="main-para">
-              One Stop point for all Faculties / Consultants / mentors to
+              One Stop point for all Faculties/Consultants/mentors to
               suggest best Campus to <br /> Your Learners as per their need{" "}
             </p>
             <Link to="/register">
@@ -93,19 +93,19 @@ export const ReferEarn = () => {
             <div className="boxs-grid">
               <div className="inner-box-1">
                 <span className="count">1</span>
-                <p>Looking to be</p>
+                <p>Flexible Work Timings</p>
               </div>
               <div className="inner-box-1">
                 <span className="count">2</span>
-                <p>Looking to be</p>
+                <p>Be your Own Boss</p>
               </div>
               <div className="inner-box-1">
                 <span className="count">3</span>
-                <p>Looking to be</p>
+                <p>Opportunitiey to Help Thousands of Families</p>
               </div>
               <div className="inner-box-1">
                 <span className="count">4</span>
-                <p>Looking to be</p>
+                <p>Unlimited Income Potential</p>
               </div>
             </div>
           </div>
@@ -191,7 +191,7 @@ const Main = styled.div`
    width: 100%;
     }
     .left-div{
-      margin-left: 40px;
+      margin-left: 100px;
     }
     .Partners-blue, .Eligible-blue{
       color: blue;
