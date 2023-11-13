@@ -5,35 +5,17 @@ import styled from "styled-components";
 export const Register = () => {
      return (
        
-<Main>
-
-    <div className="row">
+ <Main>
     <div>
+     <h1>Just Answer 4 Simple question to <br /> become a GoCollege</h1>
+     <input type="text" placeholder="Full name" />
+    </div>
 
-          <h1>Just Answere Simple questions to <br /> become a <span className="blue" >GoCollege Partners</span></h1>
-          <input type="text" name="" id="" placeholder="Full name" />
-    </div>
-    
     <div>
-     <button>P</button>
-     <button>N</button>
+     <button></button>
     </div>
-    </div>
-</Main>
+ </Main>
        
      )
 };
-const Main = styled.div`
-     .row{
-  margin: auto;
-  width: 50%;
- 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* height: 100vh; */
-}
-         
-     
-`
+const Main = styled.div``
