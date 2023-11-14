@@ -1471,6 +1471,14 @@ export const OnlineBca = () => {
             </p>
           </div>
         </div>
+        <div className="University-choose">
+            <div>
+              <h1>Choose Your University Wisely</h1>
+            </div>
+            <div>
+              <div></div>
+            </div>
+        </div>
       </Main>
     </>
   );
@@ -1744,6 +1752,9 @@ const Main = styled.div`
    }
    .last-para{
     margin-bottom: 40px;
+   }
+   .University-choose{
+    background-color: #F0F3FF;
    }
    // for S mobile
    @media (max-width : 320px) {
