@@ -55,10 +55,8 @@ export const Register = () => {
         </select>
         <button>Submit</button>
      </form>
-    
     </div>
  </Main>
-       
      )
 };
 const Main = styled.div`
