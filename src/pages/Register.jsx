@@ -7,9 +7,9 @@ export const Register = () => {
        
  <Main>
     <div>
-     <h1>Just Answer 4 Simple question to <br /> become a GoCollege <span>
+     <p>Just Answer 4 Simple question to <br /> become a GoCollege <span>
      Partners
-     </span> </h1>
+     </span> </p>
      <form action="submit">
         <input required type="text" placeholder="Full name" />
         <input required type="text" placeholder="Email address" />
@@ -34,14 +34,15 @@ div{
     margin: auto;
     
 }
-h1{
+p{
     text-align: center;
-    font-weight: 100;
+    font-weight: 200;
     margin-top: 150px;
     font-size: 2.6rem;
 }
 span{
   color: blue;
+  font-weight: 500;
 }
 form{
     display: flex;
