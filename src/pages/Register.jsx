@@ -7,7 +7,7 @@ export const Register = () => {
        
  <Main>
     <div>
-     <p>Just Answer 4 Simple question to <br /> become a GoCollege <span>
+     <p>Just Answer Simple question to <br /> become a GoCollege <span>
      Partners
      </span> </p>
      <form action="submit">
