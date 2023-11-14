@@ -22,13 +22,14 @@ function Btn() {
     </Link> */}
       {/* <Link to="/ListOfFakeUniversities">
     ListOfFakeUniversities
-    </Link> */}
+    </Link> */} 
     <Link to="/job-hire">
     GoC Hire Support
     </Link>
+{/*     
     <Link to="/Online-Bca">
     BCA
-    </Link>
+    </Link> */}
     </div>
   )
 }
