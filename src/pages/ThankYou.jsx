@@ -18,9 +18,11 @@ export const ThankYou = () => {
      </div>
     </div>
 
-     <div>
+    {/* vidoe div  */}
+
+     {/* <div>
           <img src="" alt="Vidoe" />
-     </div>
+     </div> */}
     </div>
  </Main>
      )
@@ -33,26 +35,32 @@ const Main = styled.div`
 }
  .main-div{
      display: flex;
+     /* flex-direction: column; */
      justify-content: center;
      align-items: center;
      height: 80vh;
  }
  h1{
+     text-align: center;
      color: #0D6EFD;
      font-size: 2.5rem;
      margin-bottom: 10px;
  }
  p{
+     text-align: center;
      font-size: 1.1rem;
      font-weight: 500;
      color: #212529;
  }
  h3{
      font-size: 1.2rem;
+     text-align: center;
      font-weight: 700;
      margin-top: 10px;
  }
  .contact{
+     max-width: 80%;
+     margin: auto;
      background-color: #EEF2FF;
      width: 40%;
      padding: 10px 20px;
