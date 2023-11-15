@@ -110,7 +110,7 @@ button {
     border: thin;
     margin-top: 100px;
     cursor: pointer;
-    color: ;
+    
     
 }
 .link{
