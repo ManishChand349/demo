@@ -60,7 +60,6 @@ export const Register = () => {
         <Link className="link" to="/thankyou">
         Submit
         </Link>
-
         </button>
      </form>
     </div>
