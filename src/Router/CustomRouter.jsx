@@ -8,6 +8,7 @@ import {GoCHireSupport} from "../components/GoCHireSupport"
 import {ListOfFakeUniversitie} from "../components/ListOfFakeUniversitie"
 import {OnlineBca} from "../components/OnlineBca"
 import {Register} from "../pages/Register"
+import { ThankYou } from "../pages/Thankyou";
 
 function CustomRouter() {
      return(
@@ -21,6 +22,7 @@ function CustomRouter() {
                <Route path="/job-hire" element={<GoCHireSupport/>}/>
                <Route path="/Online-Bca" element={<OnlineBca/>}/>
                <Route path="/register" element={<Register/>}/>
+               <Route path="/thankyou" element={<ThankYou/>}/>
           </Routes>
      )
      

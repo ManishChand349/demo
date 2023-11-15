@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 
@@ -10,7 +11,7 @@ export const Register = () => {
      <p>Just Answer Simple question to <br /> become a GoCollege <span>
      Partners
      </span> </p>
-     <form action="submit">
+     <form action="">
         <input required type="text" placeholder="Full name" />
         <input required type="text" placeholder="Email address" />
         <input required type="number" placeholder="Phone No." />
@@ -53,13 +54,24 @@ export const Register = () => {
             <option value="37">Ladakh</option>
             <option value="38">Other</option>
         </select>
-        <button>Submit</button>
+
+        <button>
+        
+        <Link to="/thankyou">
+        Submit
+        </Link>
+
+        </button>
      </form>
     </div>
  </Main>
      )
 };
 const Main = styled.div`
+*{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
 div{
     max-width: 40%;
     margin: auto;
@@ -89,7 +101,8 @@ input , select{
     border-radius: 7px;
     border-width: 0.5px;
 }
-button{
+button {
+    width: 100%;
     padding: 10px;
     margin-top: 10px;
     font-size: 1.3rem;
@@ -98,6 +111,7 @@ button{
     margin-top: 100px;
     cursor: pointer;
 }
+
 button:hover{
     background-color: blue;
     color: #fff;
