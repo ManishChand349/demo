@@ -57,7 +57,7 @@ export const Register = () => {
 
         <button>
         
-        <Link to="/thankyou">
+        <Link className="link" to="/thankyou">
         Submit
         </Link>
 
@@ -110,9 +110,14 @@ button {
     border: thin;
     margin-top: 100px;
     cursor: pointer;
+    color: ;
+    
+}
+.link{
+    color: #fff;
 }
 
-button:hover{
+button:hover , .link:hover{
     background-color: blue;
     color: #fff;
 }
