@@ -29,7 +29,7 @@ export const OnlineBca = () => {
               </p>
               <div className="media-div">
                 <h4 className="watch-video">Watch Video</h4>
-                <h4>Listen Podcast</h4>
+                <h4 className="Listen-heading">Listen Podcast</h4>
               </div>
             </div>
           </div>
@@ -447,7 +447,7 @@ export const OnlineBca = () => {
               programs for students with different learning styles and ways of
               life:
             </p>
-            <p className="">
+            <p className="para-4">
               {" "}
               <span className="highlight">
                 1. Regular on-Campus BCA program:
@@ -1390,53 +1390,62 @@ export const OnlineBca = () => {
               save money on transportation and moving costs.
             </p>
             <img className="education-img" src={CVCourseBcaSalary} alt="" />
-            <p className="para-2"> <strong>Source:</strong> <span className="blue-para">Payscale</span>  </p>
             <p className="para-2">
-            To sum up, choosing to go to an online BCA school is a smart move. In an age ruled by technological progress, its importance is shown by its flexibility, strong curriculum, interactive learning, industry alignment, global networking, technological skills, and job possibilities. It's an investment that adds to your skills and puts you at the center of a technology-driven future.
+              {" "}
+              <strong>Source:</strong>{" "}
+              <span className="blue-para">Payscale</span>{" "}
             </p>
-            <img className="education-img" src={CVCourseBcaSalaryGraph} alt="" />
+            <p className="para-2">
+              To sum up, choosing to go to an online BCA school is a smart move.
+              In an age ruled by technological progress, its importance is shown
+              by its flexibility, strong curriculum, interactive learning,
+              industry alignment, global networking, technological skills, and
+              job possibilities. It's an investment that adds to your skills and
+              puts you at the center of a technology-driven future.
+            </p>
+            <img
+              className="education-img"
+              src={CVCourseBcaSalaryGraph}
+              alt=""
+            />
             <h1 className="second-heading Books-heading">
-             Job Opportunities For Online BCA Degree
+              Job Opportunities For Online BCA Degree
             </h1>
             <p className="para-2">
-            Graduates of online BCA programs have plenty of job possibilities, and most companies recognize the skills they've learned. The program's full coursework prepares people for jobs in software creation, web design, IT consulting, and other fields. Employers like the real skills and flexibility graduates show through online learning, making them very competitive in the job market. Here are some job prospects after Online BCA. 
+              Graduates of online BCA programs have plenty of job possibilities,
+              and most companies recognize the skills they've learned. The
+              program's full coursework prepares people for jobs in software
+              creation, web design, IT consulting, and other fields. Employers
+              like the real skills and flexibility graduates show through online
+              learning, making them very competitive in the job market. Here are
+              some job prospects after Online BCA.
             </p>
             <div className="jop-grid">
-            <div className="inner-div  inner-part-time">
+              <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para Book-para">
-                  Software Developer
-                </p>
+                <p className="part-time-para Book-para">Software Developer</p>
               </div>
-            <div className="inner-div  inner-part-time">
+              <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para Book-para">
-                  Web Developer
-                </p>
-              </div>
-            <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-                 Database Administrator
-                </p>
-              </div>
-            <div className="inner-div  inner-part-time">
-                {" "}
-                <p className="part-time-para Book-para">
-                 IT Consultant
-                </p>
+                <p className="part-time-para Book-para">Web Developer</p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
                 <p className="part-time-para Book-para">
-                 System Analyst
+                  Database Administrator
                 </p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
-                <p className="part-time-para Book-para">
-                  Mobile App Developer
-                </p>
+                <p className="part-time-para Book-para">IT Consultant</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">System Analyst</p>
+              </div>
+              <div className="inner-div  inner-part-time">
+                {" "}
+                <p className="part-time-para Book-para">Mobile App Developer</p>
               </div>
               <div className="inner-div  inner-part-time">
                 {" "}
@@ -1463,21 +1472,25 @@ export const OnlineBca = () => {
                 </p>
               </div>
             </div>
-            <h1 className="second-heading Books-heading">
-             Top Recruiters
-            </h1>
+            <h1 className="second-heading Books-heading">Top Recruiters</h1>
             <p className="para-2 last-para">
-            India's IT business has grown to over $250 billion. It is growing by 7.7% every year. India is home to many IT parks, such as those in Bangalore, Hyderabad, Pune, Noida, and Mumbai, all looking for Online BCA grads. Here are some of the leading companies which are actively hiring Online BCA graduates.
+              India's IT business has grown to over $250 billion. It is growing
+              by 7.7% every year. India is home to many IT parks, such as those
+              in Bangalore, Hyderabad, Pune, Noida, and Mumbai, all looking for
+              Online BCA grads. Here are some of the leading companies which are
+              actively hiring Online BCA graduates.
             </p>
           </div>
         </div>
         <div className="University-choose">
-            <div>
-              <h1>Choose Your University Wisely</h1>
-            </div>
-            <div>
-              <div></div>
-            </div>
+          <div>
+            <h1 className="Choose-University-heading">
+              Choose Your University Wisely
+            </h1>
+          </div>
+          <div>
+            <div></div>
+          </div>
         </div>
       </Main>
     </>
@@ -1756,15 +1769,559 @@ const Main = styled.div`
    .University-choose{
     background-color: #F0F3FF;
    }
+   .Choose-University-heading{
+    text-align: center;
+   }
    // for S mobile
    @media (max-width : 320px) {
+     .bca-img {
+    width: 286px;
+    border-radius: 7px;
+}
+.main-heading {
+    font-size: 1.2rem;
+    color: #212529;
+    text-align: center;
+  }
     .img-div {
       flex-direction: column;
+      padding-right: 1px;
+      width: 100%;
     }
     .row {
-    max-width: 70%;
+    max-width: 95%;
     margin: auto;
     padding-left: 0;
+}
+ .para-updated {
+    text-align: center;
+}
+.para-div {
+  /* width: 100%; */
+    padding-top: 35px;
+    margin-left: 0px;
+}
+.main-para {
+  text-align: center;
+    color: #6D7073;
+    font-size:0.7rem;
+}
+.top-div{
+  top: -37px;
+  left: 2px;
+}
+.watch-video {
+    margin-right: 65px;
+    font-size: 0.7rem;
+  }
+  .Listen-heading{
+  font-size: 0.7rem;
+
+}
+.inner-div{
+  padding: 0px;
+  border: 0.1px thin !important;
+}
+.inner-div strong{
+  font-size: 0.5rem;
+}
+.inner-div a{
+  font-size: 0.9rem;
+}
+.inner-div p{
+  font-size: 0.6rem;
+}
+.center{
+  font-size: 9px;
+}
+.part-time-para{
+  padding: 0 5px;
+  font-size: 2px;
+ }
+ .row-2{
+  width: 100%;
+  padding: 2px 4px;
+ }
+ .UC-div p {
+    text-align: center;
+    font-size: 0.7rem;
+}
+.second-heading {
+    font-size: 1rem;
+    color: #212529;
+}
+.para {
+    margin-bottom: 18px;
+    color: #3C3F43;
+    font-size: 0.7rem;
+
+}
+.para-2 {
+  font-size: 0.7rem;
+  
+}
+.para-div-2 p{
+  font-size: 0.7rem;
+}
+.para-div-3 p{
+  font-size: 0.7rem
+}
+.para-4{
+  font-size: 0.7rem
+}
+.Book-para{
+  font-size: 0.5rem !important;
+  
+}
+.part-time-para{
+  font-size: 0.4rem !important;
+  padding: 0;
+}
+  }
+   @media (max-width : 375px) {
+     .bca-img {
+    width: 338px;
+    border-radius: 7px;
+}
+.main-heading {
+    font-size: 1.2rem;
+    color: #212529;
+    text-align: center;
+  }
+    .img-div {
+      flex-direction: column;
+      padding-right: 1px;
+      width: 100%;
+    }
+    .row {
+    max-width: 95%;
+    margin: auto;
+    padding-left: 0;
+}
+ .para-updated {
+    text-align: center;
+}
+.para-div {
+  /* width: 100%; */
+    padding-top: 35px;
+    margin-left: 0px;
+}
+.main-para {
+  text-align: center;
+    color: #6D7073;
+    font-size:0.7rem;
+}
+.top-div{
+  top: -37px;
+  left: 2px;
+}
+.watch-video {
+    margin-right: 65px;
+    font-size: 0.7rem;
+  }
+  .Listen-heading{
+  font-size: 0.7rem;
+
+}
+.inner-div{
+  padding: 0px;
+  border: 0.1px thin !important;
+}
+.inner-div strong{
+  font-size: 0.5rem;
+  text-align: center;
+}
+.inner-div a{
+  font-size: 0.9rem;
+}
+.inner-div p{
+  font-size: 0.5rem;
+  text-align: center;
+}
+.center{
+  font-size: 9px;
+}
+.part-time-para{
+  padding: 0 5px;
+  font-size: 2px;
+ }
+ .row-2{
+  width: 100%;
+  padding: 2px 4px;
+ }
+ .UC-div p {
+    text-align: center;
+    font-size: 0.7rem;
+}
+.second-heading {
+    font-size: 1rem;
+    color: #212529;
+}
+.para {
+    margin-bottom: 18px;
+    color: #3C3F43;
+    font-size: 0.7rem;
+
+}
+.para-2 {
+  font-size: 0.7rem;
+  
+}
+.para-div-2 p{
+  font-size: 0.7rem;
+}
+.para-div-3 p{
+  font-size: 0.7rem
+}
+.para-4{
+  font-size: 0.7rem
+}
+.Book-para{
+  font-size: 0.6rem !important;
+  
+}
+.part-time-para{
+  /* font-size: 0.4rem !important; */
+  padding: 0;
+}
+  }
+   @media (max-width : 425px) {
+     .bca-img {
+    width: 387px;
+    border-radius: 7px;
+}
+.main-heading {
+    font-size: 1.2rem;
+    color: #212529;
+    text-align: center;
+  }
+    .img-div {
+      flex-direction: column;
+      padding-right: 1px;
+      width: 100%;
+    }
+    .row {
+    max-width: 95%;
+    margin: auto;
+    padding-left: 0;
+}
+ .para-updated {
+    text-align: center;
+}
+.para-div {
+  /* width: 100%; */
+    padding-top: 35px;
+    margin-left: 0px;
+}
+.main-para {
+  text-align: center;
+    color: #6D7073;
+    font-size:0.9rem;
+}
+.top-div{
+  top: -37px;
+  left: 9px;
+}
+.watch-video {
+  margin-left: 30px;
+    margin-right: 165px;
+    font-size: 0.7rem;
+  }
+  .Listen-heading{
+  font-size: 0.7rem;
+
+}
+.inner-div{
+  padding: 0px;
+  border: 0.1px thin !important;
+}
+.inner-div strong{
+  font-size: 0.5rem;
+  text-align: center;
+}
+.inner-div a{
+  font-size: 0.9rem;
+}
+.inner-div p{
+  font-size: 0.5rem;
+  text-align: center;
+}
+.center{
+  font-size: 9px;
+}
+.part-time-para{
+  padding: 0 5px;
+  font-size: 2px;
+ }
+ .row-2{
+  width: 100%;
+  padding: 2px 4px;
+ }
+ .UC-div p {
+    text-align: center;
+    font-size: 0.7rem;
+}
+.second-heading {
+    font-size: 1rem;
+    color: #212529;
+}
+.para {
+    margin-bottom: 18px;
+    color: #3C3F43;
+    font-size: 0.7rem;
+
+}
+.para-2 {
+  font-size: 0.7rem;
+  
+}
+.para-div-2 p{
+  font-size: 0.7rem;
+}
+.para-div-3 p{
+  font-size: 0.7rem
+}
+.para-4{
+  font-size: 0.7rem
+}
+.Book-para{
+  font-size: 0.6rem !important;
+  
+}
+.part-time-para{
+  /* font-size: 0.4rem !important; */
+  padding: 0;
+}
+  }
+   @media (max-width : 768px) {
+     .bca-img {
+    width: 387px;
+    border-radius: 7px;
+}
+.main-heading {
+    font-size: 1.2rem;
+    color: #212529;
+    text-align: center;
+  }
+    .img-div {
+      /* flex-direction: column; */
+      padding-right: 1px;
+      width: 100%;
+    }
+    .row {
+    max-width: 95%;
+    margin: auto;
+    padding-left: 0;
+}
+ .para-updated {
+    text-align: center;
+}
+.para-div {
+  /* width: 100%; */
+    padding-top: 35px;
+    margin-left: 0px;
+}
+.main-para {
+  text-align: center;
+    color: #6D7073;
+    font-size:0.9rem;
+    margin-left: 10px;
+}
+.top-div{
+  top: -37px;
+  left: 22px;
+}
+.watch-video {
+  margin-left: 30px;
+    margin-right: 165px;
+    font-size: 0.7rem;
+  }
+  .Listen-heading{
+  font-size: 0.7rem;
+
+}
+.inner-div{
+  padding: 0px;
+  border: 0.1px thin !important;
+}
+.inner-div strong{
+  font-size: 0.5rem;
+  text-align: center;
+  margin-left: 5px;
+
+}
+.inner-div a{
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
+.inner-div p{
+  font-size: 0.8rem;
+  text-align: left;
+  margin-left: 5px;
+  padding: 5px;
+}
+.center{
+  font-size: 9px;
+}
+.part-time-para{
+  padding: 0 5px;
+  font-size: 2px;
+ }
+ .row-2{
+  width: 100%;
+  padding: 2px 4px;
+ }
+ .UC-div p {
+    text-align: center;
+    font-size: 0.7rem;
+}
+.second-heading {
+    font-size: 1rem;
+    color: #212529;
+}
+.para {
+    margin-bottom: 18px;
+    color: #3C3F43;
+    font-size: 0.7rem;
+
+}
+.para-2 {
+  font-size: 0.7rem;
+  
+}
+.para-div-2 p{
+  font-size: 0.7rem;
+}
+.para-div-3 p{
+  font-size: 0.7rem
+}
+.para-4{
+  font-size: 0.7rem
+}
+.Book-para{
+  font-size: 0.6rem !important;
+  
+}
+.part-time-para{
+  /* font-size: 0.4rem !important; */
+  padding: 0;
+}
+  }
+   @media (max-width : 1024px) {
+     .bca-img {
+    width: 387px;
+    border-radius: 7px;
+}
+.main-heading {
+    font-size: 1.2rem;
+    color: #212529;
+    text-align: center;
+  }
+    .img-div {
+      /* flex-direction: column; */
+      padding-right: 1px;
+      width: 100%;
+    }
+    .row {
+    max-width: 75%;
+    margin: auto;
+    padding-left: 0;
+}
+ .para-updated {
+    text-align: center;
+}
+.para-div {
+  /* width: 100%; */
+    padding-top: 35px;
+    margin-left: 0px;
+}
+.main-para {
+  text-align: center;
+    color: #6D7073;
+    font-size:0.9rem;
+    margin-left: 10px;
+}
+.top-div{
+  top: -37px;
+  left: 26px;
+}
+.watch-video {
+  margin-left: 30px;
+    margin-right: 165px;
+    font-size: 0.7rem;
+  }
+  .Listen-heading{
+  font-size: 0.7rem;
+
+}
+.inner-div{
+  padding: 0px;
+  border: 0.1px thin !important;
+}
+.inner-div strong{
+  font-size: 0.5rem;
+  text-align: center;
+  margin-left: 5px;
+
+}
+.inner-div a{
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
+.inner-div p{
+  font-size: 0.8rem;
+  text-align: left;
+  margin-left: 5px;
+  padding: 5px;
+}
+.center{
+  font-size: 9px;
+}
+.media-div{
+  margin-top: 100px;
+}
+.part-time-para{
+  padding: 0 5px;
+  font-size: 2px;
+ }
+ .row-2{
+  width: 100%;
+  padding: 2px 4px;
+ }
+ .UC-div p {
+    text-align: center;
+    font-size: 0.7rem;
+}
+.second-heading {
+    font-size: 1rem;
+    color: #212529;
+}
+.para {
+    margin-bottom: 18px;
+    color: #3C3F43;
+    font-size: 0.9rem;
+
+}
+.para-2 {
+  font-size: 0.9rem;
+  
+}
+.para-div-2 p{
+  font-size: 0.9rem;
+}
+.para-div-3 p{
+  font-size: 0.9rem
+}
+.para-4{
+  font-size: 0.7rem
+}
+.Book-para{
+  font-size: 0.8rem !important;
+  
+}
+.part-time-para{
+  /* font-size: 0.4rem !important; */
+  padding: 0;
 }
   }
 `;

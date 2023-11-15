@@ -26,11 +26,11 @@ function Btn() {
     <Link to="/job-hire">
     GoC Hire Support
     </Link>
-{/*     
+     
     <Link to="/Online-Bca">
     BCA
-    </Link> */}
-    </div>
+    </Link> 
+     </div>
   )
 }
 
