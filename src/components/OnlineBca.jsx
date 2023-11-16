@@ -7,6 +7,9 @@ import AdmissionProcedure from "../assets/OnlineBca-img/AdmissionProcedure.jpg";
 import CVCourseBcaSalary from "../assets/OnlineBca-img/CVCourseBcaSalary.png";
 import CVCourseBcaSalaryGraph from "../assets/OnlineBca-img/CVCourseSalaryGraph.png";
 import { BsFillCheckSquareFill } from "react-icons/bs";
+import { AiFillCaretDown } from "react-icons/ai";
+import AccordionMenu from "../pages/AccordionMenu";
+
 
 export const OnlineBca = () => {
   return (
@@ -1489,7 +1492,12 @@ export const OnlineBca = () => {
             </h1>
           </div>
           <div>
-            <div></div>
+            <div>div</div>
+          </div>
+        </div>
+        <div className="doubts-clear">
+          <div>
+           <AccordionMenu/>
           </div>
         </div>
       </Main>
@@ -1772,6 +1780,17 @@ const Main = styled.div`
    .Choose-University-heading{
     text-align: center;
    }
+   
+
+.doubts-clear{
+  max-width: 60%;
+  margin: auto;
+}
+.doubts-clear-heading{
+  text-align: center;
+}
+
+
    // for S mobile
    @media (max-width : 320px) {
      .bca-img {
