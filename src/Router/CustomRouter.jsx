@@ -8,7 +8,7 @@ import {GoCHireSupport} from "../components/GoCHireSupport"
 import {ListOfFakeUniversitie} from "../components/ListOfFakeUniversitie"
 import {OnlineBca} from "../components/OnlineBca"
 import {Register} from "../pages/Register"
-import { ThankYou } from "../pages/Thankyou";
+import { ThankYou } from "../pages/ThankYou";
 
 function CustomRouter() {
      return(
